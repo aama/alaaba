@@ -1,6 +1,9 @@
 {
 :lang :alaaba
 :sgpref "alb"
+:datasource "Schneider-Blom2007"
+:geodemoURL "http://www.ethnologue.com/language/alw"
+:geodemoTXT "Varieties and subdialects of Alaaba are spoken in"
 :schemata {
 :case [:Ablative, :Absolutive, :AbsolutiveEmphatic, :AbsolutiveNominative, :Dative, :Genitive, :Instrumental, :Nominative, :Possessive, :Similative]
 	  :causativeAllomorph [:causative1, :causative1-assim, :causative2, :causative2-assim, :causativeD1, :causativeD1-assim, :causativeD2, :causativeD2-assim]
@@ -555,11 +558,11 @@
 	    [:Common, :Plural, :Person3, "ʔorroottunká!"],
 	    [:Common, :PoliteImpersonal, :Person3, "ʔorrooʔoonunká!"]]
     }
-    {:label "'alaaba-VCausativeCaustemAllomorph'"
-    :note "'Schneider-Blum2007 Tables 48-53. There is both a simple and a double causative
+    {:label "alaaba-VCausativeCaustemAllomorph"
+    :note "Schneider-Blum2007 Tables 48-53. There is both a simple and a double causative
             (caus,causD),each with two overlapping allomorphs,as follows:caus1 –s-,causD1
             –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these
-            allomorphs in correlation with the stem-final consonant..'"
+            allomorphs in correlation with the stem-final consonant.."
     :common {:pid :ID3956e9a4-fa0f-4096-9d4a-421230dcb7ea,
 	    :pos :Verb,
 	    :morphClass :causativeAllomorph}
