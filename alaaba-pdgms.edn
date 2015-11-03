@@ -929,7 +929,7 @@
     :common {:morpheme :PROEMPH,
 	    :pos :Pronoun,
 	    :proClass :ProEmph}
-    :terms [[:gender, :number, :person, :token, :token-gloss]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note]  ;; schema
 	    [:Common, :Singular, :Person1, "ʔanín(i)", "I myself"],
 	    [:Common, :Singular, :Person2, "ʔatín(i)", "you yourslef"],
 	    [:Masc, :Singular, :Person3, "ʔisín(i)", "he himself"],
@@ -1182,8 +1182,6 @@
     {:label "alaaba-VTenseAspectMarking"
     :note "Schneider-Blum2007 Table 46"
     :common {:pos :Verb,
-	    :token-aspectMarking :Common,
-	    :token-onlyVerb :Common,
 	    :person :Common,
 	    :morpheme :TAMMARK,
 	    :morphClass :TenseAspectMarking}
