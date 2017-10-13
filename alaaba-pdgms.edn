@@ -4,23 +4,21 @@
 :sgpref "alb"
 :datasource "Schneider-Blum2007"
 :geodemoURL "http://www.ethnologue.com/language/alw"
-:geodemoTXT "Varieties and subdialects of Alaaba are spoken in the 'Oromia region: Rift Valley southwest of Lake Shala, separated by Belate river from Kambatta [ktb] language area'."
-:schemata{:gender [:Common :Fem :Masc],
-          :genderHead [:HeadFem :HeadMasc],
-          :causativeAllomorph [:Causative1 :Causative1-assim :Causative2 :Causative2-assim :CausativeD1 :CausativeD1-assim :CausativeD2 :CausativeD2-assim],
-          :stemFinalC [:GS-Res-Final :CC-Final :D-Final :F-Final :L-final :R-Final],
-          :pdgmType [:Copula :SubjMarkerSuff :SubjSuff :DervStem :TenseAspectMarking :Finite :DiffSubjSuff :causativeAllomorph :NA :SubjMarkers :Exemplary]
-          :polarity [:Affirmative :Negative],
-          :case [:Ablative :Absolutive :AbsolutiveEmphatic :AbsolutiveNominative :Dative :Genitive :Instrumental :Nominative :Possessive :Similative],
-          :valence [:Transitive],
-          :pos [:Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :derivedStem [:Causal-middle :Causal-passive :Causal-reciprocal :CausativeDouble1 :CausativeDouble2 :CausativeSimple1 :CausativeSimple2 :Detransitivize :Inchoative :Iterative :Middel :Passive :Passive-caus :Pluractional :Pluractional-transitivize :Pluractional-transitivize-caus :Pluractional-transitivize-caus-passive :Pluractional-transitivize-causD :Reciprocal :Reciprocal-caus :Transitivize :Transitivize-caus :CausativeD],
-          :morphClass [:Copula :DervStem :DiffSubjSuff :SubjMarkerSuff :SubjMarkers :SubjSuff :TenseAspectMarking :causativeAllomorph],
-          :proClass [:AbsPoss :ProEmph :PronounClitic :PronounIndependent :Reciprocal :Reflexive],
-          :tam [:AnteriorPerfect :Converb :ConverbCoRef :ConverbDifRef :FutureProximate :Imperative :Imperfective :Perfective :PosteriorSub :Progressive :ProgressiveSub :PurposiveSub :TensefutProx],
-          :clauseType [:Co-Subject :Main :Subordinate],
-          :number [:Plural :Polite :PoliteImpersonal :Singular]}
+ :geodemoTXT "Varieties and subdialects of Alaaba are spoken in the 'Oromia region: Rift Valley southwest of Lake Shala, separated by Belate river from Kambatta [ktb] language area'."
+ :schemata {:case [:Ablative  :Absolutive :AbsolutiveEmphatic :AbsolutiveNominative :Dative :Genitive :Instrumental :Nominative :Possessive :Similative],
+            :causativeAllomorph [:Causative1 :Causative1-assim :Causative2 :Causative2-assim :CausativeD1 :CausativeD1-assim :CausativeD2 :CausativeD2-assim],
+            :clauseType [:Co-Subject :Main :Subordinate],
+            :derivedStem [:Causal-middle :Causal-passive :Causal-reciprocal :CausativeD :CausativeDouble1 :CausativeDouble2 :CausativeSimple1 :CausativeSimple2 :CausativeSimplel1 :CausativeSimplel2 :Detransitivize :Inchoative :Iterative :Middel :Passive :Passive-caus :Pluractional :Pluractional-transitivize :Pluractional-transitivize-caus :Pluractional-transitivize-caus-passive :Pluractional-transitivize-causD :Reciprocal :Reciprocal-caus :Transitivize :Transitivize-caus],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadFem :HeadMasc],
+            :number [:Plural :Polite :PoliteImpersonal :Singular],
+            :person [:Common :Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:AbsPoss :ProEmph :PronounClitic :PronounIndependent :Reciprocal :Reflexive],
+            :stemFinalC [:CC-final :D-final :F-final :GS-Res-Final :L-final :R-final],
+            :tam [:AnteriorPerfect :Converb :ConverbCoRef :ConverbDifRef :FutureProximate :Imperative :Imperfective :Perfective :PosteriorSub :Progressive :ProgressiveSub :PurposiveSub :TensefutProx]
+            :pdgmType [:Copula :DiffSubjSuff :Exemplary :Finite :PRO :SubjMarkerSuff :SubjMarkers :SubjSuff :TenseAspectMarking :causativeAllomorph :DervStemSuff]} 
 :pclass {:pngClass [:person :number :gender :genderHead],
           :synsemClass [:case :clauseType :derivedStem :polarity :pos :proClass :tam :valence],
           :inflClass [:causativeAllomorph :stemFinalC],
@@ -179,8 +177,7 @@
     :pdgmType :TenseAspectMarking
     :common {:pos :Verb,
              :person :Common,
-             :lexeme :TAMMARK,
-             :morphClass :TenseAspectMarking}
+             :lexeme :TAMMARK,}
     :terms [[:clauseType :tam],
             [:Co-Subject :ConverbCoRef],
             [:Co-Subject :ConverbDifRef],
@@ -200,7 +197,7 @@
              :pos :Verb,
              :tam :Progressive,
              :lexeme :SUBJSUFFIXAFFPROG,
-             :morphClass :SubjMarkerSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-aamíit(i)"],
             [:Singular :Person2 :Common "-táantiit(i)"],
@@ -300,13 +297,13 @@
     :common {:pos :Verb,
              :tam :PosteriorSub,
              :lexeme :SUBJSUFFIXPOSTSUB,
-             :morphClass :SubjSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-uʔnáan(i)"],
             [:Singular :Person2 :Common "-tuʔnáan(i)"],
             [:Singular :Person3 :Masc "-uʔnáan(i)"],
             [:Singular :Person3 :Fem "-tuʔnáan(i)"],
-            [:Polarity :Person3 :Common "-ooʔnáan(i)"],
+            [:Singular :Person3 :Common "-ooʔnáan(i)"],
             [:Plural :Person1 :Common "-nuʔnáan(i)"],
             [:Plural :Person2 :Common "-toonuʔnáan(i)"],
             [:Plural :Person3 :Common "-tuʔnáan(i)"]]
@@ -318,7 +315,7 @@
              :pos :Verb,
              :tam :Perfective,
              :lexeme :SUBJSUFFIXAFFPERF,
-             :morphClass :SubjMarkerSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-yóom(i) / -éem(i)"],
             [:Singular :Person2 :Common "-tóont(i)"],
@@ -335,7 +332,7 @@
     :common {:pos :Verb,
              :tam :Converb,
              :lexeme :SUBJSUFFIXCONVERB,
-             :morphClass :SubjSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-y(i)"],
             [:Singular :Person2 :Common "-t(i)"],
@@ -353,7 +350,7 @@
              :pos :Verb,
              :tam :Imperative,
              :lexeme :SUBJSUFFIXAFFIMPRTV,
-             :morphClass :SubjMarkerSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-ó"],
             [:Singular :Person2 :Common "-(i)"],
@@ -366,7 +363,7 @@
     }
     {:label "alaaba-PProEmph"
     :note "Schneider-Blum2007 Table 28"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PROEMPH,
              :pos :Pronoun,
              :proClass :ProEmph}
@@ -429,7 +426,7 @@
              :pos :Verb,
              :tam :Perfective,
              :lexeme :SUBJSUFFIXNEGPERF,
-             :morphClass :SubjMarkerSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-yóombaʔ(a)"],
             [:Singular :Person2 :Common "-tóontibaʔ(a)"],
@@ -442,7 +439,7 @@
     }
     {:label "alaaba-PReflexive"
     :note "Schneider-Blum2007 Tables 30-34,40"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PROREFL,
              :pos :Pronoun,
              :proClass :Reflexive}
@@ -569,7 +566,7 @@
     }
     {:label "alaaba-PReciprocal"
     :note "Schneider-Blum2007 Table 35-39"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:number :Plural,
              :lexeme :PRORECIP,
              :pos :Pronoun,
@@ -595,7 +592,7 @@
              :pos :Verb,
              :tam :FutureProximate,
              :lexeme :SUBJSUFFIXNEGFUT,
-             :morphClass :SubjMarkerSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-otáabba"],
             [:Singular :Person2 :Common "-totáabba"],
@@ -613,7 +610,7 @@
              :pos :Verb,
              :tam :AnteriorPerfect,
              :lexeme :SUBJSUFFIXAFFPERFANT,
-             :morphClass :SubjMarkerSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-yóomm(i)"],
             [:Singular :Person2 :Common "-toont(i) / -í-toont(i)"],
@@ -664,9 +661,8 @@
             –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these
             allomorphs in correlation with the stem-final consonant.."
     :pdgmType :causativeAllomorph
-    :common {:pid :ID3956e9a4-fa0f-4096-9d4a-421230dcb7ea,
-             :pos :Verb,
-             :morphClass :causativeAllomorph}
+    :common {:pos :Verb,
+             }
     :terms [[:causativeAllomorph :lexeme :stemFinalC :token],
             [:Causative1 :debeeʔl :GS-Res-Final "debeeʔlis- / debeessh"],
             [:Causative1 :faar :R-final "faars"],
@@ -850,7 +846,7 @@
              :pos :Verb,
              :tam :Imperfective,
              :lexeme :SUBJSUFFIXAFFIMPERF,
-             :morphClass :SubjMarkerSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-áam(i)"],
             [:Singular :Person2 :Common "-táant(i)"],
@@ -863,7 +859,7 @@
     }
     {:label "alaaba-PProIndClit"
     :note "Schneider-Blum2007 Table 27"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PROINDCLIT,
              :pos :Pronoun}
     :terms [[:case :proClass :number :person :gender :token],
@@ -945,7 +941,7 @@
              :pos :Verb,
              :tam :FutureProximate,
              :lexeme :SUBJSUFFIXAFFFUTPROX,
-             :morphClass :SubjMarkerSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-otáat(i)"],
             [:Singular :Person2 :Common "-totáat(i)"],
@@ -958,7 +954,7 @@
     }
     {:label "alaaba-PAbsPoss"
     :note "Schneider-Blum2007 Table 29"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:case :Possessive,
              :lexeme :PROPOSS,
              :pos :Pronoun,
@@ -984,7 +980,7 @@
     :pdgmType :Copula
     :common {:pos :Verb,
              :lexeme :COPULA,
-             :morphClass :Copula}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "yóom(i)"],
             [:Singular :Person2 :Common "yóont(i)"],
@@ -1064,11 +1060,8 @@
     }
     {:label "alaaba-VDervStem"
     :note "Schneider-Blum2007 Table 54"
-    :pdgmType :DervStem
-    :common {:pos :Verb,
-             :lexeme :DERVSTEMSUFF,
-             :morphClass :DervStem,
-             :tokenType :Suffix}
+    :pdgmType :DervStemSuff
+    :common {:pos :Verb}
     :terms [[:derivedStem :token],
             [:Causal-middle "-(i)s-akk’"],
             [:Causal-passive "-(i)s-am"],
@@ -1096,7 +1089,7 @@
     :pdgmType :SubjMarkers
     :common {:pos :Verb,
              :lexeme :SUBJMARK,
-             :morphClass :SubjMarkers}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "⊤"],
             [:Singular :Person2 :Common "t"],
@@ -1145,7 +1138,7 @@
              :pos :Verb,
              :tam :Progressive,
              :lexeme :SUBJSUFFIXNEGPROG,
-             :morphClass :SubjMarkerSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-aamíibbaʔ(a)"],
             [:Singular :Person2 :Common "-táantiitibaʔ(a)"],
@@ -1184,7 +1177,7 @@
             [:Singular :Person2 :Common "-tót(a)"],
             [:Singular :Person3 :Masc "-ót(a)"],
             [:Singular :Person3 :Fem "-tót(a)"],
-            [:Polarity :Person3 :Common "-oonót(a)"],
+            [:Singular :Person3 :Common "-oonót(a)"],
             [:Plural :Person1 :Common "-nót(a)"],
             [:Plural :Person2 :Common "-toonót(a)"],
             [:Plural :Person3 :Common "-tót(a)"]]
@@ -1204,13 +1197,13 @@
     :common {:pos :Verb,
              :tam :ProgressiveSub,
              :lexeme :SUBJSUFFIXPROGSUB,
-             :morphClass :SubjSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-án(i)"],
             [:Singular :Person2 :Common "-tán(i)"],
             [:Singular :Person3 :Masc "-án(i)"],
             [:Singular :Person3 :Fem "-tán(i)"],
-            [:Polarity :Person3 :Common "-éenan(i)"],
+            [:Singular :Person3 :Common "-éenan(i)"],
             [:Plural :Person1 :Common "-nán(i)"],
             [:Plural :Person2 :Common "-téenan(i)"],
             [:Plural :Person3 :Common "-tán(i)"]]
@@ -1221,7 +1214,7 @@
     :common {:lexeme :hir,
              :pos :Verb,
              :tam :Converb,
-             :morphClass :DiffSubjSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "hirʔ-i-yáan(i)"],
             [:Singular :Person2 :Common "hirʔ-i-táan(i)"],
@@ -1255,7 +1248,7 @@
              :pos :Verb,
              :tam :Imperative,
              :lexeme :SUBJSUFFIXNEGIMPRTV2,
-             :morphClass :SubjMarkerSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-unká"],
             [:Singular :Person2 :Common "-tóot(i)"],
@@ -1282,7 +1275,7 @@
              :pos :Verb,
              :tam :Imperfective,
              :lexeme :SUBJSUFFIXNEGIMPRF,
-             :morphClass :SubjMarkerSuff}
+             }
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-áambaʔ(a)"],
             [:Singular :Person2 :Common "-táantibaʔ(a)"],
