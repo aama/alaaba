@@ -5,7 +5,8 @@
 :datasource "Schneider-Blum2007"
 :geodemoURL "http://www.ethnologue.com/language/alw"
  :geodemoTXT "Varieties and subdialects of Alaaba are spoken in the 'Oromia region: Rift Valley southwest of Lake Shala, separated by Belate river from Kambatta [ktb] language area'."
- :schemata {:case [:Ablative  :Absolutive :AbsolutiveEmphatic :AbsolutiveNominative :Dative :Genitive :Instrumental :Nominative :Possessive :Similative],
+ :schemata {:vmorphClass [:DervStemSuff  :SubjMarkers :SubjSuff :TenseAspectMarking :Causative :CausativeAllomorphForms :SubjMarkerSuffAffFutProx :SubjMarkerSuffAffImperf :SubjMarkerSuffAffImprtv :SubjMarkerSuffAffPerf :SubjMarkerSuffAffPerfAnt :SubjMarkerSuffAffProg :SubjMarkerSuffNNegImprf :SubjMarkerSuffNegFut :SubjMarkerSuffNegImprtv2 :SubjMarkerSuffNegPerf :SubjMarkerSuffNegProf :SubjSuffConverb :SubjSuffProgSub],
+            :case [:Ablative :Absolutive :AbsolutiveEmphatic :AbsolutiveNominative :Dative :Genitive :Instrumental :Nominative :Possessive :Similative],
             :causativeAllomorph [:Causative1 :Causative1-assim :Causative2 :Causative2-assim :CausativeD1 :CausativeD1-assim :CausativeD2 :CausativeD2-assim],
             :clauseType [:Co-Subject :Main :Subordinate],
             :derivedStem [:Causal-middle :Causal-passive :Causal-reciprocal :CausativeD :CausativeDouble1 :CausativeDouble2 :CausativeSimple1 :CausativeSimple2 :CausativeSimplel1 :CausativeSimplel2 :Detransitivize :Inchoative :Iterative :Middel :Passive :Passive-caus :Pluractional :Pluractional-transitivize :Pluractional-transitivize-caus :Pluractional-transitivize-caus-passive :Pluractional-transitivize-causD :Reciprocal :Reciprocal-caus :Transitivize :Transitivize-caus],
@@ -18,7 +19,7 @@
             :proClass [:AbsPoss :ProEmph :PronounClitic :PronounIndependent :Reciprocal :Reflexive],
             :stemFinalC [:CC-final :D-final :F-final :GS-Res-Final :L-final :R-final],
             :tam [:AnteriorPerfect :Converb :ConverbCoRef :ConverbDifRef :FutureProximate :Imperative :Imperfective :Perfective :PosteriorSub :Progressive :ProgressiveSub :PurposiveSub :TensefutProx]
-            :pdgmType [:Copula :DiffSubjSuff :Exemplary :Finite :PRO :SubjMarkerSuff :SubjMarkers :SubjSuff :TenseAspectMarking :causativeAllomorph :DervStemSuff]} 
+            :pdgmType [:Finite :PRO :FiniteCopula :VOther]}
 :pclass {:pngClass [:person :number :gender :genderHead],
           :synsemClass [:case :clauseType :derivedStem :polarity :pos :proClass :tam :valence],
           :inflClass [:causativeAllomorph :stemFinalC],
@@ -174,8 +175,9 @@
     }
     {:label "alaaba-VTenseAspectMarking"
     :note "Schneider-Blum2007 Table 46"
-    :pdgmType :TenseAspectMarking
-    :common {:pos :Verb,
+    :pdgmType :VOther
+    :common {:vmorphClass :TenseAspectMarking
+             :pos :Verb,
              :person :Common,
              :lexeme :TAMMARK,}
     :terms [[:clauseType :tam],
@@ -192,8 +194,9 @@
     }
     {:label "alaaba-VAffProgressiveSubjMarkerSuff"
     :note "Schneider-Blum2007 p. 221"
-    :pdgmType :SubjMarkerSuff
-    :common {:polarity :Affirmative,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerSuffAffProg
+             :polarity :Affirmative,
              :pos :Verb,
              :tam :Progressive,
              :lexeme :SUBJSUFFIXAFFPROG,
@@ -293,8 +296,9 @@
     }
     {:label "alaaba-VPosteriofSubSubjSuff"
     :note "Schneider-Blum2007 Table 45"
-    :pdgmType :SubjSuff
-    :common {:pos :Verb,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjSuff
+             :pos :Verb,
              :tam :PosteriorSub,
              :lexeme :SUBJSUFFIXPOSTSUB,
              }
@@ -310,8 +314,9 @@
     }
     {:label "alaaba-VAffPerfectiveSubjMarkerSuff"
     :note "Schneider-Blum2007 p. 210"
-    :pdgmType :SubjMarkerSuff
-    :common {:polarity :Affirmative,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerSuffAffPerf
+             :polarity :Affirmative,
              :pos :Verb,
              :tam :Perfective,
              :lexeme :SUBJSUFFIXAFFPERF,
@@ -328,8 +333,9 @@
     }
     {:label "alaaba-VConverbSubjSuff"
     :note "Schneider-Blum2007 Table 41"
-    :pdgmType :SubjSuff
-    :common {:pos :Verb,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjSuffConverb
+             :pos :Verb,
              :tam :Converb,
              :lexeme :SUBJSUFFIXCONVERB,
              }
@@ -345,8 +351,9 @@
     }
     {:label "alaaba-VAffImprtvSubjMarkerSuff"
     :note "Schneider-Blum2007 p. 224"
-    :pdgmType :SubjMarkerSuff
-    :common {:polarity :Affirmative,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerSuffAffImprtv
+             :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperative,
              :lexeme :SUBJSUFFIXAFFIMPRTV,
@@ -412,17 +419,26 @@
     }
     {:label "alaaba-VCausative"
     :note "Schneider-Blum2007 Table 47:Form vs. Function of the causativeative"
-    :pdgmType :Exemplary
-    :common {:lexeme :ʔeebú,
+    :pdgmType :VOther
+    :common {:vmorphClass :Causative
+             :lexeme :ʔeebú,
              :pos :Verb}
-    :terms [[:derivedStem :token],
-            [:CausativeDouble2 "ʔeebsiisiisú"],
-            [:CausativeSimple2 "ʔeebsiisú"]]
+    :terms [[:lexeme :derivedStem :token],
+            [:ʔeebú :CausativeDouble2 "ʔeebsiisiisú"],
+            [:ʔeebú :CausativeSimple2 "ʔeebsiisú"]
+            [:ʔubú :CausativeDouble2 "ʔubsiisiisú"],
+            [:ʔubú :CausativeSimplel2 "ʔubsiisú"]
+            [:ʔagú :CausativeDouble1 "ʔagsiisú"],
+            [:ʔagú :CausativeSimplel1 "ʔagisú"]
+            [:ʔurrú :CausativeDouble1 "ʔurrisiisú"],
+            [:ʔurrú :CausativeSimplel1 "ʔurrisú"]]
     }
+
     {:label "alaaba-VNegPerfectiveSubjMarkerSuff"
     :note "Schneider-Blum2007 p. 210"
-    :pdgmType :SubjMarkerSuff
-    :common {:polarity :Negative,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerSuffNegPerf
+             :polarity :Negative,
              :pos :Verb,
              :tam :Perfective,
              :lexeme :SUBJSUFFIXNEGPERF,
@@ -587,8 +603,9 @@
     }
     {:label "alaaba-VNegFutProxSubjMarkerSuff"
     :note "Schneider-Blum2007 p. 238"
-    :pdgmType :SubjMarkerSuff
-    :common {:polarity :Negative,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerSuffNegFut
+             :polarity :Negative,
              :pos :Verb,
              :tam :FutureProximate,
              :lexeme :SUBJSUFFIXNEGFUT,
@@ -605,8 +622,9 @@
     }
     {:label "alaaba-VAffAnteriorPerfSubjMarkerSuff"
     :note "Schneider-Blum2007 p. 210"
-    :pdgmType :SubjMarkerSuff
-    :common {:polarity :Affirmative,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerSuffAffPerfAnt
+             :polarity :Affirmative,
              :pos :Verb,
              :tam :AnteriorPerfect,
              :lexeme :SUBJSUFFIXAFFPERFANT,
@@ -660,8 +678,9 @@
             (caus,causD),each with two overlapping allomorphs,as follows:caus1 –s-,causD1
             –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these
             allomorphs in correlation with the stem-final consonant.."
-    :pdgmType :causativeAllomorph
-    :common {:pos :Verb,
+    :pdgmType :VOther
+    :common {:vmorphClass :CausativeAllomorphForms
+             :pos :Verb,
              }
     :terms [[:causativeAllomorph :lexeme :stemFinalC :token],
             [:Causative1 :debeeʔl :GS-Res-Final "debeeʔlis- / debeessh"],
@@ -830,19 +849,11 @@
             [:CausativeD2 :ʔusur :R-final "ʔusursiisiis"],
             [:CausativeD2-assim :ʔaaʔl :GS-Res-Final "ʔaanshisiis"]]
     }
-    {:label "alaaba-VCausative"
-    :note "Schneider-Blum2007 Table 47:Form vs. Function of the causativeative"
-    :pdgmType :Exemplary
-    :common {:lexeme :ʔurrú,
-             :pos :Verb}
-    :terms [[:derivedStem :token],
-            [:CausativeDouble1 "ʔurrisiisú"],
-            [:CausativeSimplel1 "ʔurrisú"]]
-    }
     {:label "alaaba-VAffImperfectiveSubjMarkerSuff"
     :note "Schneider-Blum2007 p. 216"
-    :pdgmType :SubjMarkerSuff
-    :common {:polarity :Affirmative,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerSuffAffImperf
+             :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperfective,
              :lexeme :SUBJSUFFIXAFFIMPERF,
@@ -936,8 +947,9 @@
     }
     {:label "alaaba-VAffFutProxSubjMarkerSuff"
     :note "Schneider-Blum2007 p. 238"
-    :pdgmType :SubjMarkerSuff
-    :common {:polarity :Affirmative,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerSuffAffFutProx
+             :polarity :Affirmative,
              :pos :Verb,
              :tam :FutureProximate,
              :lexeme :SUBJSUFFIXAFFFUTPROX,
@@ -977,7 +989,7 @@
     }
     {:label "alaaba-VCopula"
     :note "Schneider-Blum2007 p. 202"
-    :pdgmType :Copula
+    :pdgmType :FiniteCopula
     :common {:pos :Verb,
              :lexeme :COPULA,
              }
@@ -1060,8 +1072,9 @@
     }
     {:label "alaaba-VDervStem"
     :note "Schneider-Blum2007 Table 54"
-    :pdgmType :DervStemSuff
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :DervStemSuff
+             :pos :Verb}
     :terms [[:derivedStem :token],
             [:Causal-middle "-(i)s-akk’"],
             [:Causal-passive "-(i)s-am"],
@@ -1086,8 +1099,9 @@
     }
     {:label "alaaba-VSubjMarkers"
     :note "Schneider-Blum2007 p. 201"
-    :pdgmType :SubjMarkers
-    :common {:pos :Verb,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkers
+             :pos :Verb,
              :lexeme :SUBJMARK,
              }
     :terms [[:number :person :gender :token],
@@ -1133,8 +1147,9 @@
     }
     {:label "alaaba-VNegProgressiveSubjMarkerSuff"
     :note "Schneider-Blum2007 p. 221"
-    :pdgmType :SubjMarkerSuff
-    :common {:polarity :Negative,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerSuffNegProf
+             :polarity :Negative,
              :pos :Verb,
              :tam :Progressive,
              :lexeme :SUBJSUFFIXNEGPROG,
@@ -1182,19 +1197,14 @@
             [:Plural :Person2 :Common "-toonót(a)"],
             [:Plural :Person3 :Common "-tót(a)"]]
     }
-    {:label "alaaba-VCausative"
-    :note "Schneider-Blum2007 Table 47:Form vs. Function of the causativeative"
-    :pdgmType :Exemplary
-    :common {:lexeme :ʔubú,
-             :pos :Verb}
-    :terms [[:derivedStem :token],
-            [:CausativeDouble2 "ʔubsiisiisú"],
-            [:CausativeSimplel2 "ʔubsiisú"]]
-    }
+
+
+
     {:label "alaaba-VProgSubSubjSuff"
     :note "Schneider-Blum2007 Table 43"
-    :pdgmType :SubjSuff
-    :common {:pos :Verb,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjSuffProgSub
+             :pos :Verb,
              :tam :ProgressiveSub,
              :lexeme :SUBJSUFFIXPROGSUB,
              }
@@ -1210,7 +1220,7 @@
     }
     {:label "alaaba-VConverbDiffSubjSuffHir"
     :note "Schneider-Blum2007 Table 42"
-    :pdgmType :DiffSubjSuff
+    :pdgmType :Finite
     :common {:lexeme :hir,
              :pos :Verb,
              :tam :Converb,
@@ -1243,8 +1253,9 @@
     }
     {:label "alaaba-VNegImprtvSubjMarkerSuff"
     :note "Schneider-Blum2007 p. 224"
-    :pdgmType :SubjMarkerSuff
-    :common {:polarity :Negative,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerSuffNegImprtv2
+             :polarity :Negative,
              :pos :Verb,
              :tam :Imperative,
              :lexeme :SUBJSUFFIXNEGIMPRTV2,
@@ -1259,19 +1270,11 @@
             [:Plural :Person2 :Common "-tónocc(e)"],
             [:Plural :Person3 :Common "-tunká"]]
     }
-    {:label "alaaba-VCausative"
-    :note "Schneider-Blum2007 Table 47:Form vs. Function of the causativeative"
-    :pdgmType :Exemplary
-    :common {:lexeme :ʔagú,
-             :pos :Verb}
-    :terms [[:derivedStem :token],
-            [:CausativeDouble1 "ʔagsiisú"],
-            [:CausativeSimplel1 "ʔagisú"]]
-    }
     {:label "alaaba-VNegImperfectiveSubjMarkerSuff"
     :note "Schneider-Blum2007 p. 216"
-    :pdgmType :SubjMarkerSuff
-    :common {:polarity :Negative,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerSuffNNegImprf
+             :polarity :Negative,
              :pos :Verb,
              :tam :Imperfective,
              :lexeme :SUBJSUFFIXNEGIMPRF,
