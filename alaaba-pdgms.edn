@@ -1,1297 +1,1226 @@
 {
-:lang :alaaba
-:subfamily "Highland East Cushitic"
-:sgpref "alb"
-:datasource "Schneider-Blum2007"
-:geodemoURL "http://www.ethnologue.com/language/alw"
+ :lang :alaaba
+ :subfamily "Highland East Cushitic"
+ :sgpref "alb"
+ :datasource "Schneider-Blum2007"
+ :geodemoURL "http://www.ethnologue.com/language/alw"
  :geodemoTXT "Varieties and subdialects of Alaaba are spoken in the 'Oromia region: Rift Valley southwest of Lake Shala, separated by Belate river from Kambatta [ktb] language area'."
- :schemata {:vmorphClass [:DervStemSuff  :SubjMarkers :SubjSuff :TenseAspectMarking :Causative :CausativeAllomorphForms :SubjMarkerSuffAffFutProx :SubjMarkerSuffAffImperf :SubjMarkerSuffAffImprtv :SubjMarkerSuffAffPerf :SubjMarkerSuffAffPerfAnt :SubjMarkerSuffAffProg :SubjMarkerSuffNNegImprf :SubjMarkerSuffNegFut :SubjMarkerSuffNegImprtv2 :SubjMarkerSuffNegPerf :SubjMarkerSuffNegProf :SubjSuffConverb :SubjSuffProgSub],
-            :case [:Ablative :Absolutive :AbsolutiveEmphatic :AbsolutiveNominative :Dative :Genitive :Instrumental :Nominative :Possessive :Similative],
-            :causativeAllomorph [:Causative1 :Causative1-assim :Causative2 :Causative2-assim :CausativeD1 :CausativeD1-assim :CausativeD2 :CausativeD2-assim],
-            :clauseType [:Co-Subject :Main :Subordinate],
-            :derivedStem [:Causal-middle :Causal-passive :Causal-reciprocal :CausativeD :CausativeDouble1 :CausativeDouble2 :CausativeSimple1 :CausativeSimple2 :CausativeSimplel1 :CausativeSimplel2 :Detransitivize :Inchoative :Iterative :Middel :Passive :Passive-caus :Pluractional :Pluractional-transitivize :Pluractional-transitivize-caus :Pluractional-transitivize-caus-passive :Pluractional-transitivize-causD :Reciprocal :Reciprocal-caus :Transitivize :Transitivize-caus],
-            :gender [:Common :Fem :Masc],
-            :genderHead [:HeadFem :HeadMasc],
-            :number [:Plural :Polite :PoliteImpersonal :Singular],
-            :person [:Common :Person1 :Person2 :Person3],
-            :polarity [:Affirmative :Negative],
-            :pos [:Pronoun :Verb],
-            :proClass [:AbsPoss :ProEmph :PronounClitic :PronounIndependent :Reciprocal :Reflexive],
-            :stemFinalC [:CC-final :D-final :F-final :GS-Res-Final :L-final :R-final],
-            :tam [:AnteriorPerfect :Converb :ConverbCoRef :ConverbDifRef :FutureProximate :Imperative :Imperfective :Perfective :PosteriorSub :Progressive :ProgressiveSub :PurposiveSub :TensefutProx]
-            :pdgmType [:Finite :PRO :FiniteCopula :VOther]}
+:schemata {:case [:Ablative :Absolutive :AbsolutiveEmphatic :AbsolutiveNominative :Dative :Genitive :Instrumental :Nominative :Possessive :Similative],
+           :causativeAllomorph [:Causative1 :Causative1-assim :Causative2 :Causative2-assim :CausativeD1 :CausativeD1-assim :CausativeD2 :CausativeD2-assim],
+           :clauseType [:Co-Subject :Main :Subordinate],
+           :derivedStem [:Causal-middle :Causal-passive :Causal-reciprocal :CausativeD :CausativeDouble1 :CausativeDouble2 :CausativeSimple1 :CausativeSimple2 :CausativeSimplel1 :CausativeSimplel2 :Detransitivize :Inchoative :Iterative :Middel :Passive :Passive-caus :Pluractional :Pluractional-transitivize :Pluractional-transitivize-caus :Pluractional-transitivize-caus-passive :Pluractional-transitivize-causD :Reciprocal :Reciprocal-caus :Transitivize :Transitivize-caus],
+           :gender [:Common :Fem :Masc],
+           :genderHead [:HeadFem :HeadMasc],
+           :number [:Plural :Polite :PoliteImpersonal :Singular],
+           :person [:Common :Person1 :Person2 :Person3],
+           :polarity [:Affirmative :Negative],
+           :pos [:Pronoun :Verb],
+           :proClass [:AbsPoss :ProEmph :PronounClitic :PronounIndependent :Reciprocal :Reflexive],
+           :stemFinalC [:CC-final :D-final :F-final :GS-Res-Final :L-final :R-final],
+           :tam [:AnteriorPerfect :Converb :ConverbCoRef :ConverbDifRef :FutureProximate :Imperative :Imperfective :Perfective :PosteriorSub :Progressive :ProgressiveSub :PurposiveSub],
+           :vmorphClass [:Finite  :FiniteCopula :Causative :CausativeAllomorphForms :DervStemSuff :SubjMarkerSuffAffFutProx :SubjMarkerSuffAffImperf :SubjMarkerSuffAffImprtv :SubjMarkerSuffAffPerf :SubjMarkerSuffAffPerfAnt :SubjMarkerSuffAffProg :SubjMarkerSuffNNegImprf :SubjMarkerSuffNegFut :SubjMarkerSuffNegImprtv2 :SubjMarkerSuffNegPerf :SubjMarkerSuffNegProf :SubjMarkers :SubjSuff :SubjSuffConverb :SubjSuffProgSub :TenseAspectMarking]} 
 :pclass {:pngClass [:person :number :gender :genderHead],
           :synsemClass [:case :clauseType :derivedStem :polarity :pos :proClass :tam :valence],
           :inflClass [:causativeAllomorph :stemFinalC],
           :otherClass []}
-:morphemes{:SUBJSUFFIXPOSTSUB {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXAFFPERFANT {:gloss "[x]", :lemma "[y]"},
-           :PROPOSS {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXPROGSUB {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXAFFFUTPROX {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXAFFPROG {:gloss "[x]", :lemma "[y]"},
-           :PROEMPH {:gloss "[x]", :lemma "[y]"},
-           :PRORECIP {:gloss "[x]", :lemma "[y]"},
-           :PROREFL {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXAFFIMPRTV {:gloss "[x]", :lemma "[y]"},
-           :PROINDCLIT {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXNEGFUT {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXNEGIMPRF {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXNEGPROG {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXNEGIMPRTV2 {:gloss "[x]", :lemma "[y]"},
-           :TAMMARK {:gloss "[x]", :lemma "[y]"},
-           :SUBJMARK {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXAFFPERF {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXCONVERB {:gloss "[x]", :lemma "[y]"},
-           :COPULA {:gloss "[x]", :lemma "[y]"},
-           :DERVSTEMSUFF {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXPURP {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXAFFIMPERF {:gloss "[x]", :lemma "[y]"},
-           :SUBJSUFFIXNEGPERF {:gloss "[x]", :lemma "[y]"}}
-:lexemes{:mool {:lemma "mool"},
-           :shol {:lemma "shol"},
-           :ʔul {:lemma "ʔul"},
-           :faar {:lemma "faar"},
-           :heʔm {:lemma "heʔm"},
-           :boroor {:lemma "boroor"},
-           :door {:lemma "door"},
-           :ʔuucc {:lemma "ʔuucc;"},
-           :ameet {:lemma "ʔameet-", :gloss "come"},
-           :eeb {:lemma "ʔeeb-", :gloss "bring"},
-           :kul {:lemma "kul"},
-           :dagelaal {:lemma "dagelaal"},
-           :ʔalbaaʔl {:lemma "ʔalbaaʔl"},
-           :dul {:lemma "dul"},
-           :tur {:lemma "t’ur"},
-           :korʔ {:lemma "k’orʔ"},
-           :hir {:lemma "hirʔ-", :gloss "buy"},
-           :haʔl {:lemma "haʔl"},
-           :kar {:lemma "kar"},
-           :ʔudul {:lemma "ʔudul"},
-           :shuur {:lemma "shuur"},
-           :ʔubú {:lemma "ʔubú"},
-           :mar {:lemma "mar-", :gloss "go"},
-           :y {:lemma "y-", :gloss "say"},
-           :debeeʔl {:lemma "debeeʔl"},
-           :hambal {:lemma "hambal"},
-           :tuur {:lemma "t’uur"},
-           :mecc {:lemma "mecc’"},
-           :miir {:lemma "miir"},
-           :meer {:lemma "meer"},
-           :kacc {:lemma "k’acc’"},
-           :ʔaaʔl {:lemma "ʔaaʔl"},
-           :giir {:lemma "giir"},
-           :wod {:lemma "wod"},
-           :ʔeebú {:lemma "ʔeebú"},
-           :ʔil {:lemma "ʔil"},
-           :meed {:lemma "meed"},
-           :hagir {:lemma "hagir"},
-           :laal {:lemma "laal"},
-           :ub {:lemma "ʔub-", :gloss "fall"},
-           :kor {:lemma "k’or"},
-           :fankal {:lemma "fank’al"},
-           :marar {:lemma "marar"},
-           :jammar {:lemma "jammar"},
-           :orroo {:lemma "ʔorrooʔ-", :gloss "go"},
-           :CAUSATIVEALLOMORPH {:gloss "[x]", :lemma "[y]"},
-           :kuf {:lemma "k’uf"},
-           :ʔafuuʔl {:lemma "ʔafuuʔl"},
-           :ke {:lemma "keʔ-", :gloss "Stand"},
-           :buur {:lemma "buur"},
-           :geeraar {:lemma "geeraar"},
-           :saggaar {:lemma "saggaar"},
-           :ʔifood {:lemma "ʔifood"},
-           :ʔaguuʔm {:lemma "ʔaguuʔm"},
-           :liiʔl {:lemma "liiʔl"},
-           :ʔaar {:lemma "ʔaar"},
-           :wuliil {:lemma "wuliil"},
-           :soor {:lemma "soor"},
-           :goof {:lemma "goof"},
-           :ʔagar {:lemma "ʔagar"},
-           :ʔosaʔl {:lemma "ʔosaʔl"},
-           :folocc {:lemma "folocc’"},
-           :hiir {:lemma "hiir"},
-           :ʔagú {:lemma "ʔagú"},
-           :shuul {:lemma "shuul"},
-           :mooccoocc {:lemma "moocc’oocc’"},
-           :ʔamurʔ {:lemma "ʔamurʔ"},
-           :uucc {:gloss "[x]", :lemma "[y]"},
-           :heer {:lemma "heer"},
-           :ʔagur {:lemma "ʔagur"},
-           :malal {:lemma "malal"},
-           :wokkar {:lemma "wokk’ar"},
-           :taʔm {:lemma "t’aʔm"},
-           :korj {:lemma "korj-", :gloss "jump"},
-           :kaar {:lemma "k’aar"},
-           :worʔ {:lemma "worʔ"},
-           :dad {:lemma "dad"},
-           :ʔinkiil {:lemma "ʔinkiil"},
-           :yaar {:lemma "yaar"},
-           :ʔaf {:lemma "ʔaf"},
-           :ʔurrú {:lemma "ʔurrú"},
-           :gal {:lemma "gal"},
-           :taaf {:gloss "write", :lemma "t’aaf"},
-           :ʔallaal {:lemma "ʔallaal"},
-           :tuf {:lemma "t’uf"},
-           :gaffar {:lemma "gaffar"},
-           :karaar {:lemma "k’araar"},
-           :gaf {:lemma "gaf-", :gloss "cook"},
-           :med {:lemma "med"},
-           :hangaar {:lemma "hangaar"},
-           :ʔanjicc {:lemma "ʔanjicc’"},
-           :mur {:lemma "mur"},
-           :hirʔ {:lemma "hirʔ"},
-           :kad {:lemma "kad"},
-           :ʔud {:lemma "ʔud"},
-           :waal {:lemma "waal"},
-           :baad {:lemma "baad"},
-           :ʔusur {:lemma "ʔusur"},
-           :ʔenkeʔn {:lemma "ʔenkeʔn"},
-           :hankaf {:lemma "hank’af"},
-           :ʔereer {:lemma "ʔereer"},
-           :fiil {:lemma "fiil"},
-           :ʔijaar {:lemma "ʔijaar"},
-           :hocc {:lemma "hocc’-", :gloss "hunt", :valence :Transitive},
-           :wor {:lemma "wor"},
-           :ful {:lemma "ful"},
-           :dagud {:lemma "dagud"}}
-:lxterms [
-    {:label "alaaba-VNegPerfectiveUb"
-    :note "Schneider-Blum2007 p. 206"
-    :pdgmType :Finite
-    :common {:lexeme :ub,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Perfective}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ʔubbóombaʔ(a)"],
-            [:Singular :Person2 :Common "ʔubbóontibaʔ(a)"],
-            [:Singular :Person3 :Masc "ʔubbóbaʔ(a)"],
-            [:Singular :Person3 :Fem "ʔubbóobaʔ(a)"],
-            [:PoliteImpersonal :Person3 :Common "ʔubéemabaʔ(a)"],
-            [:Plural :Person1 :Common "ʔumbóombaʔ(a)"],
-            [:Plural :Person2 :Common "ʔubbéentabaʔ(a)"],
-            [:Plural :Person3 :Common "ʔubbóobaʔ(a)"]]
-    }
-    {:label "alaaba-VTenseAspectMarking"
-    :note "Schneider-Blum2007 Table 46"
-    :pdgmType :VOther
-    :common {:vmorphClass :TenseAspectMarking
-             :pos :Verb,
-             :person :Common,
-             :lexeme :TAMMARK,}
-    :terms [[:clauseType :tam],
-            [:Co-Subject :ConverbCoRef],
-            [:Co-Subject :ConverbDifRef],
-            [:Main :AnteriorPerfect],
-            [:Main :FutureProximate],
-            [:Main :Imperfective],
-            [:Main :Perfective],
-            [:Main :Progressive],
-            [:Subordinate :PosteriorSub],
-            [:Subordinate :ProgressiveSub],
-            [:Subordinate :PurposiveSub]]
-    }
-    {:label "alaaba-VAffProgressiveSubjMarkerSuff"
-    :note "Schneider-Blum2007 p. 221"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarkerSuffAffProg
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Progressive,
-             :lexeme :SUBJSUFFIXAFFPROG,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-aamíit(i)"],
-            [:Singular :Person2 :Common "-táantiit(i)"],
-            [:Singular :Person3 :Masc "-anóot(i)"],
-            [:Singular :Person3 :Fem "-táaʔiit(i)"],
-            [:PoliteImpersonal :Person3 :Common "-eenóot(i)"],
-            [:Plural :Person1 :Common "-naamíit(i)"],
-            [:Plural :Person2 :Common "-teenantáat(i)"],
-            [:Plural :Person3 :Common "-táaʔiit(i)"]]
-    }
-    {:label "alaaba-VAffImprtvOrroo"
-    :note "Schneider-Blum2007 p. p. 224"
-    :pdgmType :Finite
-    :common {:lexeme :orroo,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Imperative}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ʔorrooʔó!"],
-            [:Singular :Person2 :Common "ʔorróoʔ(i)!"],
-            [:Singular :Person3 :Masc "ʔorrooʔún(i)!"],
-            [:Singular :Person3 :Fem "ʔorroottún(i)!"],
-            [:PoliteImpersonal :Person3 :Common "ʔorrooʔóon(i)!"],
-            [:Plural :Person1 :Common "ʔorrooʔnó!"],
-            [:Plural :Person2 :Common "ʔorroʔyé!"],
-            [:Plural :Person3 :Common "ʔorrootún(i)!"]]
-    }
-    {:label "alaaba-VConverbGaf"
-    :note "Schneider-Blum2007 p. 244"
-    :pdgmType :Finite
-    :common {:lexeme :gaf,
-             :pos :Verb,
-             :tam :Converb}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "gáff-(i)"],
-            [:Singular :Person2 :Common "gáff-(i)"],
-            [:Singular :Person3 :Masc "gáff-(i)"],
-            [:Singular :Person3 :Fem "gáff-(i)"],
-            [:Polite :Person3 :Common "gaf-éen(i)"],
-            [:Plural :Person1 :Common "gánf-(i)"],
-            [:Plural :Person2 :Common "gáff-éen(i)"],
-            [:Plural :Person3 :Common "gáff-(i)"]]
-    }
-    {:label "alaaba-VAffPerfectiveUb"
-    :note "Schneider-Blum2007 p. 206"
-    :pdgmType :Finite
-    :common {:lexeme :ub,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Perfective}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ʔubbóom(i)"],
-            [:Singular :Person2 :Common "ʔubbóont(i)"],
-            [:Singular :Person3 :Masc "ʔúbb(o)"],
-            [:Singular :Person3 :Fem "ʔubbóo"],
-            [:PoliteImpersonal :Person3 :Common "ʔubéem(a)"],
-            [:Plural :Person1 :Common "ʔumbóom(i)"],
-            [:Plural :Person2 :Common "ʔubbéent(a)"],
-            [:Plural :Person3 :Common "ʔubbóo"]]
-    }
-    {:label "alaaba-VConverbMar"
-    :note "Schneider-Blum2007 p. 244"
-    :pdgmType :Finite
-    :common {:lexeme :mar,
-             :pos :Verb,
-             :tam :Converb}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "márr-(i)"],
-            [:Singular :Person2 :Common "már-t(i)"],
-            [:Singular :Person3 :Masc "márr-(i)"],
-            [:Singular :Person3 :Fem "már-t(i)"],
-            [:Polite :Person3 :Common "mar-éen(i)"],
-            [:Plural :Person1 :Common "mán-n(i)"],
-            [:Plural :Person2 :Common "mar-téen(i)"],
-            [:Plural :Person3 :Common "már-t(i)"]]
-    }
-    {:label "alaaba-VAffImperfectiveKorj"
-    :note "Schneider-Blum2007 p. p. 216"
-    :pdgmType :Finite
-    :common {:lexeme :korj,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Imperfective}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "korj-áam(i)"],
-            [:Singular :Person2 :Common "korj-i-táant(i)"],
-            [:Singular :Person3 :Masc "korj-án(o)"],
-            [:Singular :Person3 :Fem "korj-i-táa"],
-            [:PoliteImpersonal :Person3 :Common "korj-éen(o)"],
-            [:Plural :Person1 :Common "korj-i-náam(i)"],
-            [:Plural :Person2 :Common "korj-i-teenánt(a)"],
-            [:Plural :Person3 :Common "korj-i-táa"]]
-    }
-    {:label "alaaba-VPosteriofSubSubjSuff"
-    :note "Schneider-Blum2007 Table 45"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjSuff
-             :pos :Verb,
-             :tam :PosteriorSub,
-             :lexeme :SUBJSUFFIXPOSTSUB,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-uʔnáan(i)"],
-            [:Singular :Person2 :Common "-tuʔnáan(i)"],
-            [:Singular :Person3 :Masc "-uʔnáan(i)"],
-            [:Singular :Person3 :Fem "-tuʔnáan(i)"],
-            [:Singular :Person3 :Common "-ooʔnáan(i)"],
-            [:Plural :Person1 :Common "-nuʔnáan(i)"],
-            [:Plural :Person2 :Common "-toonuʔnáan(i)"],
-            [:Plural :Person3 :Common "-tuʔnáan(i)"]]
-    }
-    {:label "alaaba-VAffPerfectiveSubjMarkerSuff"
-    :note "Schneider-Blum2007 p. 210"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarkerSuffAffPerf
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Perfective,
-             :lexeme :SUBJSUFFIXAFFPERF,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-yóom(i) / -éem(i)"],
-            [:Singular :Person2 :Common "-tóont(i)"],
-            [:Singular :Person3 :Masc "-y(o) / -ée"],
-            [:Singular :Person3 :Fem "-tóo"],
-            [:PoliteImpersonal :Person3 :Common "-éem(a)"],
-            [:Plural :Person1 :Common "-nóom(i)"],
-            [:Plural :Person2 :Common "-téent(a)"],
-            [:Plural :Person3 :Common "-tóo"]]
-    }
-    {:label "alaaba-VConverbSubjSuff"
-    :note "Schneider-Blum2007 Table 41"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjSuffConverb
-             :pos :Verb,
-             :tam :Converb,
-             :lexeme :SUBJSUFFIXCONVERB,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-y(i)"],
-            [:Singular :Person2 :Common "-t(i)"],
-            [:Singular :Person3 :Masc "-y(i)"],
-            [:Singular :Person3 :Fem "-t(i)"],
-            [:Polite :Person3 :Common "-éen(i)"],
-            [:Plural :Person1 :Common "-n(i)"],
-            [:Plural :Person2 :Common "-téen(i)"],
-            [:Plural :Person3 :Common "-t(i)"]]
-    }
-    {:label "alaaba-VAffImprtvSubjMarkerSuff"
-    :note "Schneider-Blum2007 p. 224"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarkerSuffAffImprtv
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Imperative,
-             :lexeme :SUBJSUFFIXAFFIMPRTV,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-ó"],
-            [:Singular :Person2 :Common "-(i)"],
-            [:Singular :Person3 :Masc "-ún(i)"],
-            [:Singular :Person3 :Fem "-tún(i)"],
-            [:PoliteImpersonal :Person3 :Common "-óon(i)"],
-            [:Plural :Person1 :Common "-nó"],
-            [:Plural :Person2 :Common "-yé"],
-            [:Plural :Person3 :Common "-tún(i)"]]
-    }
-    {:label "alaaba-PProEmph"
-    :note "Schneider-Blum2007 Table 28"
-    :pdgmType :PRO
-    :common {:lexeme :PROEMPH,
-             :pos :Pronoun,
-             :proClass :ProEmph}
-    :terms [[:number :person :gender :token :token-note],
-            [:Singular :Person1 :Common "ʔanín(i)" "I myself"],
-            [:Singular :Person2 :Common "ʔatín(i)" "you yourslef"],
-            [:Singular :Person3 :Masc "ʔisín(i)" "he himself"],
-            [:Singular :Person3 :Fem "ʔisén(i)" "her herself"],
-            [:Plural :Person1 :Common "naʔún(i)" "we ourselves"],
-            [:Plural :Person2 :Common "ʔaʔnún(i)" "you yourselves"],
-            [:Plural :Person3 :Common "ʔissán(i)" "they themselves"]]
-    }
-    {:label "alaaba-VAffAnteriorPerfKorj"
-    :note "Schneider-Blum2007 p. p. 204"
-    :pdgmType :Finite
-    :common {:lexeme :korj,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :AnteriorPerfect}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ʔán(i) korj-i-yóomm(i)"],
-            [:Singular :Person2 :Common "ʔát(i) korj-í-toont(i)"],
-            [:Singular :Person3 :Masc "ʔís(i) korj-i-yoʔ(u)"],
-            [:Singular :Person3 :Fem "ʔís(e) korj-i-tóoʔ(u)"],
-            [:PoliteImpersonal :Person3 :Common "ʔíss(a) korj-éemaʔ(a)"],
-            [:Plural :Person1 :Common "náʔ(u) korj-i-nóomm(i)"],
-            [:Plural :Person2 :Common "ʔáʔn(u) korj-i-téentaʔ(a)"],
-            [:Plural :Person3 :Common "ʔíss(a) korj-i-tóoʔ(u)"]]
-    }
-    {:label "alaaba-VNegImperfectiveKorj"
-    :note "Schneider-Blum2007 p. p. 216"
-    :pdgmType :Finite
-    :common {:lexeme :korj,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Imperfective}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "korj-áambaʔ(a)"],
-            [:Singular :Person2 :Common "korj-i-táantibaʔ(a)"],
-            [:Singular :Person3 :Masc "korj-ánobaʔ(a)"],
-            [:Singular :Person3 :Fem "korj-i-táabaʔ(a)"],
-            [:PoliteImpersonal :Person3 :Common "korj-éenobaʔ(a)"],
-            [:Plural :Person1 :Common "korj-i-náambaʔ(a)"],
-            [:Plural :Person2 :Common "korj-i-teenántabaʔ(a)"],
-            [:Plural :Person3 :Common "korj-i-táabaʔ(a)"]]
-    }
-    {:label "alaaba-VCausative"
-    :note "Schneider-Blum2007 Table 47:Form vs. Function of the causativeative"
-    :pdgmType :VOther
-    :common {:vmorphClass :Causative
-             :lexeme :ʔeebú,
-             :pos :Verb}
-    :terms [[:lexeme :derivedStem :token],
-            [:ʔeebú :CausativeDouble2 "ʔeebsiisiisú"],
-            [:ʔeebú :CausativeSimple2 "ʔeebsiisú"]
-            [:ʔubú :CausativeDouble2 "ʔubsiisiisú"],
-            [:ʔubú :CausativeSimplel2 "ʔubsiisú"]
-            [:ʔagú :CausativeDouble1 "ʔagsiisú"],
-            [:ʔagú :CausativeSimplel1 "ʔagisú"]
-            [:ʔurrú :CausativeDouble1 "ʔurrisiisú"],
-            [:ʔurrú :CausativeSimplel1 "ʔurrisú"]]
-    }
+ :lexemes{:mool {:lemma "mool"},
+          :shol {:lemma "shol"},
+          :ʔul {:lemma "ʔul"},
+          :faar {:lemma "faar"},
+          :heʔm {:lemma "heʔm"},
+          :boroor {:lemma "boroor"},
+          :door {:lemma "door"},
+          :ʔuucc {:lemma "ʔuucc;"},
+          :ameet {:lemma "ʔameet-", :gloss "come"},
+          :eeb {:lemma "ʔeeb-", :gloss "bring"},
+          :kul {:lemma "kul"},
+          :dagelaal {:lemma "dagelaal"},
+          :ʔalbaaʔl {:lemma "ʔalbaaʔl"},
+          :dul {:lemma "dul"},
+          :tur {:lemma "t’ur"},
+          :korʔ {:lemma "k’orʔ"},
+          :hir {:lemma "hirʔ-", :gloss "buy"},
+          :haʔl {:lemma "haʔl"},
+          :kar {:lemma "kar"},
+          :ʔudul {:lemma "ʔudul"},
+          :shuur {:lemma "shuur"},
+          :ʔubú {:lemma "ʔubú"},
+          :mar {:lemma "mar-", :gloss "go"},
+          :y {:lemma "y-", :gloss "say"},
+          :debeeʔl {:lemma "debeeʔl"},
+          :hambal {:lemma "hambal"},
+          :tuur {:lemma "t’uur"},
+          :mecc {:lemma "mecc’"},
+          :miir {:lemma "miir"},
+          :meer {:lemma "meer"},
+          :kacc {:lemma "k’acc’"},
+          :ʔaaʔl {:lemma "ʔaaʔl"},
+          :giir {:lemma "giir"},
+          :wod {:lemma "wod"},
+          :ʔeebú {:lemma "ʔeebú"},
+          :ʔil {:lemma "ʔil"},
+          :meed {:lemma "meed"},
+          :hagir {:lemma "hagir"},
+          :laal {:lemma "laal"},
+          :ub {:lemma "ʔub-", :gloss "fall"},
+          :kor {:lemma "k’or"},
+          :fankal {:lemma "fank’al"},
+          :marar {:lemma "marar"},
+          :jammar {:lemma "jammar"},
+          :orroo {:lemma "ʔorrooʔ-", :gloss "go"},
+          :CAUSATIVEALLOMORPH {:gloss "[x]", :lemma "[y]"},
+          :kuf {:lemma "k’uf"},
+          :ʔafuuʔl {:lemma "ʔafuuʔl"},
+          :ke {:lemma "keʔ-", :gloss "Stand"},
+          :buur {:lemma "buur"},
+          :geeraar {:lemma "geeraar"},
+          :saggaar {:lemma "saggaar"},
+          :ʔifood {:lemma "ʔifood"},
+          :ʔaguuʔm {:lemma "ʔaguuʔm"},
+          :liiʔl {:lemma "liiʔl"},
+          :ʔaar {:lemma "ʔaar"},
+          :wuliil {:lemma "wuliil"},
+          :soor {:lemma "soor"},
+          :goof {:lemma "goof"},
+          :ʔagar {:lemma "ʔagar"},
+          :ʔosaʔl {:lemma "ʔosaʔl"},
+          :folocc {:lemma "folocc’"},
+          :hiir {:lemma "hiir"},
+          :ʔagú {:lemma "ʔagú"},
+          :shuul {:lemma "shuul"},
+          :mooccoocc {:lemma "moocc’oocc’"},
+          :ʔamurʔ {:lemma "ʔamurʔ"},
+          :uucc {:gloss "[x]", :lemma "[y]"},
+          :heer {:lemma "heer"},
+          :ʔagur {:lemma "ʔagur"},
+          :malal {:lemma "malal"},
+          :wokkar {:lemma "wokk’ar"},
+          :taʔm {:lemma "t’aʔm"},
+          :korj {:lemma "korj-", :gloss "jump"},
+          :kaar {:lemma "k’aar"},
+          :worʔ {:lemma "worʔ"},
+          :dad {:lemma "dad"},
+          :ʔinkiil {:lemma "ʔinkiil"},
+          :yaar {:lemma "yaar"},
+          :ʔaf {:lemma "ʔaf"},
+          :ʔurrú {:lemma "ʔurrú"},
+          :gal {:lemma "gal"},
+          :taaf {:gloss "write", :lemma "t’aaf"},
+          :ʔallaal {:lemma "ʔallaal"},
+          :tuf {:lemma "t’uf"},
+          :gaffar {:lemma "gaffar"},
+          :karaar {:lemma "k’araar"},
+          :gaf {:lemma "gaf-", :gloss "cook"},
+          :med {:lemma "med"},
+          :hangaar {:lemma "hangaar"},
+          :ʔanjicc {:lemma "ʔanjicc’"},
+          :mur {:lemma "mur"},
+          :hirʔ {:lemma "hirʔ"},
+          :kad {:lemma "kad"},
+          :ʔud {:lemma "ʔud"},
+          :waal {:lemma "waal"},
+          :baad {:lemma "baad"},
+          :ʔusur {:lemma "ʔusur"},
+          :ʔenkeʔn {:lemma "ʔenkeʔn"},
+          :hankaf {:lemma "hank’af"},
+          :ʔereer {:lemma "ʔereer"},
+          :fiil {:lemma "fiil"},
+          :ʔijaar {:lemma "ʔijaar"},
+          :hocc {:lemma "hocc’-", :gloss "hunt", :valence :Transitive},
+          :wor {:lemma "wor"},
+          :ful {:lemma "ful"},
+          :dagud {:lemma "dagud"}}
+ :termclusters [
+                {:label "alaaba-VNegPerfectiveUb"
+                 :note "Schneider-Blum2007 p. 206"
+                 :common {:vmorphclass :Finite
+                          :lexeme :ub,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfective}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ʔubbóombaʔ(a)"],
+                         [:Singular :Person2 :Common "ʔubbóontibaʔ(a)"],
+                         [:Singular :Person3 :Masc "ʔubbóbaʔ(a)"],
+                         [:Singular :Person3 :Fem "ʔubbóobaʔ(a)"],
+                         [:PoliteImpersonal :Person3 :Common "ʔubéemabaʔ(a)"],
+                         [:Plural :Person1 :Common "ʔumbóombaʔ(a)"],
+                         [:Plural :Person2 :Common "ʔubbéentabaʔ(a)"],
+                         [:Plural :Person3 :Common "ʔubbóobaʔ(a)"]]
+                 }
+                {:label "alaaba-VTenseAspectMarking"
+                 :note "Schneider-Blum2007 Table 46"
+                 :common {:vmorphClass :TenseAspectMarking
+                          :pos :Verb,
+                          :person :Common,
+                          :lexeme :TAMMARK,}
+                 :terms [[:clauseType :tam],
+                         [:Co-Subject :ConverbCoRef],
+                         [:Co-Subject :ConverbDifRef],
+                         [:Main :AnteriorPerfect],
+                         [:Main :FutureProximate],
+                         [:Main :Imperfective],
+                         [:Main :Perfective],
+                         [:Main :Progressive],
+                         [:Subordinate :PosteriorSub],
+                         [:Subordinate :ProgressiveSub],
+                         [:Subordinate :PurposiveSub]]
+                 }
+                {:label "alaaba-VAffProgressiveSubjMarkerSuff"
+                 :note "Schneider-Blum2007 p. 221"
+                 :common {:vmorphClass :SubjMarkerSuffAffProg
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Progressive,
+                          :lexeme :SUBJSUFFIXAFFPROG,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-aamíit(i)"],
+                         [:Singular :Person2 :Common "-táantiit(i)"],
+                         [:Singular :Person3 :Masc "-anóot(i)"],
+                         [:Singular :Person3 :Fem "-táaʔiit(i)"],
+                         [:PoliteImpersonal :Person3 :Common "-eenóot(i)"],
+                         [:Plural :Person1 :Common "-naamíit(i)"],
+                         [:Plural :Person2 :Common "-teenantáat(i)"],
+                         [:Plural :Person3 :Common "-táaʔiit(i)"]]
+                 }
+                {:label "alaaba-VAffImprtvOrroo"
+                 :note "Schneider-Blum2007 p. p. 224"
+                 :common {:vmorphclass :Finite
+                          :lexeme :orroo,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ʔorrooʔó!"],
+                         [:Singular :Person2 :Common "ʔorróoʔ(i)!"],
+                         [:Singular :Person3 :Masc "ʔorrooʔún(i)!"],
+                         [:Singular :Person3 :Fem "ʔorroottún(i)!"],
+                         [:PoliteImpersonal :Person3 :Common "ʔorrooʔóon(i)!"],
+                         [:Plural :Person1 :Common "ʔorrooʔnó!"],
+                         [:Plural :Person2 :Common "ʔorroʔyé!"],
+                         [:Plural :Person3 :Common "ʔorrootún(i)!"]]
+                 }
+                {:label "alaaba-VConverbGaf"
+                 :note "Schneider-Blum2007 p. 244"
+                 :common {:vmorphclass :Finite
+                          :lexeme :gaf,
+                          :pos :Verb,
+                          :tam :Converb}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "gáff-(i)"],
+                         [:Singular :Person2 :Common "gáff-(i)"],
+                         [:Singular :Person3 :Masc "gáff-(i)"],
+                         [:Singular :Person3 :Fem "gáff-(i)"],
+                         [:Polite :Person3 :Common "gaf-éen(i)"],
+                         [:Plural :Person1 :Common "gánf-(i)"],
+                         [:Plural :Person2 :Common "gáff-éen(i)"],
+                         [:Plural :Person3 :Common "gáff-(i)"]]
+                 }
+                {:label "alaaba-VAffPerfectiveUb"
+                 :note "Schneider-Blum2007 p. 206"
+                 :common {:vmorphclass :Finite
+                          :lexeme :ub,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfective}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ʔubbóom(i)"],
+                         [:Singular :Person2 :Common "ʔubbóont(i)"],
+                         [:Singular :Person3 :Masc "ʔúbb(o)"],
+                         [:Singular :Person3 :Fem "ʔubbóo"],
+                         [:PoliteImpersonal :Person3 :Common "ʔubéem(a)"],
+                         [:Plural :Person1 :Common "ʔumbóom(i)"],
+                         [:Plural :Person2 :Common "ʔubbéent(a)"],
+                         [:Plural :Person3 :Common "ʔubbóo"]]
+                 }
+                {:label "alaaba-VConverbMar"
+                 :note "Schneider-Blum2007 p. 244"
+                 :common {:vmorphclass :Finite
+                          :lexeme :mar,
+                          :pos :Verb,
+                          :tam :Converb}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "márr-(i)"],
+                         [:Singular :Person2 :Common "már-t(i)"],
+                         [:Singular :Person3 :Masc "márr-(i)"],
+                         [:Singular :Person3 :Fem "már-t(i)"],
+                         [:Polite :Person3 :Common "mar-éen(i)"],
+                         [:Plural :Person1 :Common "mán-n(i)"],
+                         [:Plural :Person2 :Common "mar-téen(i)"],
+                         [:Plural :Person3 :Common "már-t(i)"]]
+                 }
+                {:label "alaaba-VAffImperfectiveKorj"
+                 :note "Schneider-Blum2007 p. p. 216"
+                 :common {:vmorphclass :Finite
+                          :lexeme :korj,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfective}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "korj-áam(i)"],
+                         [:Singular :Person2 :Common "korj-i-táant(i)"],
+                         [:Singular :Person3 :Masc "korj-án(o)"],
+                         [:Singular :Person3 :Fem "korj-i-táa"],
+                         [:PoliteImpersonal :Person3 :Common "korj-éen(o)"],
+                         [:Plural :Person1 :Common "korj-i-náam(i)"],
+                         [:Plural :Person2 :Common "korj-i-teenánt(a)"],
+                         [:Plural :Person3 :Common "korj-i-táa"]]
+                 }
+                {:label "alaaba-VPosteriofSubSubjSuff"
+                 :note "Schneider-Blum2007 Table 45"
+                 :common {:vmorphClass :SubjSuff
+                          :pos :Verb,
+                          :tam :PosteriorSub,
+                          :lexeme :SUBJSUFFIXPOSTSUB,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-uʔnáan(i)"],
+                         [:Singular :Person2 :Common "-tuʔnáan(i)"],
+                         [:Singular :Person3 :Masc "-uʔnáan(i)"],
+                         [:Singular :Person3 :Fem "-tuʔnáan(i)"],
+                         [:Singular :Person3 :Common "-ooʔnáan(i)"],
+                         [:Plural :Person1 :Common "-nuʔnáan(i)"],
+                         [:Plural :Person2 :Common "-toonuʔnáan(i)"],
+                         [:Plural :Person3 :Common "-tuʔnáan(i)"]]
+                 }
+                {:label "alaaba-VAffPerfectiveSubjMarkerSuff"
+                 :note "Schneider-Blum2007 p. 210"
+                 :common {:vmorphClass :SubjMarkerSuffAffPerf
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfective,
+                          :lexeme :SUBJSUFFIXAFFPERF,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-yóom(i) / -éem(i)"],
+                         [:Singular :Person2 :Common "-tóont(i)"],
+                         [:Singular :Person3 :Masc "-y(o) / -ée"],
+                         [:Singular :Person3 :Fem "-tóo"],
+                         [:PoliteImpersonal :Person3 :Common "-éem(a)"],
+                         [:Plural :Person1 :Common "-nóom(i)"],
+                         [:Plural :Person2 :Common "-téent(a)"],
+                         [:Plural :Person3 :Common "-tóo"]]
+                 }
+                {:label "alaaba-VConverbSubjSuff"
+                 :note "Schneider-Blum2007 Table 41"
+                 :common {:vmorphClass :SubjSuffConverb
+                          :pos :Verb,
+                          :tam :Converb,
+                          :lexeme :SUBJSUFFIXCONVERB,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-y(i)"],
+                         [:Singular :Person2 :Common "-t(i)"],
+                         [:Singular :Person3 :Masc "-y(i)"],
+                         [:Singular :Person3 :Fem "-t(i)"],
+                         [:Polite :Person3 :Common "-éen(i)"],
+                         [:Plural :Person1 :Common "-n(i)"],
+                         [:Plural :Person2 :Common "-téen(i)"],
+                         [:Plural :Person3 :Common "-t(i)"]]
+                 }
+                {:label "alaaba-VAffImprtvSubjMarkerSuff"
+                 :note "Schneider-Blum2007 p. 224"
+                 :common {:vmorphClass :SubjMarkerSuffAffImprtv
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative,
+                          :lexeme :SUBJSUFFIXAFFIMPRTV,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-ó"],
+                         [:Singular :Person2 :Common "-(i)"],
+                         [:Singular :Person3 :Masc "-ún(i)"],
+                         [:Singular :Person3 :Fem "-tún(i)"],
+                         [:PoliteImpersonal :Person3 :Common "-óon(i)"],
+                         [:Plural :Person1 :Common "-nó"],
+                         [:Plural :Person2 :Common "-yé"],
+                         [:Plural :Person3 :Common "-tún(i)"]]
+                 }
+                {:label "alaaba-PProEmph"
+                 :note "Schneider-Blum2007 Table 28"
+                 :common {:lexeme :PROEMPH,
+                          :pos :Pronoun,
+                          :proClass :ProEmph}
+                 :terms [[:number :person :gender :token :token-note],
+                         [:Singular :Person1 :Common "ʔanín(i)" "I myself"],
+                         [:Singular :Person2 :Common "ʔatín(i)" "you yourslef"],
+                         [:Singular :Person3 :Masc "ʔisín(i)" "he himself"],
+                         [:Singular :Person3 :Fem "ʔisén(i)" "her herself"],
+                         [:Plural :Person1 :Common "naʔún(i)" "we ourselves"],
+                         [:Plural :Person2 :Common "ʔaʔnún(i)" "you yourselves"],
+                         [:Plural :Person3 :Common "ʔissán(i)" "they themselves"]]
+                 }
+                {:label "alaaba-VAffAnteriorPerfKorj"
+                 :note "Schneider-Blum2007 p. p. 204"
+                 :common {:vmorphclass :Finite
+                          :lexeme :korj,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :AnteriorPerfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ʔán(i) korj-i-yóomm(i)"],
+                         [:Singular :Person2 :Common "ʔát(i) korj-í-toont(i)"],
+                         [:Singular :Person3 :Masc "ʔís(i) korj-i-yoʔ(u)"],
+                         [:Singular :Person3 :Fem "ʔís(e) korj-i-tóoʔ(u)"],
+                         [:PoliteImpersonal :Person3 :Common "ʔíss(a) korj-éemaʔ(a)"],
+                         [:Plural :Person1 :Common "náʔ(u) korj-i-nóomm(i)"],
+                         [:Plural :Person2 :Common "ʔáʔn(u) korj-i-téentaʔ(a)"],
+                         [:Plural :Person3 :Common "ʔíss(a) korj-i-tóoʔ(u)"]]
+                 }
+                {:label "alaaba-VNegImperfectiveKorj"
+                 :note "Schneider-Blum2007 p. p. 216"
+                 :common {:vmorphclass :Finite
+                          :lexeme :korj,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfective}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "korj-áambaʔ(a)"],
+                         [:Singular :Person2 :Common "korj-i-táantibaʔ(a)"],
+                         [:Singular :Person3 :Masc "korj-ánobaʔ(a)"],
+                         [:Singular :Person3 :Fem "korj-i-táabaʔ(a)"],
+                         [:PoliteImpersonal :Person3 :Common "korj-éenobaʔ(a)"],
+                         [:Plural :Person1 :Common "korj-i-náambaʔ(a)"],
+                         [:Plural :Person2 :Common "korj-i-teenántabaʔ(a)"],
+                         [:Plural :Person3 :Common "korj-i-táabaʔ(a)"]]
+                 }
+                {:label "alaaba-VCausative"
+                 :note "Schneider-Blum2007 Table 47:Form vs. Function of the causativeative"
+                 :common {:vmorphClass :Causative
+                          :lexeme :ʔeebú,
+                          :pos :Verb}
+                 :terms [[:lexeme :derivedStem :token],
+                         [:ʔeebú :CausativeDouble2 "ʔeebsiisiisú"],
+                         [:ʔeebú :CausativeSimple2 "ʔeebsiisú"]
+                         [:ʔubú :CausativeDouble2 "ʔubsiisiisú"],
+                         [:ʔubú :CausativeSimplel2 "ʔubsiisú"]
+                         [:ʔagú :CausativeDouble1 "ʔagsiisú"],
+                         [:ʔagú :CausativeSimplel1 "ʔagisú"]
+                         [:ʔurrú :CausativeDouble1 "ʔurrisiisú"],
+                         [:ʔurrú :CausativeSimplel1 "ʔurrisú"]]
+                 }
 
-    {:label "alaaba-VNegPerfectiveSubjMarkerSuff"
-    :note "Schneider-Blum2007 p. 210"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarkerSuffNegPerf
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Perfective,
-             :lexeme :SUBJSUFFIXNEGPERF,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-yóombaʔ(a)"],
-            [:Singular :Person2 :Common "-tóontibaʔ(a)"],
-            [:Singular :Person3 :Masc "-yóbaʔ(a)"],
-            [:Singular :Person3 :Fem "-tóobaʔ(a)"],
-            [:PoliteImpersonal :Person3 :Common "-éemabaʔ(a)"],
-            [:Plural :Person1 :Common "-nóombaʔ(a)"],
-            [:Plural :Person2 :Common "-téentabaʔ(a)"],
-            [:Plural :Person3 :Common "-tóobaʔ(a)"]]
-    }
-    {:label "alaaba-PReflexive"
-    :note "Schneider-Blum2007 Tables 30-34,40"
-    :pdgmType :PRO
-    :common {:lexeme :PROREFL,
-             :pos :Pronoun,
-             :proClass :Reflexive}
-    :terms [[:case :number :person :gender :token],
-            [:Ablative :Singular :Person1 :Masc "gagíicc(e)"],
-            [:Ablative :Singular :Person1 :Fem "gagéecc(e)"],
-            [:Ablative :Singular :Person2 :Masc "gagiiccík(i)"],
-            [:Ablative :Singular :Person2 :Fem "gageeccík(i)"],
-            [:Ablative :Singular :Person3 :Masc "gag(ga)yiiccís(i)"],
-            [:Ablative :Singular :Person3 :Fem "gag(ga)yeeccís(e)"],
-            [:Ablative :Plural :Person1 :Common "gagiiccínn(e)"],
-            [:Ablative :Plural :Person2 :Common "gagiiccikíʔn(e)"],
-            [:Ablative :Plural :Person3 :Common "gagiiccíss(a)"],
-            [:AbsolutiveEmphatic :Singular :Person1 :Masc "gagúnkuʔ(e)"],
-            [:AbsolutiveEmphatic :Singular :Person1 :Fem "gagíntiʔ(e)"],
-            [:AbsolutiveEmphatic :Singular :Person2 :Masc "gagúnkuk(i)"],
-            [:AbsolutiveEmphatic :Singular :Person2 :Fem "gagíntik(i)"],
-            [:AbsolutiveEmphatic :Singular :Person3 :Masc "gagúnkus(i)"],
-            [:AbsolutiveEmphatic :Singular :Person3 :Fem "gagíntis(e)"],
-            [:AbsolutiveEmphatic :Plural :Person1 :Common "gagunkúnn(e)"],
-            [:AbsolutiveEmphatic :Plural :Person2 :Common "gagunkukíʔn(e)"],
-            [:AbsolutiveEmphatic :Plural :Person3 :Common "gagunkúss(a)"],
-            [:AbsolutiveNominative :Singular :Person1 :Masc "gagúʔ(e)"],
-            [:AbsolutiveNominative :Singular :Person1 :Fem "gagíʔ(e)"],
-            [:AbsolutiveNominative :Singular :Person2 :Masc "gagúk(i)"],
-            [:AbsolutiveNominative :Singular :Person2 :Fem "gagík(i)"],
-            [:AbsolutiveNominative :Singular :Person3 :Masc "gagús(i)"],
-            [:AbsolutiveNominative :Singular :Person3 :Fem "gagís(e)"],
-            [:AbsolutiveNominative :Plural :Person1 :Common "gagúnn(e)"],
-            [:AbsolutiveNominative :Plural :Person2 :Common "gagukíʔn(e)"],
-            [:AbsolutiveNominative :Plural :Person3 :Common "gagúss(a)"],
-            [:Dative :Singular :Person1 :Masc "gagíiyaʔ(e)"],
-            [:Dative :Singular :Person1 :Fem "gagéetaʔ(e)"],
-            [:Dative :Singular :Person2 :Masc "gagíiyak(i)"],
-            [:Dative :Singular :Person2 :Fem "gagéetak(i)"],
-            [:Dative :Singular :Person3 :Masc "gagíiyas(i)"],
-            [:Dative :Singular :Person3 :Fem "gagéetas(e)"],
-            [:Dative :Plural :Person1 :Common "gagíiyann(e)"],
-            [:Dative :Plural :Person2 :Common "gagíiyakiʔn(e)"],
-            [:Dative :Plural :Person3 :Common "gagíiyass(a)"],
-            [:Genitive :Singular :Person1 :Masc "gagiʔe"],
-            [:Genitive :Singular :Person1 :Fem "gageʔe"],
-            [:Genitive :Singular :Person2 :Masc "gagiki"],
-            [:Genitive :Singular :Person2 :Fem "gageki"],
-            [:Genitive :Singular :Person3 :Masc "gagisi"],
-            [:Genitive :Singular :Person3 :Fem "gagese"],
-            [:Genitive :Plural :Person1 :Common "gaginne"],
-            [:Genitive :Plural :Person2 :Common "gagikiʔne"],
-            [:Genitive :Plural :Person3 :Common "gagaʔissa ~ gagissa"],
-            [:Instrumental :Singular :Person1 :Common "gagíinkaʔ(e)"],
-            [:Instrumental :Singular :Person2 :Common "gagíinkak(i)"],
-            [:Instrumental :Singular :Person3 :Masc "gagíinkas(i)"],
-            [:Instrumental :Singular :Person3 :Fem "gagéentas(e)"],
-            [:Instrumental :Plural :Person1 :Common "gagíinkann(e)"],
-            [:Instrumental :Plural :Person2 :Common "gagíinkiʔn(e)"],
-            [:Instrumental :Plural :Person3 :Common "gagíinkass(a)"]]
-    }
-    {:label "alaaba-VAffProgressiveKorj"
-    :note "Schneider-Blum2007 p. p. 221"
-    :pdgmType :Finite
-    :common {:lexeme :korj,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Progressive}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "korj-aamíitt(i)"],
-            [:Singular :Person2 :Common "korj-i-táantiit(i)"],
-            [:Singular :Person3 :Masc "korj-anóot(i)"],
-            [:Singular :Person3 :Fem "korj-i-táaʔiit(i)"],
-            [:PoliteImpersonal :Person3 :Common "korj-eenóot(i)"],
-            [:Plural :Person1 :Common "korj-i-naamíit(i)"],
-            [:Plural :Person2 :Common "korj-i-teenanatát(i)"],
-            [:Plural :Person3 :Common "korj-i-táaʔiit(i)"]]
-    }
-    {:label "alaaba-VNegPerfectiveY"
-    :note "Schneider-Blum2007 p. 210"
-    :pdgmType :Finite
-    :common {:lexeme :y,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Perfective}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "yiyóombaʔ(a)"],
-            [:Singular :Person2 :Common "yitóontibaʔ(a)"],
-            [:Singular :Person3 :Masc "yiyóbaʔ(a)"],
-            [:Singular :Person3 :Fem "yitóobaʔ(a)"],
-            [:PoliteImpersonal :Person3 :Common "yéemabaʔ(a)"],
-            [:Plural :Person1 :Common "yinóombaʔ(a)"],
-            [:Plural :Person2 :Common "yitéentibaʔ(a)"],
-            [:Plural :Person3 :Common "yitóobaʔ(a)"]]
-    }
-    {:label "alaaba-VAffPerfectiveY"
-    :note "Schneider-Blum2007 p. 210"
-    :pdgmType :Finite
-    :common {:lexeme :y,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Perfective}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "yéem(i)"],
-            [:Singular :Person2 :Common "yitóont(i)"],
-            [:Singular :Person3 :Masc "yée"],
-            [:Singular :Person3 :Fem "yitóo"],
-            [:PoliteImpersonal :Person3 :Common "yéem(a)"],
-            [:Plural :Person1 :Common "yinóom(i)"],
-            [:Plural :Person2 :Common "yitéent(a)"],
-            [:Plural :Person3 :Common "yitóo"]]
-    }
-    {:label "alaaba-VConverbKe"
-    :note "Schneider-Blum2007 p. 244"
-    :pdgmType :Finite
-    :common {:lexeme :ke,
-             :pos :Verb,
-             :tam :Converb}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "kéʔ-y(i)"],
-            [:Singular :Person2 :Common "kéʔʔ-(i)"],
-            [:Singular :Person3 :Masc "kéʔ-y(i)"],
-            [:Singular :Person3 :Fem "kéʔʔ-(i)"],
-            [:Polite :Person3 :Common "keʔ-éen(i)"],
-            [:Plural :Person1 :Common "kéʔ-n(i)"],
-            [:Plural :Person2 :Common "keʔʔ-éen(i)"],
-            [:Plural :Person3 :Common "kéʔʔ-(i)"]]
-    }
-    {:label "alaaba-PReciprocal"
-    :note "Schneider-Blum2007 Table 35-39"
-    :pdgmType :PRO
-    :common {:number :Plural,
-             :lexeme :PRORECIP,
-             :pos :Pronoun,
-             :proClass :Reciprocal}
-    :terms [[:case :person :token],
-            [:Ablative :Person1 "gagahiiccínn(e)"],
-            [:Ablative :Person2 "gagahiiccikíʔn(e)"],
-            [:Ablative :Person3 "gagahiiccíss(a)"],
-            [:Absolutive :Person1 "gagagúnn(e)"],
-            [:Absolutive :Person2 "gagagukíʔn(e)"],
-            [:Absolutive :Person3 "gagagúss(a)"],
-            [:Dative :Person1 "gagayánn(e)"],
-            [:Dative :Person2 "gagayakíʔn(e)"],
-            [:Dative :Person3 "gagayiháss(a)"],
-            [:Similative :Person1 "gagayinnínng(a)"],
-            [:Similative :Person2 "gagayikíʔng(a)"],
-            [:Similative :Person3 "gagayisság(a)"]]
-    }
-    {:label "alaaba-VNegFutProxSubjMarkerSuff"
-    :note "Schneider-Blum2007 p. 238"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarkerSuffNegFut
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :FutureProximate,
-             :lexeme :SUBJSUFFIXNEGFUT,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-otáabba"],
-            [:Singular :Person2 :Common "-totáabba"],
-            [:Singular :Person3 :Masc "-otáabba"],
-            [:Singular :Person3 :Fem "-totáabb(a)"],
-            [:PoliteImpersonal :Person3 :Common "-oonotáabb(a)"],
-            [:Plural :Person1 :Common "-notáabb(a)"],
-            [:Plural :Person2 :Common "-tonotáabb(a)"],
-            [:Plural :Person3 :Common "-totáabb(a)"]]
-    }
-    {:label "alaaba-VAffAnteriorPerfSubjMarkerSuff"
-    :note "Schneider-Blum2007 p. 210"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarkerSuffAffPerfAnt
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :AnteriorPerfect,
-             :lexeme :SUBJSUFFIXAFFPERFANT,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-yóomm(i)"],
-            [:Singular :Person2 :Common "-toont(i) / -í-toont(i)"],
-            [:Singular :Person3 :Masc "-yóoʔ(u)"],
-            [:Singular :Person3 :Fem "-tóoʔ(u)"],
-            [:PoliteImpersonal :Person3 :Common "-éemaʔ(a)"],
-            [:Plural :Person1 :Common "-nóomm(i)"],
-            [:Plural :Person2 :Common "-téentaʔ(a)"],
-            [:Plural :Person3 :Common "-tóoʔ(u)"]]
-    }
-    {:label "alaaba-VNegPerfectiveKorj"
-    :note "Schneider-Blum2007 p. p. 204"
-    :pdgmType :Finite
-    :common {:lexeme :korj,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Perfective}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "korj-i-yóombaʔ(a)"],
-            [:Singular :Person2 :Common "korj-i-tóontibaʔ(a)"],
-            [:Singular :Person3 :Masc "korj-i-yóbaʔ(a)"],
-            [:Singular :Person3 :Fem "korj-i-tóobaʔ(a)"],
-            [:PoliteImpersonal :Person3 :Common "korj-éemabaʔ(a)"],
-            [:Plural :Person1 :Common "korj-i-nóombaʔ(a)"],
-            [:Plural :Person2 :Common "korj-i-téentabaʔ(a)"],
-            [:Plural :Person3 :Common "korj-i-tóobaʔ(a)"]]
-    }
-    {:label "alaaba-VAffFutProxKorj"
-    :note "Schneider-Blum2007 p. 238"
-    :pdgmType :Finite
-    :common {:lexeme :korj,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :FutureProximate}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ʔán(i) korj-o-táat(i)"],
-            [:Singular :Person2 :Common "ʔát(i) korj-i-t-o-táat(i)"],
-            [:Singular :Person3 :Masc "ʔís(i) korj-o-táat(i)"],
-            [:Singular :Person3 :Fem "ʔís(e) korj-i-t-o-táat(i)"],
-            [:PoliteImpersonal :Person3 :Common "ʔíss(a) korj-oon-o-táat(i)"],
-            [:Plural :Person1 :Common "náʔ(u) korj-i-n-o-táat(i)"],
-            [:Plural :Person2 :Common "ʔáʔn(u) korj-i-ton-o-táat(i)"],
-            [:Plural :Person3 :Common "ʔíss(a) korj-i-t-o-táat(i)"]]
-    }
-    {:label "alaaba-VCausativeCaustemAllomorph"
-    :note "Schneider-Blum2007 Tables 48-53. There is both a simple and a double causative
+                {:label "alaaba-VNegPerfectiveSubjMarkerSuff"
+                 :note "Schneider-Blum2007 p. 210"
+                 :common {:vmorphClass :SubjMarkerSuffNegPerf
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfective,
+                          :lexeme :SUBJSUFFIXNEGPERF,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-yóombaʔ(a)"],
+                         [:Singular :Person2 :Common "-tóontibaʔ(a)"],
+                         [:Singular :Person3 :Masc "-yóbaʔ(a)"],
+                         [:Singular :Person3 :Fem "-tóobaʔ(a)"],
+                         [:PoliteImpersonal :Person3 :Common "-éemabaʔ(a)"],
+                         [:Plural :Person1 :Common "-nóombaʔ(a)"],
+                         [:Plural :Person2 :Common "-téentabaʔ(a)"],
+                         [:Plural :Person3 :Common "-tóobaʔ(a)"]]
+                 }
+                {:label "alaaba-PReflexive"
+                 :note "Schneider-Blum2007 Tables 30-34,40"
+                 :common {:lexeme :PROREFL,
+                          :pos :Pronoun,
+                          :proClass :Reflexive}
+                 :terms [[:case :number :person :gender :token],
+                         [:Ablative :Singular :Person1 :Masc "gagíicc(e)"],
+                         [:Ablative :Singular :Person1 :Fem "gagéecc(e)"],
+                         [:Ablative :Singular :Person2 :Masc "gagiiccík(i)"],
+                         [:Ablative :Singular :Person2 :Fem "gageeccík(i)"],
+                         [:Ablative :Singular :Person3 :Masc "gag(ga)yiiccís(i)"],
+                         [:Ablative :Singular :Person3 :Fem "gag(ga)yeeccís(e)"],
+                         [:Ablative :Plural :Person1 :Common "gagiiccínn(e)"],
+                         [:Ablative :Plural :Person2 :Common "gagiiccikíʔn(e)"],
+                         [:Ablative :Plural :Person3 :Common "gagiiccíss(a)"],
+                         [:AbsolutiveEmphatic :Singular :Person1 :Masc "gagúnkuʔ(e)"],
+                         [:AbsolutiveEmphatic :Singular :Person1 :Fem "gagíntiʔ(e)"],
+                         [:AbsolutiveEmphatic :Singular :Person2 :Masc "gagúnkuk(i)"],
+                         [:AbsolutiveEmphatic :Singular :Person2 :Fem "gagíntik(i)"],
+                         [:AbsolutiveEmphatic :Singular :Person3 :Masc "gagúnkus(i)"],
+                         [:AbsolutiveEmphatic :Singular :Person3 :Fem "gagíntis(e)"],
+                         [:AbsolutiveEmphatic :Plural :Person1 :Common "gagunkúnn(e)"],
+                         [:AbsolutiveEmphatic :Plural :Person2 :Common "gagunkukíʔn(e)"],
+                         [:AbsolutiveEmphatic :Plural :Person3 :Common "gagunkúss(a)"],
+                         [:AbsolutiveNominative :Singular :Person1 :Masc "gagúʔ(e)"],
+                         [:AbsolutiveNominative :Singular :Person1 :Fem "gagíʔ(e)"],
+                         [:AbsolutiveNominative :Singular :Person2 :Masc "gagúk(i)"],
+                         [:AbsolutiveNominative :Singular :Person2 :Fem "gagík(i)"],
+                         [:AbsolutiveNominative :Singular :Person3 :Masc "gagús(i)"],
+                         [:AbsolutiveNominative :Singular :Person3 :Fem "gagís(e)"],
+                         [:AbsolutiveNominative :Plural :Person1 :Common "gagúnn(e)"],
+                         [:AbsolutiveNominative :Plural :Person2 :Common "gagukíʔn(e)"],
+                         [:AbsolutiveNominative :Plural :Person3 :Common "gagúss(a)"],
+                         [:Dative :Singular :Person1 :Masc "gagíiyaʔ(e)"],
+                         [:Dative :Singular :Person1 :Fem "gagéetaʔ(e)"],
+                         [:Dative :Singular :Person2 :Masc "gagíiyak(i)"],
+                         [:Dative :Singular :Person2 :Fem "gagéetak(i)"],
+                         [:Dative :Singular :Person3 :Masc "gagíiyas(i)"],
+                         [:Dative :Singular :Person3 :Fem "gagéetas(e)"],
+                         [:Dative :Plural :Person1 :Common "gagíiyann(e)"],
+                         [:Dative :Plural :Person2 :Common "gagíiyakiʔn(e)"],
+                         [:Dative :Plural :Person3 :Common "gagíiyass(a)"],
+                         [:Genitive :Singular :Person1 :Masc "gagiʔe"],
+                         [:Genitive :Singular :Person1 :Fem "gageʔe"],
+                         [:Genitive :Singular :Person2 :Masc "gagiki"],
+                         [:Genitive :Singular :Person2 :Fem "gageki"],
+                         [:Genitive :Singular :Person3 :Masc "gagisi"],
+                         [:Genitive :Singular :Person3 :Fem "gagese"],
+                         [:Genitive :Plural :Person1 :Common "gaginne"],
+                         [:Genitive :Plural :Person2 :Common "gagikiʔne"],
+                         [:Genitive :Plural :Person3 :Common "gagaʔissa ~ gagissa"],
+                         [:Instrumental :Singular :Person1 :Common "gagíinkaʔ(e)"],
+                         [:Instrumental :Singular :Person2 :Common "gagíinkak(i)"],
+                         [:Instrumental :Singular :Person3 :Masc "gagíinkas(i)"],
+                         [:Instrumental :Singular :Person3 :Fem "gagéentas(e)"],
+                         [:Instrumental :Plural :Person1 :Common "gagíinkann(e)"],
+                         [:Instrumental :Plural :Person2 :Common "gagíinkiʔn(e)"],
+                         [:Instrumental :Plural :Person3 :Common "gagíinkass(a)"]]
+                 }
+                {:label "alaaba-VAffProgressiveKorj"
+                 :note "Schneider-Blum2007 p. p. 221"
+                 :common {:vmorphclass :Finite
+                          :lexeme :korj,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Progressive}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "korj-aamíitt(i)"],
+                         [:Singular :Person2 :Common "korj-i-táantiit(i)"],
+                         [:Singular :Person3 :Masc "korj-anóot(i)"],
+                         [:Singular :Person3 :Fem "korj-i-táaʔiit(i)"],
+                         [:PoliteImpersonal :Person3 :Common "korj-eenóot(i)"],
+                         [:Plural :Person1 :Common "korj-i-naamíit(i)"],
+                         [:Plural :Person2 :Common "korj-i-teenanatát(i)"],
+                         [:Plural :Person3 :Common "korj-i-táaʔiit(i)"]]
+                 }
+                {:label "alaaba-VNegPerfectiveY"
+                 :note "Schneider-Blum2007 p. 210"
+                 :common {:vmorphclass :Finite
+                          :lexeme :y,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfective}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "yiyóombaʔ(a)"],
+                         [:Singular :Person2 :Common "yitóontibaʔ(a)"],
+                         [:Singular :Person3 :Masc "yiyóbaʔ(a)"],
+                         [:Singular :Person3 :Fem "yitóobaʔ(a)"],
+                         [:PoliteImpersonal :Person3 :Common "yéemabaʔ(a)"],
+                         [:Plural :Person1 :Common "yinóombaʔ(a)"],
+                         [:Plural :Person2 :Common "yitéentibaʔ(a)"],
+                         [:Plural :Person3 :Common "yitóobaʔ(a)"]]
+                 }
+                {:label "alaaba-VAffPerfectiveY"
+                 :note "Schneider-Blum2007 p. 210"
+                 :common {:vmorphclass :Finite
+                          :lexeme :y,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfective}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "yéem(i)"],
+                         [:Singular :Person2 :Common "yitóont(i)"],
+                         [:Singular :Person3 :Masc "yée"],
+                         [:Singular :Person3 :Fem "yitóo"],
+                         [:PoliteImpersonal :Person3 :Common "yéem(a)"],
+                         [:Plural :Person1 :Common "yinóom(i)"],
+                         [:Plural :Person2 :Common "yitéent(a)"],
+                         [:Plural :Person3 :Common "yitóo"]]
+                 }
+                {:label "alaaba-VConverbKe"
+                 :note "Schneider-Blum2007 p. 244"
+                 :common {:vmorphclass :Finite
+                          :lexeme :ke,
+                          :pos :Verb,
+                          :tam :Converb}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "kéʔ-y(i)"],
+                         [:Singular :Person2 :Common "kéʔʔ-(i)"],
+                         [:Singular :Person3 :Masc "kéʔ-y(i)"],
+                         [:Singular :Person3 :Fem "kéʔʔ-(i)"],
+                         [:Polite :Person3 :Common "keʔ-éen(i)"],
+                         [:Plural :Person1 :Common "kéʔ-n(i)"],
+                         [:Plural :Person2 :Common "keʔʔ-éen(i)"],
+                         [:Plural :Person3 :Common "kéʔʔ-(i)"]]
+                 }
+                {:label "alaaba-PReciprocal"
+                 :note "Schneider-Blum2007 Table 35-39"
+                 :common {:number :Plural,
+                          :lexeme :PRORECIP,
+                          :pos :Pronoun,
+                          :proClass :Reciprocal}
+                 :terms [[:case :person :token],
+                         [:Ablative :Person1 "gagahiiccínn(e)"],
+                         [:Ablative :Person2 "gagahiiccikíʔn(e)"],
+                         [:Ablative :Person3 "gagahiiccíss(a)"],
+                         [:Absolutive :Person1 "gagagúnn(e)"],
+                         [:Absolutive :Person2 "gagagukíʔn(e)"],
+                         [:Absolutive :Person3 "gagagúss(a)"],
+                         [:Dative :Person1 "gagayánn(e)"],
+                         [:Dative :Person2 "gagayakíʔn(e)"],
+                         [:Dative :Person3 "gagayiháss(a)"],
+                         [:Similative :Person1 "gagayinnínng(a)"],
+                         [:Similative :Person2 "gagayikíʔng(a)"],
+                         [:Similative :Person3 "gagayisság(a)"]]
+                 }
+                {:label "alaaba-VNegFutProxSubjMarkerSuff"
+                 :note "Schneider-Blum2007 p. 238"
+                 :common {:vmorphClass :SubjMarkerSuffNegFut
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :FutureProximate,
+                          :lexeme :SUBJSUFFIXNEGFUT,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-otáabba"],
+                         [:Singular :Person2 :Common "-totáabba"],
+                         [:Singular :Person3 :Masc "-otáabba"],
+                         [:Singular :Person3 :Fem "-totáabb(a)"],
+                         [:PoliteImpersonal :Person3 :Common "-oonotáabb(a)"],
+                         [:Plural :Person1 :Common "-notáabb(a)"],
+                         [:Plural :Person2 :Common "-tonotáabb(a)"],
+                         [:Plural :Person3 :Common "-totáabb(a)"]]
+                 }
+                {:label "alaaba-VAffAnteriorPerfSubjMarkerSuff"
+                 :note "Schneider-Blum2007 p. 210"
+                 :common {:vmorphClass :SubjMarkerSuffAffPerfAnt
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :AnteriorPerfect,
+                          :lexeme :SUBJSUFFIXAFFPERFANT,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-yóomm(i)"],
+                         [:Singular :Person2 :Common "-toont(i) / -í-toont(i)"],
+                         [:Singular :Person3 :Masc "-yóoʔ(u)"],
+                         [:Singular :Person3 :Fem "-tóoʔ(u)"],
+                         [:PoliteImpersonal :Person3 :Common "-éemaʔ(a)"],
+                         [:Plural :Person1 :Common "-nóomm(i)"],
+                         [:Plural :Person2 :Common "-téentaʔ(a)"],
+                         [:Plural :Person3 :Common "-tóoʔ(u)"]]
+                 }
+                {:label "alaaba-VNegPerfectiveKorj"
+                 :note "Schneider-Blum2007 p. p. 204"
+                 :common {:vmorphclass :Finite
+                          :lexeme :korj,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfective}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "korj-i-yóombaʔ(a)"],
+                         [:Singular :Person2 :Common "korj-i-tóontibaʔ(a)"],
+                         [:Singular :Person3 :Masc "korj-i-yóbaʔ(a)"],
+                         [:Singular :Person3 :Fem "korj-i-tóobaʔ(a)"],
+                         [:PoliteImpersonal :Person3 :Common "korj-éemabaʔ(a)"],
+                         [:Plural :Person1 :Common "korj-i-nóombaʔ(a)"],
+                         [:Plural :Person2 :Common "korj-i-téentabaʔ(a)"],
+                         [:Plural :Person3 :Common "korj-i-tóobaʔ(a)"]]
+                 }
+                {:label "alaaba-VCausativeCaustemAllomorph"
+                 :note "Schneider-Blum2007 Tables 48-53. There is both a simple and a double causative
             (caus,causD),each with two overlapping allomorphs,as follows:caus1 –s-,causD1
             –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these
             allomorphs in correlation with the stem-final consonant.."
-    :pdgmType :VOther
-    :common {:vmorphClass :CausativeAllomorphForms
-             :pos :Verb,
-             }
-    :terms [[:causativeAllomorph :lexeme :stemFinalC :token],
-            [:Causative1 :debeeʔl :GS-Res-Final "debeeʔlis- / debeessh"],
-            [:Causative1 :faar :R-final "faars"],
-            [:Causative1 :geeraar :R-final "geeraars"],
-            [:Causative1 :karaar :R-final "k’araars"],
-            [:Causative1 :liiʔl :GS-Res-Final "liiʔlis"],
-            [:Causative1 :saggaar :R-final "saggaars"],
-            [:Causative1 :shuur :R-final "shuurs"],
-            [:Causative1 :soor :R-final "soors"],
-            [:Causative1 :tur :R-final "t’urs"],
-            [:Causative1 :ʔaaʔl :GS-Res-Final "ʔaansh"],
-            [:Causative1 :ʔafuuʔl :GS-Res-Final "ʔafuuʔlis- / ʔafuussh"],
-            [:Causative1 :ʔalbaaʔl :GS-Res-Final "ʔalbaaʔlis- / ʔalbaassh"],
-            [:Causative1 :ʔamurʔ :GS-Res-Final "ʔamurs"],
-            [:Causative1 :ʔenkeʔn :GS-Res-Final "ʔenkeʔnis"],
-            [:Causative1-assim :dagelaal :L-final "dagelaassh"],
-            [:Causative1-assim :fankal :L-final "fank’assh"],
-            [:Causative1-assim :ful :L-final "fussh"],
-            [:Causative1-assim :gal :L-final "gassh"],
-            [:Causative1-assim :laal :L-final "laassh"],
-            [:Causative1-assim :mool :L-final "moossh"],
-            [:Causative1-assim :waal :L-final "waassh"],
-            [:Causative1-assim :wuliil :L-final "wuliissh"],
-            [:Causative2 :baad :D-final "baadsiis"],
-            [:Causative2 :boroor :R-final "boroorsiis"],
-            [:Causative2 :buur :R-final "buursiis"],
-            [:Causative2 :dad :D-final "dadsiis"],
-            [:Causative2 :dagud :D-final "degudsiis"],
-            [:Causative2 :door :R-final "doorsiis"],
-            [:Causative2 :dul :L-final "dulsiis"],
-            [:Causative2 :fiil :L-final "fiilsiis"],
-            [:Causative2 :folocc :CC-final "folocc’isiis"],
-            [:Causative2 :gaf :F-final "gafsiis"],
-            [:Causative2 :gaffar :R-final "gafarsiis"],
-            [:Causative2 :giir :R-final "girsiis"],
-            [:Causative2 :goof :F-final "goofsiis"],
-            [:Causative2 :hagir :R-final "hagirsiis"],
-            [:Causative2 :hambal :L-final "hambalsiis"],
-            [:Causative2 :hangaar :R-final "hangaarsiis"],
-            [:Causative2 :hankaf :F-final "hankafsiis- / hank’apsiis"],
-            [:Causative2 :haʔl :GS-Res-Final "haʔlisiis"],
-            [:Causative2 :heer :R-final "heersiis"],
-            [:Causative2 :heʔm :GS-Res-Final "heʔmisiis"],
-            [:Causative2 :hiir :R-final "hiirsiis"],
-            [:Causative2 :hir :R-final "hirsiis"],
-            [:Causative2 :hirʔ :GS-Res-Final "hirʔisiis"],
-            [:Causative2 :hocc :CC-final "hocc’isiis"],
-            [:Causative2 :jammar :R-final "jammarsiis"],
-            [:Causative2 :kaar :R-final "k’aarsiis"],
-            [:Causative2 :kacc :CC-final "k’aacc’isiis"],
-            [:Causative2 :kad :D-final "kadsiis"],
-            [:Causative2 :kar :R-final "karsiis"],
-            [:Causative2 :kor :R-final "k’orsiis"],
-            [:Causative2 :korʔ :GS-Res-Final "k’orʔisiis"],
-            [:Causative2 :kuf :F-final "k’ufsiis"],
-            [:Causative2 :kul :L-final "kulsiis"],
-            [:Causative2 :malal :L-final "malalsiis"],
-            [:Causative2 :mar :R-final "marsiis"],
-            [:Causative2 :marar :R-final "marar-siis"],
-            [:Causative2 :mecc :CC-final "mecc’isiis"],
-            [:Causative2 :med :D-final "medsiis"],
-            [:Causative2 :meed :D-final "meedsiis"],
-            [:Causative2 :meer :R-final "meersiis"],
-            [:Causative2 :miir :R-final "miirsiis"],
-            [:Causative2 :mooccoocc :CC-final "moocc’oocc’isiis"],
-            [:Causative2 :mur :R-final "mursiis’"],
-            [:Causative2 :shol :L-final "sholdiid"],
-            [:Causative2 :shuul :L-final "shuulsiis"],
-            [:Causative2 :taaf :F-final "t’aafsiis"],
-            [:Causative2 :taʔm :GS-Res-Final "t’aʔmisiis"],
-            [:Causative2 :tuf :F-final "t’upsiis"],
-            [:Causative2 :tuur :R-final "t’uursiis"],
-            [:Causative2 :uucc :CC-final "ʔucc’isiis"],
-            [:Causative2 :wod :D-final "wodsiis"],
-            [:Causative2 :wokkar :R-final "wokk’arsiis"],
-            [:Causative2 :wor :R-final "worsiis"],
-            [:Causative2 :worʔ :GS-Res-Final "worʔisiis"],
-            [:Causative2 :yaar :R-final "yaarsiis"],
-            [:Causative2 :ʔaar :R-final "ʔaarsiis"],
-            [:Causative2 :ʔaf :F-final "ʔapsiis"],
-            [:Causative2 :ʔagar :R-final "ʔagarsiis"],
-            [:Causative2 :ʔagur :R-final "ʔagursiis"],
-            [:Causative2 :ʔaguuʔm :GS-Res-Final "ʔaguuʔmisiis"],
-            [:Causative2 :ʔallaal :L-final "ʔallaalsiis"],
-            [:Causative2 :ʔanjicc :CC-final "ʔanjicc’isiis"],
-            [:Causative2 :ʔereer :R-final "ʔereersiis"],
-            [:Causative2 :ʔifood :D-final "ʔifoodsiis"],
-            [:Causative2 :ʔijaar :R-final "ʔijaarsiis"],
-            [:Causative2 :ʔil :L-final "ʔilsiis"],
-            [:Causative2 :ʔinkiil :L-final "ʔinkiilsiis"],
-            [:Causative2 :ʔosaʔl :GS-Res-Final "ʔosaʔlisiis- / ʔosalsiis"],
-            [:Causative2 :ʔud :D-final "ʔudsiis"],
-            [:Causative2 :ʔudul :L-final "ʔudulsiis"],
-            [:Causative2 :ʔul :L-final "ʔulsiis"],
-            [:Causative2 :ʔusur :R-final "ʔusursiis"],
-            [:Causative2-assim :ʔaaʔl :GS-Res-Final "ʔaaʔlisiis"],
-            [:CausativeD1 :dagelaal :L-final "dagelaalsiis"],
-            [:CausativeD1 :faar :R-final "faarsiis"],
-            [:CausativeD1 :ful :L-final "fulsiis"],
-            [:CausativeD1 :gal :L-final "galsiis"],
-            [:CausativeD1 :geeraar :R-final "geerarrsiis"],
-            [:CausativeD1 :karaar :R-final "k’araarsiis"],
-            [:CausativeD1 :laal :L-final "laalsiis"],
-            [:CausativeD1 :liiʔl :GS-Res-Final "liiʔlisiis"],
-            [:CausativeD1 :mool :L-final "moolsiis"],
-            [:CausativeD1 :saggaar :R-final "saggaarsiis"],
-            [:CausativeD1 :shuur :R-final "shuursiis"],
-            [:CausativeD1 :soor :R-final "soorsiis"],
-            [:CausativeD1 :tur :R-final "t’ursiis"],
-            [:CausativeD1 :waal :L-final "waalsiis"],
-            [:CausativeD1 :wuliil :L-final "wuliilsiis"],
-            [:CausativeD1 :ʔafuuʔl :GS-Res-Final "ʔafuulsiis"],
-            [:CausativeD1 :ʔalbaaʔl :GS-Res-Final "ʔalbaaʔlisiis- / ʔalbaalsiis"],
-            [:CausativeD1 :ʔamurʔ :GS-Res-Final "ʔamursiis- / ʔamurʔisiis"],
-            [:CausativeD1 :ʔenkeʔn :GS-Res-Final "ʔenkeʔnisiis"],
-            [:CausativeD1-assim :fankal :L-final "fank’asshisiis"],
-            [:CausativeD2 :baad :D-final "baadsiisiis"],
-            [:CausativeD2 :boroor :R-final "boroorsiisiis"],
-            [:CausativeD2 :buur :R-final "buursiisiis"],
-            [:CausativeD2 :dad :D-final "dadsiisiis"],
-            [:CausativeD2 :dagud :D-final "degudsiisiis"],
-            [:CausativeD2 :door :R-final "doorsiisiis"],
-            [:CausativeD2 :dul :L-final "dulsiisiis"],
-            [:CausativeD2 :fiil :L-final "fiilsiisiis"],
-            [:CausativeD2 :gaffar :R-final "gafarsiisiis"],
-            [:CausativeD2 :giir :R-final "girsiisiis"],
-            [:CausativeD2 :hagir :R-final "hagirsiisiis"],
-            [:CausativeD2 :hambal :L-final "hambalsiisiis"],
-            [:CausativeD2 :hangaar :R-final "hangaarsiisiis"],
-            [:CausativeD2 :heer :R-final "heersiisiis"],
-            [:CausativeD2 :hiir :R-final "hiirsiisiis"],
-            [:CausativeD2 :hir :R-final "hirsiisiis"],
-            [:CausativeD2 :jammar :R-final "jammarsiisiis"],
-            [:CausativeD2 :kaar :R-final "k’aarsiisiis"],
-            [:CausativeD2 :kad :D-final "kadsiisiis"],
-            [:CausativeD2 :kar :R-final "karsiisiis"],
-            [:CausativeD2 :kor :R-final "k’orsiisiis"],
-            [:CausativeD2 :kul :L-final "kulsiisiis"],
-            [:CausativeD2 :malal :L-final "malalsiisiis"],
-            [:CausativeD2 :mar :R-final "marsiisiis"],
-            [:CausativeD2 :marar :R-final "mararsiisiis"],
-            [:CausativeD2 :med :D-final "medsiisiis"],
-            [:CausativeD2 :meed :D-final "meedsiisiis"],
-            [:CausativeD2 :meer :R-final "meersiisiis"],
-            [:CausativeD2 :miir :R-final "miirsiisiis"],
-            [:CausativeD2 :mur :R-final "mursiisiis’"],
-            [:CausativeD2 :shol :L-final "sholsiisiis"],
-            [:CausativeD2 :shuul :L-final "shuulsiisiis"],
-            [:CausativeD2 :taaf :F-final "t’aafsiisiis"],
-            [:CausativeD2 :tuur :R-final "t’uursiisiis"],
-            [:CausativeD2 :wod :D-final "wodsiisiis"],
-            [:CausativeD2 :wor :R-final "worsiisiis"],
-            [:CausativeD2 :yaar :R-final "yaarsiisiis"],
-            [:CausativeD2 :ʔaar :R-final "ʔaarsiisiis"],
-            [:CausativeD2 :ʔagur :R-final "ʔagursiisiis"],
-            [:CausativeD2 :ʔallaal :L-final "ʔallaalsiisiis"],
-            [:CausativeD2 :ʔereer :R-final "ʔereersiisiis"],
-            [:CausativeD2 :ʔifood :D-final "ifoodsiisiis"],
-            [:CausativeD2 :ʔijaar :R-final "ʔijaarsiisiis"],
-            [:CausativeD2 :ʔil :L-final "ʔilsiisiis"],
-            [:CausativeD2 :ʔinkiil :L-final "ʔinkiilsiisiis"],
-            [:CausativeD2 :ʔud :D-final "udsiisiis"],
-            [:CausativeD2 :ʔudul :L-final "ʔudulsiisiis"],
-            [:CausativeD2 :ʔul :L-final "ʔulsiisiis"],
-            [:CausativeD2 :ʔusur :R-final "ʔusursiisiis"],
-            [:CausativeD2-assim :ʔaaʔl :GS-Res-Final "ʔaanshisiis"]]
-    }
-    {:label "alaaba-VAffImperfectiveSubjMarkerSuff"
-    :note "Schneider-Blum2007 p. 216"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarkerSuffAffImperf
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Imperfective,
-             :lexeme :SUBJSUFFIXAFFIMPERF,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-áam(i)"],
-            [:Singular :Person2 :Common "-táant(i)"],
-            [:Singular :Person3 :Masc "-án(o)"],
-            [:Singular :Person3 :Fem "-táa"],
-            [:PoliteImpersonal :Person3 :Common "-éen(o)"],
-            [:Plural :Person1 :Common "-náam(i)"],
-            [:Plural :Person2 :Common "-teenánt(a)"],
-            [:Plural :Person3 :Common "-táa"]]
-    }
-    {:label "alaaba-PProIndClit"
-    :note "Schneider-Blum2007 Table 27"
-    :pdgmType :PRO
-    :common {:lexeme :PROINDCLIT,
-             :pos :Pronoun}
-    :terms [[:case :proClass :number :person :gender :token],
-            [:Ablative :PronounIndependent :Singular :Person1 :Common "ʔíicc(i)"],
-            [:Ablative :PronounIndependent :Singular :Person2 :Common "kíicc(i)"],
-            [:Ablative :PronounIndependent :Singular :Person3 :Masc "ʔisíicc(i)"],
-            [:Ablative :PronounIndependent :Singular :Person3 :Fem "ʔiséecc(i)"],
-            [:Ablative :PronounIndependent :Plural :Person1 :Common "níicc(i)"],
-            [:Ablative :PronounIndependent :Plural :Person2 :Common "kiʔnéecc(i)"],
-            [:Ablative :PronounIndependent :Plural :Person3 :Common "ʔissáacc(i)"],
-            [:Absolutive :PronounClitic :Singular :Person1 :Common "-(ʔ)e"],
-            [:Absolutive :PronounClitic :Singular :Person2 :Common "-he / -ke"],
-            [:Absolutive :PronounClitic :Singular :Person3 :Masc "-si"],
-            [:Absolutive :PronounClitic :Singular :Person3 :Fem "-se"],
-            [:Absolutive :PronounClitic :Plural :Person1 :Common "-(n)ne"],
-            [:Absolutive :PronounClitic :Plural :Person2 :Common "-hiʔne / -kiʔne"],
-            [:Absolutive :PronounClitic :Plural :Person3 :Common "-(s)sa"],
-            [:Absolutive :PronounIndependent :Singular :Person1 :Common "ʔisá"],
-            [:Absolutive :PronounIndependent :Singular :Person2 :Common "kesá"],
-            [:Absolutive :PronounIndependent :Singular :Person3 :Masc "ʔisú"],
-            [:Absolutive :PronounIndependent :Singular :Person3 :Fem "ʔisét(a)"],
-            [:Absolutive :PronounIndependent :Plural :Person1 :Common "nesá"],
-            [:Absolutive :PronounIndependent :Plural :Person2 :Common "kiʔnét(a)"],
-            [:Absolutive :PronounIndependent :Plural :Person3 :Common "ʔissát(a)"],
-            [:Dative :PronounClitic :Singular :Person1 :Common "-(ʔ)e"],
-            [:Dative :PronounClitic :Singular :Person2 :Common "-he / -ke"],
-            [:Dative :PronounClitic :Singular :Person3 :Masc "-si"],
-            [:Dative :PronounClitic :Singular :Person3 :Fem "-se"],
-            [:Dative :PronounClitic :Plural :Person1 :Common "-(n)ne"],
-            [:Dative :PronounClitic :Plural :Person2 :Common "-hiʔne / -kiʔne"],
-            [:Dative :PronounClitic :Plural :Person3 :Common "-(s)sa"],
-            [:Dative :PronounIndependent :Singular :Person1 :Common "ʔesáa / ʔisáa"],
-            [:Dative :PronounIndependent :Singular :Person2 :Common "kesáa"],
-            [:Dative :PronounIndependent :Singular :Person3 :Masc "ʔisíih(a) / ʔisíi"],
-            [:Dative :PronounIndependent :Singular :Person3 :Fem "ʔisée"],
-            [:Dative :PronounIndependent :Plural :Person1 :Common "nesáa"],
-            [:Dative :PronounIndependent :Plural :Person2 :Common "kiʔnée"],
-            [:Dative :PronounIndependent :Plural :Person3 :Common "ʔissáa"],
-            [:Genitive :PronounClitic :Singular :Person1 :Common "-(ʔ)e"],
-            [:Genitive :PronounClitic :Singular :Person2 :Common "-ki"],
-            [:Genitive :PronounClitic :Singular :Person3 :Masc "-si"],
-            [:Genitive :PronounClitic :Singular :Person3 :Fem "-se"],
-            [:Genitive :PronounClitic :Plural :Person1 :Common "-(n)ne"],
-            [:Genitive :PronounClitic :Plural :Person2 :Common "-kiʔne"],
-            [:Genitive :PronounClitic :Plural :Person3 :Common "-(s)sa"],
-            [:Genitive :PronounIndependent :Singular :Person1 :Common "ʔii"],
-            [:Genitive :PronounIndependent :Singular :Person2 :Common "kii"],
-            [:Genitive :PronounIndependent :Singular :Person3 :Masc "ʔisi"],
-            [:Genitive :PronounIndependent :Singular :Person3 :Fem "ʔise"],
-            [:Genitive :PronounIndependent :Plural :Person1 :Common "nii"],
-            [:Genitive :PronounIndependent :Plural :Person2 :Common "kiʔne"],
-            [:Genitive :PronounIndependent :Plural :Person3 :Common "ʔissa"],
-            [:Instrumental :PronounIndependent :Singular :Person1 :Common "ʔíin(i)"],
-            [:Instrumental :PronounIndependent :Singular :Person2 :Common "kíin(i)"],
-            [:Instrumental :PronounIndependent :Singular :Person3 :Masc "ʔisíin(i)"],
-            [:Instrumental :PronounIndependent :Singular :Person3 :Fem "ʔiséen(i)"],
-            [:Instrumental :PronounIndependent :Plural :Person1 :Common "níin(i)"],
-            [:Instrumental :PronounIndependent :Plural :Person2 :Common "kiʔnéen(i)"],
-            [:Instrumental :PronounIndependent :Plural :Person3 :Common "ʔissáan(i)"],
-            [:Nominative :PronounIndependent :Singular :Person1 :Common "ʔán(i)"],
-            [:Nominative :PronounIndependent :Singular :Person2 :Common "ʔát(i)"],
-            [:Nominative :PronounIndependent :Singular :Person3 :Masc "ʔís(i)"],
-            [:Nominative :PronounIndependent :Singular :Person3 :Fem "ʔís(e)"],
-            [:Nominative :PronounIndependent :Plural :Person1 :Common "náʔ(u)"],
-            [:Nominative :PronounIndependent :Plural :Person2 :Common "ʔáʔn(u)"],
-            [:Nominative :PronounIndependent :Plural :Person3 :Common "ʔíss(a)"],
-            [:Similative :PronounIndependent :Singular :Person1 :Common "ʔíg(a)"],
-            [:Similative :PronounIndependent :Singular :Person2 :Common "kíg(a)"],
-            [:Similative :PronounIndependent :Singular :Person3 :Masc "ʔisíg(a)"],
-            [:Similative :PronounIndependent :Singular :Person3 :Fem "ʔiség(a)"],
-            [:Similative :PronounIndependent :Plural :Person1 :Common "níg(a)"],
-            [:Similative :PronounIndependent :Plural :Person2 :Common "kiʔnég(a)"],
-            [:Similative :PronounIndependent :Plural :Person3 :Common "ʔisság(a)"]]
-    }
-    {:label "alaaba-VAffFutProxSubjMarkerSuff"
-    :note "Schneider-Blum2007 p. 238"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarkerSuffAffFutProx
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :FutureProximate,
-             :lexeme :SUBJSUFFIXAFFFUTPROX,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-otáat(i)"],
-            [:Singular :Person2 :Common "-totáat(i)"],
-            [:Singular :Person3 :Masc "-otáat(i)"],
-            [:Singular :Person3 :Fem "-totáat(i)"],
-            [:PoliteImpersonal :Person3 :Common "-oonotáat(i)"],
-            [:Plural :Person1 :Common "-notáat(i)"],
-            [:Plural :Person2 :Common "-tonotáat(i)"],
-            [:Plural :Person3 :Common "-totáat(i)"]]
-    }
-    {:label "alaaba-PAbsPoss"
-    :note "Schneider-Blum2007 Table 29"
-    :pdgmType :PRO
-    :common {:case :Possessive,
-             :lexeme :PROPOSS,
-             :pos :Pronoun,
-             :proClass :AbsPoss}
-    :terms [[:genderHead :number :person :gender :token],
-            [:HeadFem :Singular :Person1 :Common "ʔíit(a)"],
-            [:HeadFem :Singular :Person2 :Common "kíit(a)"],
-            [:HeadFem :Singular :Person3 :Masc "ʔisíit(a)"],
-            [:HeadFem :Singular :Person3 :Fem "ʔeséet(a)"],
-            [:HeadFem :Plural :Person1 :Common "níit(a)"],
-            [:HeadFem :Plural :Person2 :Common "kiʔnéet(a)"],
-            [:HeadFem :Plural :Person3 :Common "ʔissát(a)"],
-            [:HeadMasc :Singular :Person1 :Common "ʔíih(a)"],
-            [:HeadMasc :Singular :Person2 :Common "kíih(a)"],
-            [:HeadMasc :Singular :Person3 :Masc "ʔisíih(a)"],
-            [:HeadMasc :Singular :Person3 :Fem "ʔeséeh(a)"],
-            [:HeadMasc :Plural :Person1 :Common "níih(a)"],
-            [:HeadMasc :Plural :Person2 :Common "kiʔnéeh(a)"],
-            [:HeadMasc :Plural :Person3 :Common "ʔissáh(a)"]]
-    }
-    {:label "alaaba-VCopula"
-    :note "Schneider-Blum2007 p. 202"
-    :pdgmType :FiniteCopula
-    :common {:pos :Verb,
-             :lexeme :COPULA,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "yóom(i)"],
-            [:Singular :Person2 :Common "yóont(i)"],
-            [:Singular :Person3 :Masc "yóo"],
-            [:Singular :Person3 :Fem "yóo"],
-            [:Polite :Common :Common "yóom(a)"],
-            [:Plural :Person1 :Common "yóom(i)"],
-            [:Plural :Person2 :Common "yóont(a)"],
-            [:Plural :Person3 :Common "yóo"]]
-    }
-    {:label "alaaba-VAffAnteriorPerfY"
-    :note "Schneider-Blum2007 p. 210"
-    :pdgmType :Finite
-    :common {:lexeme :y,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :AnteriorPerfect}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "yiyóomm(i)"],
-            [:Singular :Person2 :Common "yítoont(i)"],
-            [:Singular :Person3 :Masc "yiyóoʔ(u)"],
-            [:Singular :Person3 :Fem "yitóoʔ(u)"],
-            [:PoliteImpersonal :Person3 :Common "yéemaʔ(a)"],
-            [:Plural :Person1 :Common "yinóomm(i)"],
-            [:Plural :Person2 :Common "yitéentaʔ(a)"],
-            [:Plural :Person3 :Common "yitóoʔ(u)"]]
-    }
-    {:label "alaaba-VAffPerfectiveKorj"
-    :note "Schneider-Blum2007 p. p. 204"
-    :pdgmType :Finite
-    :common {:lexeme :korj,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Perfective}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "korj-éem(i)"],
-            [:Singular :Person2 :Common "korj-i-tóont(i)"],
-            [:Singular :Person3 :Masc "korj-ée"],
-            [:Singular :Person3 :Fem "korj-i-tóo"],
-            [:PoliteImpersonal :Person3 :Common "korj-éem(a)"],
-            [:Plural :Person1 :Common "korj-i-nóom(i)"],
-            [:Plural :Person2 :Common "korj-i-téent(a)"],
-            [:Plural :Person3 :Common "korj-i-tóo"]]
-    }
-    {:label "alaaba-VAffAnteriorPerfUb"
-    :note "Schneider-Blum2007 p. 206"
-    :pdgmType :Finite
-    :common {:lexeme :ub,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :AnteriorPerfect}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ʔán(i) ʔubbóomm(i)"],
-            [:Singular :Person2 :Common "ʔát(i) ʔúbboont(i)"],
-            [:Singular :Person3 :Masc "ʔís(i) ʔubbóoʔ(u)"],
-            [:Singular :Person3 :Fem "ʔís(e) ʔubbóoʔ(u)"],
-            [:PoliteImpersonal :Person3 :Common "ʔíss(a) ʔubéemaʔ(a)"],
-            [:Plural :Person1 :Common "náʔ(u) ʔúmboom(i)"],
-            [:Plural :Person2 :Common "ʔáʔn(u) ʔubbéentaʔ(a)"],
-            [:Plural :Person3 :Common "ʔíss(a) ʔubbóoʔ(u)"]]
-    }
-    {:label "alaaba-VConverbAmeet"
-    :note "Schneider-Blum2007 p. 244"
-    :pdgmType :Finite
-    :common {:lexeme :ameet,
-             :pos :Verb,
-             :tam :Converb}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ʔaméecc-(i)"],
-            [:Singular :Person2 :Common "ʔaméet-t(i)"],
-            [:Singular :Person3 :Masc "ʔaméecc-(i)"],
-            [:Singular :Person3 :Fem "ʔaméet-t(i)"],
-            [:Polite :Person3 :Common "ʔameet-éen(i)"],
-            [:Plural :Person1 :Common "ʔaméent-(i)"],
-            [:Plural :Person2 :Common "ʔameet-téen(i)"],
-            [:Plural :Person3 :Common "ʔaméet-t(i)"]]
-    }
-    {:label "alaaba-VDervStem"
-    :note "Schneider-Blum2007 Table 54"
-    :pdgmType :VOther
-    :common {:vmorphClass :DervStemSuff
-             :pos :Verb}
-    :terms [[:derivedStem :token],
-            [:Causal-middle "-(i)s-akk’"],
-            [:Causal-passive "-(i)s-am"],
-            [:Causal-reciprocal "-(i)s-akk’am"],
-            [:CausativeD "-(i)siis-/-(i)siisiis"],
-            [:CausativeSimple1 "-(i)s-/-iis-/-ees-/-(i)siis"],
-            [:Detransitivize "-taʔ"],
-            [:Inchoative "-aahh"],
-            [:Iterative "-ans"],
-            [:Middel "-akk’-(-aʔʔ-)/-?"],
-            [:Passive "-am"],
-            [:Passive-caus "-am-is"],
-            [:Pluractional "(reduplication)"],
-            [:Pluractional-transitivize "-aʔ"],
-            [:Pluractional-transitivize-caus "-aʔ-is"],
-            [:Pluractional-transitivize-caus-passive "-aʔ-is-am"],
-            [:Pluractional-transitivize-causD "-aʔ-isiis"],
-            [:Reciprocal "-akk’am-/-ʔam"],
-            [:Reciprocal-caus "-akk’am-siis"],
-            [:Transitivize "-aʔ"],
-            [:Transitivize-caus "-aʔ-is"]]
-    }
-    {:label "alaaba-VSubjMarkers"
-    :note "Schneider-Blum2007 p. 201"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarkers
-             :pos :Verb,
-             :lexeme :SUBJMARK,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "⊤"],
-            [:Singular :Person2 :Common "t"],
-            [:Singular :Person3 :Masc "⊤"],
-            [:Singular :Person3 :Fem "t"],
-            [:Plural :Person1 :Common "n"],
-            [:Plural :Person2 :Common "t"],
-            [:Plural :Person3 :Common "_NULL"]]
-    }
-    {:label "alaaba-VNegProgressiveKorj"
-    :note "Schneider-Blum2007 p. p. 221"
-    :pdgmType :Finite
-    :common {:lexeme :korj,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Progressive}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "korj-aamíibbaʔ(a)"],
-            [:Singular :Person2 :Common "korj-i-táantiitibaʔ(a)"],
-            [:Singular :Person3 :Masc "korj-anóobbaʔ(a)"],
-            [:Singular :Person3 :Fem "korj-i-táaʔiitibaʔ(a)"],
-            [:PoliteImpersonal :Person3 :Common "korj-éenoobbaʔ(a)"],
-            [:Plural :Person1 :Common "korj-i-naamíitibaʔ(a)"],
-            [:Plural :Person2 :Common "korj-i-teenántaabbaʔ(a)"],
-            [:Plural :Person3 :Common "korj-i-táaʔiitibaʔ(a)"]]
-    }
-    {:label "alaaba-VPosteriorSubOrroo"
-    :note "Schneider-Blum2007 p. 266"
-    :pdgmType :Finite
-    :common {:lexeme :orroo,
-             :pos :Verb,
-             :tam :PosteriorSub}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ʔorrooʔ-uʔnáan(i)"],
-            [:Singular :Person2 :Common "ʔorrooʔ-tuʔnáan(i)"],
-            [:Singular :Person3 :Masc "ʔorrooʔ-uʔnáan(i)"],
-            [:Singular :Person3 :Fem "ʔorrooʔ-tuʔnáan(i)"],
-            [:Plural :Person1 :Common "ʔorrooʔ-nuʔnáan(i)"],
-            [:Plural :Person2 :Common "ʔorrooʔ-toonuʔnáan(i)"],
-            [:Plural :Person3 :Common "ʔorrooʔ-ooʔnáan(i)"]]
-    }
-    {:label "alaaba-VNegProgressiveSubjMarkerSuff"
-    :note "Schneider-Blum2007 p. 221"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarkerSuffNegProf
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Progressive,
-             :lexeme :SUBJSUFFIXNEGPROG,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-aamíibbaʔ(a)"],
-            [:Singular :Person2 :Common "-táantiitibaʔ(a)"],
-            [:Singular :Person3 :Masc "-anóobbaʔ(a)"],
-            [:Singular :Person3 :Fem "-táaʔiitibaʔ(a)"],
-            [:PoliteImpersonal :Person3 :Common "-éenoobbaʔ(a)"],
-            [:Plural :Person1 :Common "-naamíitibaʔ(a)"],
-            [:Plural :Person2 :Common "-teenántaabbaʔ(a)"],
-            [:Plural :Person3 :Common "-táaʔiitibaʔ(a)"]]
-    }
-    {:label "alaaba-VKorj-"
-    :note "Schneider-Blum2007 p. 238"
-    :pdgmType :Finite
-    :common {:lexeme :korj,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :TensefutProx}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ʔán(i) korj-o-táat(i)"],
-            [:Singular :Person2 :Common "ʔát(i) korj-i-t-o-táat(i)"],
-            [:Singular :Person3 :Masc "ʔís(i) korj-o-táat(i)"],
-            [:Singular :Person3 :Fem "ʔís(e) korj-i-t-o-táat(i)"],
-            [:PoliteImpersonal :Person3 :Common "ʔíss(a) korj-oon-o-táat(i)"],
-            [:Plural :Person1 :Common "náʔ(u) korj-i-n-o-táat(i)"],
-            [:Plural :Person2 :Common "ʔáʔn(u) korj-i-ton-o-táat(i)"],
-            [:Plural :Person3 :Common "ʔíss(a) korj-i-t-o-táat(i)"]]
-    }
-    {:label "alaaba-VPurpSub"
-    :note "Schneider-Blum2007 Table 44"
-    :pdgmType :Finite
-    :common {:pos :Verb,
-             :lexeme :SUBJSUFFIXPURP,
-             :tam :PurposiveSub}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-ót(a)"],
-            [:Singular :Person2 :Common "-tót(a)"],
-            [:Singular :Person3 :Masc "-ót(a)"],
-            [:Singular :Person3 :Fem "-tót(a)"],
-            [:Singular :Person3 :Common "-oonót(a)"],
-            [:Plural :Person1 :Common "-nót(a)"],
-            [:Plural :Person2 :Common "-toonót(a)"],
-            [:Plural :Person3 :Common "-tót(a)"]]
-    }
+                 :common {:vmorphClass :CausativeAllomorphForms
+                          :pos :Verb,
+                          }
+                 :terms [[:causativeAllomorph :lexeme :stemFinalC :token],
+                         [:Causative1 :debeeʔl :GS-Res-Final "debeeʔlis- / debeessh"],
+                         [:Causative1 :faar :R-final "faars"],
+                         [:Causative1 :geeraar :R-final "geeraars"],
+                         [:Causative1 :karaar :R-final "k’araars"],
+                         [:Causative1 :liiʔl :GS-Res-Final "liiʔlis"],
+                         [:Causative1 :saggaar :R-final "saggaars"],
+                         [:Causative1 :shuur :R-final "shuurs"],
+                         [:Causative1 :soor :R-final "soors"],
+                         [:Causative1 :tur :R-final "t’urs"],
+                         [:Causative1 :ʔaaʔl :GS-Res-Final "ʔaansh"],
+                         [:Causative1 :ʔafuuʔl :GS-Res-Final "ʔafuuʔlis- / ʔafuussh"],
+                         [:Causative1 :ʔalbaaʔl :GS-Res-Final "ʔalbaaʔlis- / ʔalbaassh"],
+                         [:Causative1 :ʔamurʔ :GS-Res-Final "ʔamurs"],
+                         [:Causative1 :ʔenkeʔn :GS-Res-Final "ʔenkeʔnis"],
+                         [:Causative1-assim :dagelaal :L-final "dagelaassh"],
+                         [:Causative1-assim :fankal :L-final "fank’assh"],
+                         [:Causative1-assim :ful :L-final "fussh"],
+                         [:Causative1-assim :gal :L-final "gassh"],
+                         [:Causative1-assim :laal :L-final "laassh"],
+                         [:Causative1-assim :mool :L-final "moossh"],
+                         [:Causative1-assim :waal :L-final "waassh"],
+                         [:Causative1-assim :wuliil :L-final "wuliissh"],
+                         [:Causative2 :baad :D-final "baadsiis"],
+                         [:Causative2 :boroor :R-final "boroorsiis"],
+                         [:Causative2 :buur :R-final "buursiis"],
+                         [:Causative2 :dad :D-final "dadsiis"],
+                         [:Causative2 :dagud :D-final "degudsiis"],
+                         [:Causative2 :door :R-final "doorsiis"],
+                         [:Causative2 :dul :L-final "dulsiis"],
+                         [:Causative2 :fiil :L-final "fiilsiis"],
+                         [:Causative2 :folocc :CC-final "folocc’isiis"],
+                         [:Causative2 :gaf :F-final "gafsiis"],
+                         [:Causative2 :gaffar :R-final "gafarsiis"],
+                         [:Causative2 :giir :R-final "girsiis"],
+                         [:Causative2 :goof :F-final "goofsiis"],
+                         [:Causative2 :hagir :R-final "hagirsiis"],
+                         [:Causative2 :hambal :L-final "hambalsiis"],
+                         [:Causative2 :hangaar :R-final "hangaarsiis"],
+                         [:Causative2 :hankaf :F-final "hankafsiis- / hank’apsiis"],
+                         [:Causative2 :haʔl :GS-Res-Final "haʔlisiis"],
+                         [:Causative2 :heer :R-final "heersiis"],
+                         [:Causative2 :heʔm :GS-Res-Final "heʔmisiis"],
+                         [:Causative2 :hiir :R-final "hiirsiis"],
+                         [:Causative2 :hir :R-final "hirsiis"],
+                         [:Causative2 :hirʔ :GS-Res-Final "hirʔisiis"],
+                         [:Causative2 :hocc :CC-final "hocc’isiis"],
+                         [:Causative2 :jammar :R-final "jammarsiis"],
+                         [:Causative2 :kaar :R-final "k’aarsiis"],
+                         [:Causative2 :kacc :CC-final "k’aacc’isiis"],
+                         [:Causative2 :kad :D-final "kadsiis"],
+                         [:Causative2 :kar :R-final "karsiis"],
+                         [:Causative2 :kor :R-final "k’orsiis"],
+                         [:Causative2 :korʔ :GS-Res-Final "k’orʔisiis"],
+                         [:Causative2 :kuf :F-final "k’ufsiis"],
+                         [:Causative2 :kul :L-final "kulsiis"],
+                         [:Causative2 :malal :L-final "malalsiis"],
+                         [:Causative2 :mar :R-final "marsiis"],
+                         [:Causative2 :marar :R-final "marar-siis"],
+                         [:Causative2 :mecc :CC-final "mecc’isiis"],
+                         [:Causative2 :med :D-final "medsiis"],
+                         [:Causative2 :meed :D-final "meedsiis"],
+                         [:Causative2 :meer :R-final "meersiis"],
+                         [:Causative2 :miir :R-final "miirsiis"],
+                         [:Causative2 :mooccoocc :CC-final "moocc’oocc’isiis"],
+                         [:Causative2 :mur :R-final "mursiis’"],
+                         [:Causative2 :shol :L-final "sholdiid"],
+                         [:Causative2 :shuul :L-final "shuulsiis"],
+                         [:Causative2 :taaf :F-final "t’aafsiis"],
+                         [:Causative2 :taʔm :GS-Res-Final "t’aʔmisiis"],
+                         [:Causative2 :tuf :F-final "t’upsiis"],
+                         [:Causative2 :tuur :R-final "t’uursiis"],
+                         [:Causative2 :uucc :CC-final "ʔucc’isiis"],
+                         [:Causative2 :wod :D-final "wodsiis"],
+                         [:Causative2 :wokkar :R-final "wokk’arsiis"],
+                         [:Causative2 :wor :R-final "worsiis"],
+                         [:Causative2 :worʔ :GS-Res-Final "worʔisiis"],
+                         [:Causative2 :yaar :R-final "yaarsiis"],
+                         [:Causative2 :ʔaar :R-final "ʔaarsiis"],
+                         [:Causative2 :ʔaf :F-final "ʔapsiis"],
+                         [:Causative2 :ʔagar :R-final "ʔagarsiis"],
+                         [:Causative2 :ʔagur :R-final "ʔagursiis"],
+                         [:Causative2 :ʔaguuʔm :GS-Res-Final "ʔaguuʔmisiis"],
+                         [:Causative2 :ʔallaal :L-final "ʔallaalsiis"],
+                         [:Causative2 :ʔanjicc :CC-final "ʔanjicc’isiis"],
+                         [:Causative2 :ʔereer :R-final "ʔereersiis"],
+                         [:Causative2 :ʔifood :D-final "ʔifoodsiis"],
+                         [:Causative2 :ʔijaar :R-final "ʔijaarsiis"],
+                         [:Causative2 :ʔil :L-final "ʔilsiis"],
+                         [:Causative2 :ʔinkiil :L-final "ʔinkiilsiis"],
+                         [:Causative2 :ʔosaʔl :GS-Res-Final "ʔosaʔlisiis- / ʔosalsiis"],
+                         [:Causative2 :ʔud :D-final "ʔudsiis"],
+                         [:Causative2 :ʔudul :L-final "ʔudulsiis"],
+                         [:Causative2 :ʔul :L-final "ʔulsiis"],
+                         [:Causative2 :ʔusur :R-final "ʔusursiis"],
+                         [:Causative2-assim :ʔaaʔl :GS-Res-Final "ʔaaʔlisiis"],
+                         [:CausativeD1 :dagelaal :L-final "dagelaalsiis"],
+                         [:CausativeD1 :faar :R-final "faarsiis"],
+                         [:CausativeD1 :ful :L-final "fulsiis"],
+                         [:CausativeD1 :gal :L-final "galsiis"],
+                         [:CausativeD1 :geeraar :R-final "geerarrsiis"],
+                         [:CausativeD1 :karaar :R-final "k’araarsiis"],
+                         [:CausativeD1 :laal :L-final "laalsiis"],
+                         [:CausativeD1 :liiʔl :GS-Res-Final "liiʔlisiis"],
+                         [:CausativeD1 :mool :L-final "moolsiis"],
+                         [:CausativeD1 :saggaar :R-final "saggaarsiis"],
+                         [:CausativeD1 :shuur :R-final "shuursiis"],
+                         [:CausativeD1 :soor :R-final "soorsiis"],
+                         [:CausativeD1 :tur :R-final "t’ursiis"],
+                         [:CausativeD1 :waal :L-final "waalsiis"],
+                         [:CausativeD1 :wuliil :L-final "wuliilsiis"],
+                         [:CausativeD1 :ʔafuuʔl :GS-Res-Final "ʔafuulsiis"],
+                         [:CausativeD1 :ʔalbaaʔl :GS-Res-Final "ʔalbaaʔlisiis- / ʔalbaalsiis"],
+                         [:CausativeD1 :ʔamurʔ :GS-Res-Final "ʔamursiis- / ʔamurʔisiis"],
+                         [:CausativeD1 :ʔenkeʔn :GS-Res-Final "ʔenkeʔnisiis"],
+                         [:CausativeD1-assim :fankal :L-final "fank’asshisiis"],
+                         [:CausativeD2 :baad :D-final "baadsiisiis"],
+                         [:CausativeD2 :boroor :R-final "boroorsiisiis"],
+                         [:CausativeD2 :buur :R-final "buursiisiis"],
+                         [:CausativeD2 :dad :D-final "dadsiisiis"],
+                         [:CausativeD2 :dagud :D-final "degudsiisiis"],
+                         [:CausativeD2 :door :R-final "doorsiisiis"],
+                         [:CausativeD2 :dul :L-final "dulsiisiis"],
+                         [:CausativeD2 :fiil :L-final "fiilsiisiis"],
+                         [:CausativeD2 :gaffar :R-final "gafarsiisiis"],
+                         [:CausativeD2 :giir :R-final "girsiisiis"],
+                         [:CausativeD2 :hagir :R-final "hagirsiisiis"],
+                         [:CausativeD2 :hambal :L-final "hambalsiisiis"],
+                         [:CausativeD2 :hangaar :R-final "hangaarsiisiis"],
+                         [:CausativeD2 :heer :R-final "heersiisiis"],
+                         [:CausativeD2 :hiir :R-final "hiirsiisiis"],
+                         [:CausativeD2 :hir :R-final "hirsiisiis"],
+                         [:CausativeD2 :jammar :R-final "jammarsiisiis"],
+                         [:CausativeD2 :kaar :R-final "k’aarsiisiis"],
+                         [:CausativeD2 :kad :D-final "kadsiisiis"],
+                         [:CausativeD2 :kar :R-final "karsiisiis"],
+                         [:CausativeD2 :kor :R-final "k’orsiisiis"],
+                         [:CausativeD2 :kul :L-final "kulsiisiis"],
+                         [:CausativeD2 :malal :L-final "malalsiisiis"],
+                         [:CausativeD2 :mar :R-final "marsiisiis"],
+                         [:CausativeD2 :marar :R-final "mararsiisiis"],
+                         [:CausativeD2 :med :D-final "medsiisiis"],
+                         [:CausativeD2 :meed :D-final "meedsiisiis"],
+                         [:CausativeD2 :meer :R-final "meersiisiis"],
+                         [:CausativeD2 :miir :R-final "miirsiisiis"],
+                         [:CausativeD2 :mur :R-final "mursiisiis’"],
+                         [:CausativeD2 :shol :L-final "sholsiisiis"],
+                         [:CausativeD2 :shuul :L-final "shuulsiisiis"],
+                         [:CausativeD2 :taaf :F-final "t’aafsiisiis"],
+                         [:CausativeD2 :tuur :R-final "t’uursiisiis"],
+                         [:CausativeD2 :wod :D-final "wodsiisiis"],
+                         [:CausativeD2 :wor :R-final "worsiisiis"],
+                         [:CausativeD2 :yaar :R-final "yaarsiisiis"],
+                         [:CausativeD2 :ʔaar :R-final "ʔaarsiisiis"],
+                         [:CausativeD2 :ʔagur :R-final "ʔagursiisiis"],
+                         [:CausativeD2 :ʔallaal :L-final "ʔallaalsiisiis"],
+                         [:CausativeD2 :ʔereer :R-final "ʔereersiisiis"],
+                         [:CausativeD2 :ʔifood :D-final "ifoodsiisiis"],
+                         [:CausativeD2 :ʔijaar :R-final "ʔijaarsiisiis"],
+                         [:CausativeD2 :ʔil :L-final "ʔilsiisiis"],
+                         [:CausativeD2 :ʔinkiil :L-final "ʔinkiilsiisiis"],
+                         [:CausativeD2 :ʔud :D-final "udsiisiis"],
+                         [:CausativeD2 :ʔudul :L-final "ʔudulsiisiis"],
+                         [:CausativeD2 :ʔul :L-final "ʔulsiisiis"],
+                         [:CausativeD2 :ʔusur :R-final "ʔusursiisiis"],
+                         [:CausativeD2-assim :ʔaaʔl :GS-Res-Final "ʔaanshisiis"]]
+                 }
+                {:label "alaaba-VAffImperfectiveSubjMarkerSuff"
+                 :note "Schneider-Blum2007 p. 216"
+                 :common {:vmorphClass :SubjMarkerSuffAffImperf
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfective,
+                          :lexeme :SUBJSUFFIXAFFIMPERF,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-áam(i)"],
+                         [:Singular :Person2 :Common "-táant(i)"],
+                         [:Singular :Person3 :Masc "-án(o)"],
+                         [:Singular :Person3 :Fem "-táa"],
+                         [:PoliteImpersonal :Person3 :Common "-éen(o)"],
+                         [:Plural :Person1 :Common "-náam(i)"],
+                         [:Plural :Person2 :Common "-teenánt(a)"],
+                         [:Plural :Person3 :Common "-táa"]]
+                 }
+                {:label "alaaba-PProIndClit"
+                 :note "Schneider-Blum2007 Table 27"
+                 :common {:lexeme :PROINDCLIT,
+                          :pos :Pronoun}
+                 :terms [[:case :proClass :number :person :gender :token],
+                         [:Ablative :PronounIndependent :Singular :Person1 :Common "ʔíicc(i)"],
+                         [:Ablative :PronounIndependent :Singular :Person2 :Common "kíicc(i)"],
+                         [:Ablative :PronounIndependent :Singular :Person3 :Masc "ʔisíicc(i)"],
+                         [:Ablative :PronounIndependent :Singular :Person3 :Fem "ʔiséecc(i)"],
+                         [:Ablative :PronounIndependent :Plural :Person1 :Common "níicc(i)"],
+                         [:Ablative :PronounIndependent :Plural :Person2 :Common "kiʔnéecc(i)"],
+                         [:Ablative :PronounIndependent :Plural :Person3 :Common "ʔissáacc(i)"],
+                         [:Absolutive :PronounClitic :Singular :Person1 :Common "-(ʔ)e"],
+                         [:Absolutive :PronounClitic :Singular :Person2 :Common "-he / -ke"],
+                         [:Absolutive :PronounClitic :Singular :Person3 :Masc "-si"],
+                         [:Absolutive :PronounClitic :Singular :Person3 :Fem "-se"],
+                         [:Absolutive :PronounClitic :Plural :Person1 :Common "-(n)ne"],
+                         [:Absolutive :PronounClitic :Plural :Person2 :Common "-hiʔne / -kiʔne"],
+                         [:Absolutive :PronounClitic :Plural :Person3 :Common "-(s)sa"],
+                         [:Absolutive :PronounIndependent :Singular :Person1 :Common "ʔisá"],
+                         [:Absolutive :PronounIndependent :Singular :Person2 :Common "kesá"],
+                         [:Absolutive :PronounIndependent :Singular :Person3 :Masc "ʔisú"],
+                         [:Absolutive :PronounIndependent :Singular :Person3 :Fem "ʔisét(a)"],
+                         [:Absolutive :PronounIndependent :Plural :Person1 :Common "nesá"],
+                         [:Absolutive :PronounIndependent :Plural :Person2 :Common "kiʔnét(a)"],
+                         [:Absolutive :PronounIndependent :Plural :Person3 :Common "ʔissát(a)"],
+                         [:Dative :PronounClitic :Singular :Person1 :Common "-(ʔ)e"],
+                         [:Dative :PronounClitic :Singular :Person2 :Common "-he / -ke"],
+                         [:Dative :PronounClitic :Singular :Person3 :Masc "-si"],
+                         [:Dative :PronounClitic :Singular :Person3 :Fem "-se"],
+                         [:Dative :PronounClitic :Plural :Person1 :Common "-(n)ne"],
+                         [:Dative :PronounClitic :Plural :Person2 :Common "-hiʔne / -kiʔne"],
+                         [:Dative :PronounClitic :Plural :Person3 :Common "-(s)sa"],
+                         [:Dative :PronounIndependent :Singular :Person1 :Common "ʔesáa / ʔisáa"],
+                         [:Dative :PronounIndependent :Singular :Person2 :Common "kesáa"],
+                         [:Dative :PronounIndependent :Singular :Person3 :Masc "ʔisíih(a) / ʔisíi"],
+                         [:Dative :PronounIndependent :Singular :Person3 :Fem "ʔisée"],
+                         [:Dative :PronounIndependent :Plural :Person1 :Common "nesáa"],
+                         [:Dative :PronounIndependent :Plural :Person2 :Common "kiʔnée"],
+                         [:Dative :PronounIndependent :Plural :Person3 :Common "ʔissáa"],
+                         [:Genitive :PronounClitic :Singular :Person1 :Common "-(ʔ)e"],
+                         [:Genitive :PronounClitic :Singular :Person2 :Common "-ki"],
+                         [:Genitive :PronounClitic :Singular :Person3 :Masc "-si"],
+                         [:Genitive :PronounClitic :Singular :Person3 :Fem "-se"],
+                         [:Genitive :PronounClitic :Plural :Person1 :Common "-(n)ne"],
+                         [:Genitive :PronounClitic :Plural :Person2 :Common "-kiʔne"],
+                         [:Genitive :PronounClitic :Plural :Person3 :Common "-(s)sa"],
+                         [:Genitive :PronounIndependent :Singular :Person1 :Common "ʔii"],
+                         [:Genitive :PronounIndependent :Singular :Person2 :Common "kii"],
+                         [:Genitive :PronounIndependent :Singular :Person3 :Masc "ʔisi"],
+                         [:Genitive :PronounIndependent :Singular :Person3 :Fem "ʔise"],
+                         [:Genitive :PronounIndependent :Plural :Person1 :Common "nii"],
+                         [:Genitive :PronounIndependent :Plural :Person2 :Common "kiʔne"],
+                         [:Genitive :PronounIndependent :Plural :Person3 :Common "ʔissa"],
+                         [:Instrumental :PronounIndependent :Singular :Person1 :Common "ʔíin(i)"],
+                         [:Instrumental :PronounIndependent :Singular :Person2 :Common "kíin(i)"],
+                         [:Instrumental :PronounIndependent :Singular :Person3 :Masc "ʔisíin(i)"],
+                         [:Instrumental :PronounIndependent :Singular :Person3 :Fem "ʔiséen(i)"],
+                         [:Instrumental :PronounIndependent :Plural :Person1 :Common "níin(i)"],
+                         [:Instrumental :PronounIndependent :Plural :Person2 :Common "kiʔnéen(i)"],
+                         [:Instrumental :PronounIndependent :Plural :Person3 :Common "ʔissáan(i)"],
+                         [:Nominative :PronounIndependent :Singular :Person1 :Common "ʔán(i)"],
+                         [:Nominative :PronounIndependent :Singular :Person2 :Common "ʔát(i)"],
+                         [:Nominative :PronounIndependent :Singular :Person3 :Masc "ʔís(i)"],
+                         [:Nominative :PronounIndependent :Singular :Person3 :Fem "ʔís(e)"],
+                         [:Nominative :PronounIndependent :Plural :Person1 :Common "náʔ(u)"],
+                         [:Nominative :PronounIndependent :Plural :Person2 :Common "ʔáʔn(u)"],
+                         [:Nominative :PronounIndependent :Plural :Person3 :Common "ʔíss(a)"],
+                         [:Similative :PronounIndependent :Singular :Person1 :Common "ʔíg(a)"],
+                         [:Similative :PronounIndependent :Singular :Person2 :Common "kíg(a)"],
+                         [:Similative :PronounIndependent :Singular :Person3 :Masc "ʔisíg(a)"],
+                         [:Similative :PronounIndependent :Singular :Person3 :Fem "ʔiség(a)"],
+                         [:Similative :PronounIndependent :Plural :Person1 :Common "níg(a)"],
+                         [:Similative :PronounIndependent :Plural :Person2 :Common "kiʔnég(a)"],
+                         [:Similative :PronounIndependent :Plural :Person3 :Common "ʔisság(a)"]]
+                 }
+                {:label "alaaba-VAffFutProxSubjMarkerSuff"
+                 :note "Schneider-Blum2007 p. 238"
+                 :common {:vmorphClass :SubjMarkerSuffAffFutProx
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :FutureProximate,
+                          :lexeme :SUBJSUFFIXAFFFUTPROX,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-otáat(i)"],
+                         [:Singular :Person2 :Common "-totáat(i)"],
+                         [:Singular :Person3 :Masc "-otáat(i)"],
+                         [:Singular :Person3 :Fem "-totáat(i)"],
+                         [:PoliteImpersonal :Person3 :Common "-oonotáat(i)"],
+                         [:Plural :Person1 :Common "-notáat(i)"],
+                         [:Plural :Person2 :Common "-tonotáat(i)"],
+                         [:Plural :Person3 :Common "-totáat(i)"]]
+                 }
+                {:label "alaaba-PAbsPoss"
+                 :note "Schneider-Blum2007 Table 29"
+                 :common {:case :Possessive,
+                          :lexeme :PROPOSS,
+                          :pos :Pronoun,
+                          :proClass :AbsPoss}
+                 :terms [[:genderHead :number :person :gender :token],
+                         [:HeadFem :Singular :Person1 :Common "ʔíit(a)"],
+                         [:HeadFem :Singular :Person2 :Common "kíit(a)"],
+                         [:HeadFem :Singular :Person3 :Masc "ʔisíit(a)"],
+                         [:HeadFem :Singular :Person3 :Fem "ʔeséet(a)"],
+                         [:HeadFem :Plural :Person1 :Common "níit(a)"],
+                         [:HeadFem :Plural :Person2 :Common "kiʔnéet(a)"],
+                         [:HeadFem :Plural :Person3 :Common "ʔissát(a)"],
+                         [:HeadMasc :Singular :Person1 :Common "ʔíih(a)"],
+                         [:HeadMasc :Singular :Person2 :Common "kíih(a)"],
+                         [:HeadMasc :Singular :Person3 :Masc "ʔisíih(a)"],
+                         [:HeadMasc :Singular :Person3 :Fem "ʔeséeh(a)"],
+                         [:HeadMasc :Plural :Person1 :Common "níih(a)"],
+                         [:HeadMasc :Plural :Person2 :Common "kiʔnéeh(a)"],
+                         [:HeadMasc :Plural :Person3 :Common "ʔissáh(a)"]]
+                 }
+                {:label "alaaba-VCopula"
+                 :note "Schneider-Blum2007 p. 202"
+                 :common {:vmorphclass :FiniteCopula
+                          :pos :Verb,
+                          :lexeme :COPULA,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "yóom(i)"],
+                         [:Singular :Person2 :Common "yóont(i)"],
+                         [:Singular :Person3 :Masc "yóo"],
+                         [:Singular :Person3 :Fem "yóo"],
+                         [:Polite :Common :Common "yóom(a)"],
+                         [:Plural :Person1 :Common "yóom(i)"],
+                         [:Plural :Person2 :Common "yóont(a)"],
+                         [:Plural :Person3 :Common "yóo"]]
+                 }
+                {:label "alaaba-VAffAnteriorPerfY"
+                 :note "Schneider-Blum2007 p. 210"
+                 :common {:vmorphclass :Finite
+                          :lexeme :y,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :AnteriorPerfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "yiyóomm(i)"],
+                         [:Singular :Person2 :Common "yítoont(i)"],
+                         [:Singular :Person3 :Masc "yiyóoʔ(u)"],
+                         [:Singular :Person3 :Fem "yitóoʔ(u)"],
+                         [:PoliteImpersonal :Person3 :Common "yéemaʔ(a)"],
+                         [:Plural :Person1 :Common "yinóomm(i)"],
+                         [:Plural :Person2 :Common "yitéentaʔ(a)"],
+                         [:Plural :Person3 :Common "yitóoʔ(u)"]]
+                 }
+                {:label "alaaba-VAffPerfectiveKorj"
+                 :note "Schneider-Blum2007 p. p. 204"
+                 :common {:vmorphclass :Finite
+                          :lexeme :korj,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfective}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "korj-éem(i)"],
+                         [:Singular :Person2 :Common "korj-i-tóont(i)"],
+                         [:Singular :Person3 :Masc "korj-ée"],
+                         [:Singular :Person3 :Fem "korj-i-tóo"],
+                         [:PoliteImpersonal :Person3 :Common "korj-éem(a)"],
+                         [:Plural :Person1 :Common "korj-i-nóom(i)"],
+                         [:Plural :Person2 :Common "korj-i-téent(a)"],
+                         [:Plural :Person3 :Common "korj-i-tóo"]]
+                 }
+                {:label "alaaba-VAffAnteriorPerfUb"
+                 :note "Schneider-Blum2007 p. 206"
+                 :common {:vmorphclass :Finite
+                          :lexeme :ub,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :AnteriorPerfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ʔán(i) ʔubbóomm(i)"],
+                         [:Singular :Person2 :Common "ʔát(i) ʔúbboont(i)"],
+                         [:Singular :Person3 :Masc "ʔís(i) ʔubbóoʔ(u)"],
+                         [:Singular :Person3 :Fem "ʔís(e) ʔubbóoʔ(u)"],
+                         [:PoliteImpersonal :Person3 :Common "ʔíss(a) ʔubéemaʔ(a)"],
+                         [:Plural :Person1 :Common "náʔ(u) ʔúmboom(i)"],
+                         [:Plural :Person2 :Common "ʔáʔn(u) ʔubbéentaʔ(a)"],
+                         [:Plural :Person3 :Common "ʔíss(a) ʔubbóoʔ(u)"]]
+                 }
+                {:label "alaaba-VConverbAmeet"
+                 :note "Schneider-Blum2007 p. 244"
+                 :common {:vmorphclass :Finite
+                          :lexeme :ameet,
+                          :pos :Verb,
+                          :tam :Converb}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ʔaméecc-(i)"],
+                         [:Singular :Person2 :Common "ʔaméet-t(i)"],
+                         [:Singular :Person3 :Masc "ʔaméecc-(i)"],
+                         [:Singular :Person3 :Fem "ʔaméet-t(i)"],
+                         [:Polite :Person3 :Common "ʔameet-éen(i)"],
+                         [:Plural :Person1 :Common "ʔaméent-(i)"],
+                         [:Plural :Person2 :Common "ʔameet-téen(i)"],
+                         [:Plural :Person3 :Common "ʔaméet-t(i)"]]
+                 }
+                {:label "alaaba-VDervStem"
+                 :note "Schneider-Blum2007 Table 54"
+                 :common {:vmorphClass :DervStemSuff
+                          :pos :Verb}
+                 :terms [[:derivedStem :token],
+                         [:Causal-middle "-(i)s-akk’"],
+                         [:Causal-passive "-(i)s-am"],
+                         [:Causal-reciprocal "-(i)s-akk’am"],
+                         [:CausativeD "-(i)siis-/-(i)siisiis"],
+                         [:CausativeSimple1 "-(i)s-/-iis-/-ees-/-(i)siis"],
+                         [:Detransitivize "-taʔ"],
+                         [:Inchoative "-aahh"],
+                         [:Iterative "-ans"],
+                         [:Middel "-akk’-(-aʔʔ-)/-?"],
+                         [:Passive "-am"],
+                         [:Passive-caus "-am-is"],
+                         [:Pluractional "(reduplication)"],
+                         [:Pluractional-transitivize "-aʔ"],
+                         [:Pluractional-transitivize-caus "-aʔ-is"],
+                         [:Pluractional-transitivize-caus-passive "-aʔ-is-am"],
+                         [:Pluractional-transitivize-causD "-aʔ-isiis"],
+                         [:Reciprocal "-akk’am-/-ʔam"],
+                         [:Reciprocal-caus "-akk’am-siis"],
+                         [:Transitivize "-aʔ"],
+                         [:Transitivize-caus "-aʔ-is"]]
+                 }
+                {:label "alaaba-VSubjMarkers"
+                 :note "Schneider-Blum2007 p. 201"
+                 :common {:vmorphClass :SubjMarkers
+                          :pos :Verb,
+                          :lexeme :SUBJMARK,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "⊤"],
+                         [:Singular :Person2 :Common "t"],
+                         [:Singular :Person3 :Masc "⊤"],
+                         [:Singular :Person3 :Fem "t"],
+                         [:Plural :Person1 :Common "n"],
+                         [:Plural :Person2 :Common "t"],
+                         [:Plural :Person3 :Common "_NULL"]]
+                 }
+                {:label "alaaba-VNegProgressiveKorj"
+                 :note "Schneider-Blum2007 p. p. 221"
+                 :common {:vmorphclass :Finite
+                          :lexeme :korj,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Progressive}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "korj-aamíibbaʔ(a)"],
+                         [:Singular :Person2 :Common "korj-i-táantiitibaʔ(a)"],
+                         [:Singular :Person3 :Masc "korj-anóobbaʔ(a)"],
+                         [:Singular :Person3 :Fem "korj-i-táaʔiitibaʔ(a)"],
+                         [:PoliteImpersonal :Person3 :Common "korj-éenoobbaʔ(a)"],
+                         [:Plural :Person1 :Common "korj-i-naamíitibaʔ(a)"],
+                         [:Plural :Person2 :Common "korj-i-teenántaabbaʔ(a)"],
+                         [:Plural :Person3 :Common "korj-i-táaʔiitibaʔ(a)"]]
+                 }
+                {:label "alaaba-VPosteriorSubOrroo"
+                 :note "Schneider-Blum2007 p. 266"
+                 :common {:vmorphclass :Finite
+                          :lexeme :orroo,
+                          :pos :Verb,
+                          :tam :PosteriorSub}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ʔorrooʔ-uʔnáan(i)"],
+                         [:Singular :Person2 :Common "ʔorrooʔ-tuʔnáan(i)"],
+                         [:Singular :Person3 :Masc "ʔorrooʔ-uʔnáan(i)"],
+                         [:Singular :Person3 :Fem "ʔorrooʔ-tuʔnáan(i)"],
+                         [:Plural :Person1 :Common "ʔorrooʔ-nuʔnáan(i)"],
+                         [:Plural :Person2 :Common "ʔorrooʔ-toonuʔnáan(i)"],
+                         [:Plural :Person3 :Common "ʔorrooʔ-ooʔnáan(i)"]]
+                 }
+                {:label "alaaba-VNegProgressiveSubjMarkerSuff"
+                 :note "Schneider-Blum2007 p. 221"
+                 :common {:vmorphClass :SubjMarkerSuffNegProf
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Progressive,
+                          :lexeme :SUBJSUFFIXNEGPROG,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-aamíibbaʔ(a)"],
+                         [:Singular :Person2 :Common "-táantiitibaʔ(a)"],
+                         [:Singular :Person3 :Masc "-anóobbaʔ(a)"],
+                         [:Singular :Person3 :Fem "-táaʔiitibaʔ(a)"],
+                         [:PoliteImpersonal :Person3 :Common "-éenoobbaʔ(a)"],
+                         [:Plural :Person1 :Common "-naamíitibaʔ(a)"],
+                         [:Plural :Person2 :Common "-teenántaabbaʔ(a)"],
+                         [:Plural :Person3 :Common "-táaʔiitibaʔ(a)"]]
+                 }
+                {:label "alaaba-VAffFutProxKorj"
+                 :note "Schneider-Blum2007 p. 238"
+                 :common {:vmorphclass :Finite
+                          :lexeme :korj,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :FutureProximate}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ʔán(i) korj-o-táat(i)"],
+                         [:Singular :Person2 :Common "ʔát(i) korj-i-t-o-táat(i)"],
+                         [:Singular :Person3 :Masc "ʔís(i) korj-o-táat(i)"],
+                         [:Singular :Person3 :Fem "ʔís(e) korj-i-t-o-táat(i)"],
+                         [:PoliteImpersonal :Person3 :Common "ʔíss(a) korj-oon-o-táat(i)"],
+                         [:Plural :Person1 :Common "náʔ(u) korj-i-n-o-táat(i)"],
+                         [:Plural :Person2 :Common "ʔáʔn(u) korj-i-ton-o-táat(i)"],
+                         [:Plural :Person3 :Common "ʔíss(a) korj-i-t-o-táat(i)"]]
+                 }
+                {:label "alaaba-VPurpSub"
+                 :note "Schneider-Blum2007 Table 44"
+                 :common {:vmorphclass :Finite
+                          :pos :Verb,
+                          :lexeme :SUBJSUFFIXPURP,
+                          :tam :PurposiveSub}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-ót(a)"],
+                         [:Singular :Person2 :Common "-tót(a)"],
+                         [:Singular :Person3 :Masc "-ót(a)"],
+                         [:Singular :Person3 :Fem "-tót(a)"],
+                         [:Singular :Person3 :Common "-oonót(a)"],
+                         [:Plural :Person1 :Common "-nót(a)"],
+                         [:Plural :Person2 :Common "-toonót(a)"],
+                         [:Plural :Person3 :Common "-tót(a)"]]
+                 }
+                {:label "alaaba-VProgSubSubjSuff"
+                 :note "Schneider-Blum2007 Table 43"
+                 :common {:vmorphClass :SubjSuffProgSub
+                          :pos :Verb,
+                          :tam :ProgressiveSub,
+                          :lexeme :SUBJSUFFIXPROGSUB,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-án(i)"],
+                         [:Singular :Person2 :Common "-tán(i)"],
+                         [:Singular :Person3 :Masc "-án(i)"],
+                         [:Singular :Person3 :Fem "-tán(i)"],
+                         [:Singular :Person3 :Common "-éenan(i)"],
+                         [:Plural :Person1 :Common "-nán(i)"],
+                         [:Plural :Person2 :Common "-téenan(i)"],
+                         [:Plural :Person3 :Common "-tán(i)"]]
+                 }
+                {:label "alaaba-VConverbDiffSubjSuffHir"
+                 :note "Schneider-Blum2007 Table 42"
+                 :common {:vmorphclass :Finite
+                          :lexeme :hir,
+                          :pos :Verb,
+                          :tam :Converb,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "hirʔ-i-yáan(i)"],
+                         [:Singular :Person2 :Common "hirʔ-i-táan(i)"],
+                         [:Singular :Person3 :Masc "hirʔ-i-yáan(i)"],
+                         [:Singular :Person3 :Fem "hirʔ-i-táan(i)"],
+                         [:Plural :Person1 :Common "hirʔ-i-náan(i)"],
+                         [:Plural :Person2 :Common "hirʔ-i-téenaan(i)"],
+                         [:Plural :Person3 :Common "hirʔ-eenáan(i)"]]
+                 }
+                {:label "alaaba-VNegImprtvOrroo"
+                 :note "Schneider-Blum2007 p. p. 224"
+                 :common {:vmorphclass :Finite
+                          :lexeme :orroo,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ʔorrooʔunká!"],
+                         [:Singular :Person2 :Common "ʔorroottóot(i)!"],
+                         [:Singular :Person3 :Masc "ʔorrooʔunká!"],
+                         [:Singular :Person3 :Fem "ʔorroottunká!"],
+                         [:PoliteImpersonal :Person3 :Common "ʔorrooʔoonunká!"],
+                         [:Plural :Person1 :Common "ʔorrooʔnunká!"],
+                         [:Plural :Person2 :Common "ʔorroottónocc(e)!"],
+                         [:Plural :Person3 :Common "ʔorroottunká!"]]
+                 }
+                {:label "alaaba-VNegImprtvSubjMarkerSuff"
+                 :note "Schneider-Blum2007 p. 224"
+                 :common {:vmorphClass :SubjMarkerSuffNegImprtv2
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative,
+                          :lexeme :SUBJSUFFIXNEGIMPRTV2,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-unká"],
+                         [:Singular :Person2 :Common "-tóot(i)"],
+                         [:Singular :Person3 :Masc "-unká"],
+                         [:Singular :Person3 :Fem "-tunká"],
+                         [:PoliteImpersonal :Person3 :Common "-oonunká"],
+                         [:Plural :Person1 :Common "-nunká"],
+                         [:Plural :Person2 :Common "-tónocc(e)"],
+                         [:Plural :Person3 :Common "-tunká"]]
+                 }
+                {:label "alaaba-VNegImperfectiveSubjMarkerSuff"
+                 :note "Schneider-Blum2007 p. 216"
+                 :common {:vmorphClass :SubjMarkerSuffNNegImprf
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfective,
+                          :lexeme :SUBJSUFFIXNEGIMPRF,
+                          }
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-áambaʔ(a)"],
+                         [:Singular :Person2 :Common "-táantibaʔ(a)"],
+                         [:Singular :Person3 :Masc "-ánobaʔ(a)"],
+                         [:Singular :Person3 :Fem "-táabaʔ(a)"],
+                         [:PoliteImpersonal :Person3 :Common "-éenobaʔ(a)"],
+                         [:Plural :Person1 :Common "-náambaʔ(a)"],
+                         [:Plural :Person2 :Common "-teenántabaʔ(a)"],
+                         [:Plural :Person3 :Common "-táabaʔ(a)"]]
+                 }
+                ]
+ }
 
 
-
-    {:label "alaaba-VProgSubSubjSuff"
-    :note "Schneider-Blum2007 Table 43"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjSuffProgSub
-             :pos :Verb,
-             :tam :ProgressiveSub,
-             :lexeme :SUBJSUFFIXPROGSUB,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-án(i)"],
-            [:Singular :Person2 :Common "-tán(i)"],
-            [:Singular :Person3 :Masc "-án(i)"],
-            [:Singular :Person3 :Fem "-tán(i)"],
-            [:Singular :Person3 :Common "-éenan(i)"],
-            [:Plural :Person1 :Common "-nán(i)"],
-            [:Plural :Person2 :Common "-téenan(i)"],
-            [:Plural :Person3 :Common "-tán(i)"]]
-    }
-    {:label "alaaba-VConverbDiffSubjSuffHir"
-    :note "Schneider-Blum2007 Table 42"
-    :pdgmType :Finite
-    :common {:lexeme :hir,
-             :pos :Verb,
-             :tam :Converb,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "hirʔ-i-yáan(i)"],
-            [:Singular :Person2 :Common "hirʔ-i-táan(i)"],
-            [:Singular :Person3 :Masc "hirʔ-i-yáan(i)"],
-            [:Singular :Person3 :Fem "hirʔ-i-táan(i)"],
-            [:Plural :Person1 :Common "hirʔ-i-náan(i)"],
-            [:Plural :Person2 :Common "hirʔ-i-téenaan(i)"],
-            [:Plural :Person3 :Common "hirʔ-eenáan(i)"]]
-    }
-    {:label "alaaba-VNegImprtvOrroo"
-    :note "Schneider-Blum2007 p. p. 224"
-    :pdgmType :Finite
-    :common {:lexeme :orroo,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Imperative}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ʔorrooʔunká!"],
-            [:Singular :Person2 :Common "ʔorroottóot(i)!"],
-            [:Singular :Person3 :Masc "ʔorrooʔunká!"],
-            [:Singular :Person3 :Fem "ʔorroottunká!"],
-            [:PoliteImpersonal :Person3 :Common "ʔorrooʔoonunká!"],
-            [:Plural :Person1 :Common "ʔorrooʔnunká!"],
-            [:Plural :Person2 :Common "ʔorroottónocc(e)!"],
-            [:Plural :Person3 :Common "ʔorroottunká!"]]
-    }
-    {:label "alaaba-VNegImprtvSubjMarkerSuff"
-    :note "Schneider-Blum2007 p. 224"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarkerSuffNegImprtv2
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Imperative,
-             :lexeme :SUBJSUFFIXNEGIMPRTV2,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-unká"],
-            [:Singular :Person2 :Common "-tóot(i)"],
-            [:Singular :Person3 :Masc "-unká"],
-            [:Singular :Person3 :Fem "-tunká"],
-            [:PoliteImpersonal :Person3 :Common "-oonunká"],
-            [:Plural :Person1 :Common "-nunká"],
-            [:Plural :Person2 :Common "-tónocc(e)"],
-            [:Plural :Person3 :Common "-tunká"]]
-    }
-    {:label "alaaba-VNegImperfectiveSubjMarkerSuff"
-    :note "Schneider-Blum2007 p. 216"
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarkerSuffNNegImprf
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Imperfective,
-             :lexeme :SUBJSUFFIXNEGIMPRF,
-             }
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "-áambaʔ(a)"],
-            [:Singular :Person2 :Common "-táantibaʔ(a)"],
-            [:Singular :Person3 :Masc "-ánobaʔ(a)"],
-            [:Singular :Person3 :Fem "-táabaʔ(a)"],
-            [:PoliteImpersonal :Person3 :Common "-éenobaʔ(a)"],
-            [:Plural :Person1 :Common "-náambaʔ(a)"],
-            [:Plural :Person2 :Common "-teenántabaʔ(a)"],
-            [:Plural :Person3 :Common "-táabaʔ(a)"]]
-    }
-]
-:muterms [
-]
-}
- 
- 
