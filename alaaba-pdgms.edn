@@ -133,7 +133,7 @@
  :termclusters [
                 {:label "alaaba-VNegPerfectiveUb"
                  :note "Schneider-Blum2007 p. 206"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :ub,
                           :polarity :Negative,
                           :pos :Verb,
@@ -186,7 +186,7 @@
                  }
                 {:label "alaaba-VAffImprtvOrroo"
                  :note "Schneider-Blum2007 p. p. 224"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :orroo,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -203,7 +203,7 @@
                  }
                 {:label "alaaba-VConverbGaf"
                  :note "Schneider-Blum2007 p. 244"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :gaf,
                           :pos :Verb,
                           :tam :Converb}
@@ -219,7 +219,7 @@
                  }
                 {:label "alaaba-VAffPerfectiveUb"
                  :note "Schneider-Blum2007 p. 206"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :ub,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -236,7 +236,7 @@
                  }
                 {:label "alaaba-VConverbMar"
                  :note "Schneider-Blum2007 p. 244"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :mar,
                           :pos :Verb,
                           :tam :Converb}
@@ -252,7 +252,7 @@
                  }
                 {:label "alaaba-VAffImperfectiveKorj"
                  :note "Schneider-Blum2007 p. p. 216"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :korj,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -353,7 +353,7 @@
                  }
                 {:label "alaaba-VAffAnteriorPerfKorj"
                  :note "Schneider-Blum2007 p. p. 204"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :korj,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -370,7 +370,7 @@
                  }
                 {:label "alaaba-VNegImperfectiveKorj"
                  :note "Schneider-Blum2007 p. p. 216"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :korj,
                           :polarity :Negative,
                           :pos :Verb,
@@ -480,7 +480,7 @@
                  }
                 {:label "alaaba-VAffProgressiveKorj"
                  :note "Schneider-Blum2007 p. p. 221"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :korj,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -497,7 +497,7 @@
                  }
                 {:label "alaaba-VNegPerfectiveY"
                  :note "Schneider-Blum2007 p. 210"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :y,
                           :polarity :Negative,
                           :pos :Verb,
@@ -514,7 +514,7 @@
                  }
                 {:label "alaaba-VAffPerfectiveY"
                  :note "Schneider-Blum2007 p. 210"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :y,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -531,7 +531,7 @@
                  }
                 {:label "alaaba-VConverbKe"
                  :note "Schneider-Blum2007 p. 244"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :ke,
                           :pos :Verb,
                           :tam :Converb}
@@ -603,7 +603,7 @@
                  }
                 {:label "alaaba-VNegPerfectiveKorj"
                  :note "Schneider-Blum2007 p. p. 204"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :korj,
                           :polarity :Negative,
                           :pos :Verb,
@@ -929,7 +929,7 @@
                  }
                 {:label "alaaba-VCopula"
                  :note "Schneider-Blum2007 p. 202"
-                 :common {:vmorphclass :FiniteCopula
+                 :common {:vmorphClass :FiniteCopula
                           :pos :Verb,
                           :lexeme :COPULA,
                           }
@@ -945,7 +945,7 @@
                  }
                 {:label "alaaba-VAffAnteriorPerfY"
                  :note "Schneider-Blum2007 p. 210"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :y,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -962,7 +962,7 @@
                  }
                 {:label "alaaba-VAffPerfectiveKorj"
                  :note "Schneider-Blum2007 p. p. 204"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :korj,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -979,7 +979,7 @@
                  }
                 {:label "alaaba-VAffAnteriorPerfUb"
                  :note "Schneider-Blum2007 p. 206"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :ub,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -996,7 +996,7 @@
                  }
                 {:label "alaaba-VConverbAmeet"
                  :note "Schneider-Blum2007 p. 244"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :ameet,
                           :pos :Verb,
                           :tam :Converb}
@@ -1053,7 +1053,7 @@
                  }
                 {:label "alaaba-VNegProgressiveKorj"
                  :note "Schneider-Blum2007 p. p. 221"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :korj,
                           :polarity :Negative,
                           :pos :Verb,
@@ -1070,7 +1070,7 @@
                  }
                 {:label "alaaba-VPosteriorSubOrroo"
                  :note "Schneider-Blum2007 p. 266"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :orroo,
                           :pos :Verb,
                           :tam :PosteriorSub}
@@ -1103,7 +1103,7 @@
                  }
                 {:label "alaaba-VAffFutProxKorj"
                  :note "Schneider-Blum2007 p. 238"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :korj,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -1120,7 +1120,7 @@
                  }
                 {:label "alaaba-VPurpSub"
                  :note "Schneider-Blum2007 Table 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :pos :Verb,
                           :lexeme :SUBJSUFFIXPURP,
                           :tam :PurposiveSub}
@@ -1153,7 +1153,7 @@
                  }
                 {:label "alaaba-VConverbDiffSubjSuffHir"
                  :note "Schneider-Blum2007 Table 42"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :hir,
                           :pos :Verb,
                           :tam :Converb,
@@ -1169,7 +1169,7 @@
                  }
                 {:label "alaaba-VNegImprtvOrroo"
                  :note "Schneider-Blum2007 p. p. 224"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :orroo,
                           :polarity :Negative,
                           :pos :Verb,
