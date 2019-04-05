@@ -2,7 +2,7 @@
  :lang :alaaba
  :subfamily "Highland East Cushitic"
  :sgpref "alb"
- :datasource "Schneider-Blum2007"
+ :datasource "Schneider-Blum2007; abbreviated in :note SB, p. for 'page', t. for 'table'"
  :geodemoURL "http://www.ethnologue.com/language/alw"
  :geodemoTXT "Varieties and subdialects of Alaaba are spoken in the 'Oromia region: Rift Valley southwest of Lake Shala, separated by Belate river from Kambatta [ktb] language area'."
  :schemata { :case [:Ablative :Absolutive :AbsolutiveEmphatic :AbsolutiveNominative :Dative :Genitive :Instrumental :Nominative :Possessive :Similative],
@@ -136,7 +136,7 @@
 }
  :termclusters [
            {:label "alaaba-VNegPerfectiveUb"
-            :note "Schneider-Blum2007 p. 206"
+            :note "SBp.206"
             :common {:vmorphClass :Finite,
                      :lexeme :ub,
                      :polarity :Negative,
@@ -153,7 +153,7 @@
                     [:Plural :Person3 :Common "ʔubbóobaʔ(a)"]]
             }
            {:label "alaaba-VTenseAspectMarking"
-            :note "Schneider-Blum2007 Table 46"
+            :note "SBt46"
             :common {:pos :Verb,
                      :person :Common,
                      :vmorphClass :TenseAspectMarking}
@@ -170,7 +170,7 @@
                     [:Subordinate :PurposiveSub]]
             }
            {:label "alaaba-VAffProgressiveSubjMarkerSuff"
-            :note "Schneider-Blum2007 p. 221"
+            :note "SBp.221"
             :common {:polarity :Affirmative,
                      :pos :Verb,
                      :tam :Progressive,
@@ -186,7 +186,7 @@
                     [:Plural :Person3 :Common "-táaʔiit(i)"]]
             }
            {:label "alaaba-VAffImprtvOrroo"
-            :note "Schneider-Blum2007 p. p. 224"
+            :note "SBp.224"
             :common {:vmorphClass :Finite,
                      :lexeme :orroo,
                      :polarity :Affirmative,
@@ -203,7 +203,7 @@
                     [:Plural :Person3 :Common "ʔorrootún(i)!"]]
             }
            {:label "alaaba-VConverbGaf"
-            :note "Schneider-Blum2007 p. 244"
+            :note "SBp.244"
             :common {:vmorphClass :Finite,
                      :lexeme :gaf,
                      :pos :Verb,
@@ -219,7 +219,7 @@
                     [:Plural :Person3 :Common "gáff-(i)"]]
             }
            {:label "alaaba-VAffPerfectiveUb"
-            :note "Schneider-Blum2007 p. 206"
+            :note "SBp.206"
             :common {:vmorphClass :Finite,
                      :lexeme :ub,
                      :polarity :Affirmative,
@@ -236,7 +236,7 @@
                     [:Plural :Person3 :Common "ʔubbóo"]]
             }
            {:label "alaaba-VConverbMar"
-            :note "Schneider-Blum2007 p. 244"
+            :note "SBp.244"
             :common {:vmorphClass :Finite,
                      :lexeme :mar,
                      :pos :Verb,
@@ -252,7 +252,7 @@
                     [:Plural :Person3 :Common "már-t(i)"]]
             }
            {:label "alaaba-VAffImperfectiveKorj"
-            :note "Schneider-Blum2007 p. p. 216"
+            :note "SBp.216"
             :common {:vmorphClass :Finite,
                      :lexeme :korj,
                      :polarity :Affirmative,
@@ -269,7 +269,7 @@
                     [:Plural :Person3 :Common "korj-i-táa"]]
             }
            {:label "alaaba-VPosteriofSubSubjSuff"
-            :note "Schneider-Blum2007 Table 45"
+            :note "SBt45"
             :common {:pos :Verb,
                      :tam :PosteriorSub,
                      :vmorphClass :SubjSuff}
@@ -284,7 +284,7 @@
                     [:Plural :Person3 :Common "-tuʔnáan(i)"]]
             }
            {:label "alaaba-VAffPerfectiveSubjMarkerSuff"
-            :note "Schneider-Blum2007 p. 210"
+            :note "SBp.210"
             :common {:polarity :Affirmative,
                      :pos :Verb,
                      :tam :Perfective,
@@ -300,7 +300,7 @@
                     [:Plural :Person3 :Common "-tóo"]]
             }
            {:label "alaaba-VConverbSubjSuff"
-            :note "Schneider-Blum2007 Table 41"
+            :note "SBt41"
             :common {:pos :Verb,
                      :tam :Converb,
                      :vmorphClass :SubjSuff}
@@ -315,7 +315,7 @@
                     [:Plural :Person3 :Common "-t(i)"]]
             }
            {:label "alaaba-VAffImprtvSubjMarkerSuff"
-            :note "Schneider-Blum2007 p. 224"
+            :note "SBp.224"
             :common {:polarity :Affirmative,
                      :pos :Verb,
                      :tam :Imperative,
@@ -331,7 +331,7 @@
                     [:Plural :Person3 :Common "-tún(i)"]]
             }
            {:label "alaaba-PProEmph"
-            :note "Schneider-Blum2007 Table 28"
+            :note "SBt28"
             :common {:pos :Pronoun, :pmorphClass :ProMorph,
                      :proClass :ProEmph}
             :terms [[:number :person :gender :token :token-note],
@@ -344,7 +344,7 @@
                     [:Plural :Person3 :Common "ʔissán(i)" "they themselves"]]
             }
            {:label "alaaba-VAffAnteriorPerfKorj"
-            :note "Schneider-Blum2007 p. p. 204"
+            :note "SBp.204"
             :common {:vmorphClass :Finite,
                      :lexeme :korj,
                      :polarity :Affirmative,
@@ -361,7 +361,7 @@
                     [:Plural :Person3 :Common "ʔíss(a) korj-i-tóoʔ(u)"]]
             }
            {:label "alaaba-VNegImperfectiveKorj"
-            :note "Schneider-Blum2007 p. p. 216"
+            :note "SBp.216"
             :common {:vmorphClass :Finite,
                      :lexeme :korj,
                      :polarity :Negative,
@@ -378,7 +378,7 @@
                     [:Plural :Person3 :Common "korj-i-táabaʔ(a)"]]
             }
            {:label "alaaba-VCausative"
-            :note "Schneider-Blum2007 Table 47:Form vs. Function of the causativeative"
+            :note "SBt47 :: Form vs. Function of the causative of causative"
             :common {:lexeme :ʔeebú,
                      :pos :Verb}
             :terms [[:derivedStem :token],
@@ -386,7 +386,7 @@
                     [:CausativeSimple2 "ʔeebsiisú"]]
             }
            {:label "alaaba-VNegPerfectiveSubjMarkerSuff"
-            :note "Schneider-Blum2007 p. 210"
+            :note "SBp.210"
             :common {:polarity :Negative,
                      :pos :Verb,
                      :tam :Perfective,
@@ -402,7 +402,7 @@
                     [:Plural :Person3 :Common "-tóobaʔ(a)"]]
             }
            {:label "alaaba-PReflexive"
-            :note "Schneider-Blum2007 Tables 30-34,40"
+            :note "SBt30-34&40"
             :common {:pos :Pronoun, :pmorphClass :ProMorph, 
                      :proClass :Reflexive}
             :terms [[:case :number :person :gender :token],
@@ -460,7 +460,7 @@
                     [:Instrumental :Plural :Person3 :Common "gagíinkass(a)"]]
             }
            {:label "alaaba-VAffProgressiveKorj"
-            :note "Schneider-Blum2007 p. p. 221"
+            :note "SBp.221"
             :common {:vmorphClass :Finite,
                      :lexeme :korj,
                      :polarity :Affirmative,
@@ -477,7 +477,7 @@
                     [:Plural :Person3 :Common "korj-i-táaʔiit(i)"]]
             }
            {:label "alaaba-VNegPerfectiveY"
-            :note "Schneider-Blum2007 p. 210"
+            :note "SBp.210"
             :common {:vmorphClass :Finite,
                      :lexeme :y,
                      :polarity :Negative,
@@ -494,7 +494,7 @@
                     [:Plural :Person3 :Common "yitóobaʔ(a)"]]
             }
            {:label "alaaba-VAffPerfectiveY"
-            :note "Schneider-Blum2007 p. 210"
+            :note "SBp.210"
             :common {:vmorphClass :Finite,
                      :lexeme :y,
                      :polarity :Affirmative,
@@ -511,7 +511,7 @@
                     [:Plural :Person3 :Common "yitóo"]]
             }
            {:label "alaaba-VConverbKe"
-            :note "Schneider-Blum2007 p. 244"
+            :note "SBp.244"
             :common {:vmorphClass :Finite,
                      :lexeme :ke,
                      :pos :Verb,
@@ -527,7 +527,7 @@
                     [:Plural :Person3 :Common "kéʔʔ-(i)"]]
             }
            {:label "alaaba-PReciprocal"
-            :note "Schneider-Blum2007 Table 35-39"
+            :note "SBt35-39"
             :common {:number :Plural,
                      :pos :Pronoun, :pmorphClass :ProMorph,
                      :proClass :Reciprocal}
@@ -546,7 +546,7 @@
                     [:Similative :Person3 "gagayisság(a)"]]
             }
            {:label "alaaba-VNegFutProxSubjMarkerSuff"
-            :note "Schneider-Blum2007 p. 238"
+            :note "SBp.238"
             :common {:polarity :Negative,
                      :pos :Verb,
                      :tam :FutureProximate,
@@ -562,7 +562,7 @@
                     [:Plural :Person3 :Common "-totáabb(a)"]]
             }
            {:label "alaaba-VAffAnteriorPerfSubjMarkerSuff"
-            :note "Schneider-Blum2007 p. 210"
+            :note "SBp.210"
             :common {:polarity :Affirmative,
                      :pos :Verb,
                      :tam :AnteriorPerfect,
@@ -578,7 +578,7 @@
                     [:Plural :Person3 :Common "-tóoʔ(u)"]]
             }
            {:label "alaaba-VNegPerfectiveKorj"
-            :note "Schneider-Blum2007 p. p. 204"
+            :note "SBp.204"
             :common {:vmorphClass :Finite,
                      :lexeme :korj,
                      :polarity :Negative,
@@ -595,7 +595,7 @@
                     [:Plural :Person3 :Common "korj-i-tóobaʔ(a)"]]
             }
            {:label "alaaba-VAffFutProxKorj"
-            :note "Schneider-Blum2007 p. 238"
+            :note "SBp.238"
             :common {:vmorphClass :Finite,
                      :lexeme :korj,
                      :polarity :Affirmative,
@@ -612,7 +612,7 @@
                     [:Plural :Person3 :Common "ʔíss(a) korj-i-t-o-táat(i)"]]
             }
            {:label "alaaba-VCausativeCaustemAllomorph"
-            :note "Schneider-Blum2007 Tables 48-53. There is both a simple and a double causative
+            :note "SBt48-53 :: There is both a simple and a double causative
             (caus,causD),each with two overlapping allomorphs,as follows:caus1 –s-,causD1
             –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these
             allomorphs in correlation with the stem-final consonant.."
@@ -786,7 +786,7 @@
                     [:CausativeD2-assim :ʔaaʔl :GS-Res-Final "ʔaanshisiis"]]
             }
            {:label "alaaba-VCausative"
-            :note "Schneider-Blum2007 Table 47:Form vs. Function of the causativeative"
+            :note "SBt47: :: Form vs. Function of the causative of causative"
             :common {:lexeme :ʔurrú,
                      :pos :Verb}
             :terms [[:derivedStem :token],
@@ -794,7 +794,7 @@
                     [:CausativeSimplel1 "ʔurrisú"]]
             }
            {:label "alaaba-VAffImperfectiveSubjMarkerSuff"
-            :note "Schneider-Blum2007 p. 216"
+            :note "SBp.216"
             :common {:polarity :Affirmative,
                      :pos :Verb,
                      :tam :Imperfective,
@@ -810,7 +810,7 @@
                     [:Plural :Person3 :Common "-táa"]]
             }
            {:label "alaaba-PProIndClit"
-            :note "Schneider-Blum2007 Table 27"
+            :note "SBt27"
             :common {:proClass :IndepentClitic,
                      :pos :Pronoun
                      :pmorphClass :ProMorph}
@@ -887,7 +887,7 @@
                     [:Similative :PronounIndependent :Plural :Person3 :Common "ʔisság(a)"]]
             }
            {:label "alaaba-VAffFutProxSubjMarkerSuff"
-            :note "Schneider-Blum2007 p. 238"
+            :note "SBp.238"
             :common {:polarity :Affirmative,
                      :pos :Verb,
                      :tam :FutureProximate,
@@ -903,7 +903,7 @@
                     [:Plural :Person3 :Common "-totáat(i)"]]
             }
            {:label "alaaba-PAbsPoss"
-            :note "Schneider-Blum2007 Table 29"
+            :note "SBt29"
             :common {:case :Possessive,
                      :pos :Pronoun, :pmorphClass :ProMorph,
                      :proClass :AbsPoss}
@@ -924,7 +924,7 @@
                     [:HeadMasc :Plural :Person3 :Common "ʔissáh(a)"]]
             }
            {:label "alaaba-VCopula"
-            :note "Schneider-Blum2007 p. 202"
+            :note "SBp.202"
             :common {:pos :Verb,
                      :vmorphClass :Copula}
             :terms [[:number :person :gender :token],
@@ -938,7 +938,7 @@
                     [:Plural :Person3 :Common "yóo"]]
             }
            {:label "alaaba-VAffAnteriorPerfY"
-            :note "Schneider-Blum2007 p. 210"
+            :note "SBp.210"
             :common {:vmorphClass :Finite,
                      :lexeme :y,
                      :polarity :Affirmative,
@@ -955,7 +955,7 @@
                     [:Plural :Person3 :Common "yitóoʔ(u)"]]
             }
            {:label "alaaba-VAffPerfectiveKorj"
-            :note "Schneider-Blum2007 p. p. 204"
+            :note "SBp.204"
             :common {:vmorphClass :Finite,
                      :lexeme :korj,
                      :polarity :Affirmative,
@@ -972,7 +972,7 @@
                     [:Plural :Person3 :Common "korj-i-tóo"]]
             }
            {:label "alaaba-VAffAnteriorPerfUb"
-            :note "Schneider-Blum2007 p. 206"
+            :note "SBp.206"
             :common {:vmorphClass :Finite,
                      :lexeme :ub,
                      :polarity :Affirmative,
@@ -989,7 +989,7 @@
                     [:Plural :Person3 :Common "ʔíss(a) ʔubbóoʔ(u)"]]
             }
            {:label "alaaba-VConverbAmeet"
-            :note "Schneider-Blum2007 p. 244"
+            :note "SBp.244"
             :common {:vmorphClass :Finite,
                      :lexeme :ameet,
                      :pos :Verb,
@@ -1005,7 +1005,7 @@
                     [:Plural :Person3 :Common "ʔaméet-t(i)"]]
             }
            {:label "alaaba-VDervStem"
-            :note "Schneider-Blum2007 Table 54"
+            :note "SBt54"
             :common {:pos :Verb,
                      :vmorphClass :DervStem,
                      :tokenType :Suffix}
@@ -1032,7 +1032,7 @@
                     [:Transitivize-caus "-aʔ-is"]]
             }
            {:label "alaaba-VSubjMarkers"
-            :note "Schneider-Blum2007 p. 201"
+            :note "SBp.201"
             :common {:pos :Verb,
                      :vmorphClass :SubjMarkers}
             :terms [[:number :person :gender :token],
@@ -1045,7 +1045,7 @@
                     [:Plural :Person3 :Common "_NULL"]]
             }
            {:label "alaaba-VNegProgressiveKorj"
-            :note "Schneider-Blum2007 p. p. 221"
+            :note "SBp.221"
             :common {:vmorphClass :Finite,
                      :lexeme :korj,
                      :polarity :Negative,
@@ -1062,7 +1062,7 @@
                     [:Plural :Person3 :Common "korj-i-táaʔiitibaʔ(a)"]]
             }
            {:label "alaaba-VPosteriorSubOrroo"
-            :note "Schneider-Blum2007 p. 266"
+            :note "SBp.266"
             :common {:vmorphClass :Finite,
                      :lexeme :orroo,
                      :pos :Verb,
@@ -1077,7 +1077,7 @@
                     [:Plural :Person3 :Common "ʔorrooʔ-ooʔnáan(i)"]]
             }
            {:label "alaaba-VNegProgressiveSubjMarkerSuff"
-            :note "Schneider-Blum2007 p. 221"
+            :note "SBp.221"
             :common {:polarity :Negative,
                      :pos :Verb,
                      :tam :Progressive,
@@ -1093,7 +1093,7 @@
                     [:Plural :Person3 :Common "-táaʔiitibaʔ(a)"]]
             }
            {:label "alaaba-VKorj-"
-            :note "Schneider-Blum2007 p. 238"
+            :note "SBp.238"
             :common {:vmorphClass :Finite,
                      :lexeme :korj,
                      :polarity :Affirmative,
@@ -1110,7 +1110,7 @@
                     [:Plural :Person3 :Common "ʔíss(a) korj-i-t-o-táat(i)"]]
             }
            {:label "alaaba-VPurpSub"
-            :note "Schneider-Blum2007 Table 44"
+            :note "SBt44"
             :common {:vmorphClass :Finite,
                      :pos :Verb,
                      :tam :PurposiveSub}
@@ -1125,7 +1125,7 @@
                     [:Plural :Person3 :Common "-tót(a)"]]
             }
            {:label "alaaba-VCausative"
-            :note "Schneider-Blum2007 Table 47:Form vs. Function of the causativeative"
+            :note "SBt47: :: Form vs. Function of the causative of causative"
             :common {:lexeme :ʔubú,
                      :pos :Verb}
             :terms [[:derivedStem :token],
@@ -1133,7 +1133,7 @@
                     [:CausativeSimplel2 "ʔubsiisú"]]
             }
            {:label "alaaba-VProgSubSubjSuff"
-            :note "Schneider-Blum2007 Table 43"
+            :note "SBt43"
             :common {:pos :Verb,
                      :tam :ProgressiveSub,
                      :vmorphClass :SubjSuff}
@@ -1148,7 +1148,7 @@
                     [:Plural :Person3 :Common "-tán(i)"]]
             }
            {:label "alaaba-VConverbDiffSubjSuffHir"
-            :note "Schneider-Blum2007 Table 42"
+            :note "SBt42"
             :common {:lexeme :hir,
                      :pos :Verb,
                      :tam :Converb,
@@ -1163,7 +1163,7 @@
                     [:Plural :Person3 :Common "hirʔ-eenáan(i)"]]
             }
            {:label "alaaba-VNegImprtvOrroo"
-            :note "Schneider-Blum2007 p. p. 224"
+            :note "SBp.224"
             :common {:vmorphClass :Finite,
                      :lexeme :orroo,
                      :polarity :Negative,
@@ -1180,7 +1180,7 @@
                     [:Plural :Person3 :Common "ʔorroottunká!"]]
             }
            {:label "alaaba-VNegImprtvSubjMarkerSuff"
-            :note "Schneider-Blum2007 p. 224"
+            :note "SBp.224"
             :common {:polarity :Negative,
                      :pos :Verb,
                      :tam :Imperative,
@@ -1196,7 +1196,7 @@
                     [:Plural :Person3 :Common "-tunká"]]
             }
            {:label "alaaba-VCausative"
-            :note "Schneider-Blum2007 Table 47:Form vs. Function of the causativeative"
+            :note "SBt47 :: Form vs. Function of the causative of causative"
             :common {:lexeme :ʔagú,
                      :pos :Verb}
             :terms [[:derivedStem :token],
@@ -1204,7 +1204,7 @@
                     [:CausativeSimplel1 "ʔagisú"]]
             }
            {:label "alaaba-VNegImperfectiveSubjMarkerSuff"
-            :note "Schneider-Blum2007 p. 216"
+            :note "SBp216"
             :common {:polarity :Negative,
                      :pos :Verb,
                      :tam :Imperfective,
