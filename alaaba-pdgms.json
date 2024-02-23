@@ -1,8 +1,8 @@
 {
   "lang": "alaaba",
-  "subfamily": "Highland East Cushitic",
+  "subfamily": "cushitic east highland",
   "lgpref": "alb",
-  "datasource": "Schneider-Blum, Gertrud. 2007. A grammar of Alaaba: A Highland East Cushitic Language of Ethiopia. Cushitic Language Studies 25. Köln: Rüdiger Köppe Verlag ['SB', p. for 'page', t. for 'table']",
+  "datasource": "Schneider-Blum, Gertrud. 2007. A grammar of Alaaba: A cushitic east highland Language of Ethiopia. Cushitic Language Studies 25. Köln: Rüdiger Köppe Verlag ['SB', 'p' for 'page', 't' for 'table']",
   "datasourceNotes": "",
   "geodemoURL": "http://www.ethnologue.com/language/alw",
   "geodemoTXT": "Varieties and subdialects of Alaaba are spoken in the 'Oromia region: Rift Valley southwest of Lake Shala, separated by Belate river from Kambatta [ktb] language area'.",
@@ -11,23 +11,18 @@
     "Ablative",
     "Absolutive",
     "AbsolutiveEmphatic",
-    "AbsolutiveNominative",
     "Dative",
     "Genitive",
     "Instrumental",
     "Nominative",
-    "Possessive",
     "Similative"
   ],
-  "causativeAllomorph": [
-    "Causative1",
-    "Causative1-assim",
-    "Causative2",
-    "Causative2-assim",
-    "CausativeD1",
-    "CausativeD1-assim",
-    "CausativeD2",
-    "CausativeD2-assim"
+  "causForm": [
+    "Caus1",
+    "CausD1",
+    "CausD2",
+    "CausS1",
+    "CausS2"
   ],
   "clauseType": [
     "Co-Subject",
@@ -39,12 +34,7 @@
     "Causal-passive",
     "Causal-reciprocal",
     "CausativeD",
-    "CausativeDouble1",
-    "CausativeDouble2",
     "CausativeSimple1",
-    "CausativeSimple2",
-    "CausativeSimplel1",
-    "CausativeSimplel2",
     "Detransitivize",
     "Inchoative",
     "Iterative",
@@ -82,9 +72,9 @@
     "door",
     "dul",
     "faar",
-    "fankal",
+    "fank'al",
     "fiil",
-    "folocc",
+    "folocc'",
     "ful",
     "gaf",
     "gaffar",
@@ -102,17 +92,17 @@
     "hiir",
     "hir",
     "hirʔ",
-    "hocc",
+    "hocc'",
     "jammar",
+    "k'araar",
+    "k'orʔ",
     "kaar",
-    "kacc",
+    "kacc'",
     "kad",
     "kar",
-    "karaar",
     "ke",
     "kor",
     "korj",
-    "korʔ",
     "kuf",
     "kul",
     "laal",
@@ -120,12 +110,12 @@
     "malal",
     "mar",
     "marar",
-    "mecc",
+    "mecc'",
     "med",
     "meed",
     "meer",
     "miir",
-    "mooccoocc",
+    "mooccoocc'",
     "mool",
     "mur",
     "orroo",
@@ -134,13 +124,13 @@
     "shuul",
     "shuur",
     "soor",
-    "taaf",
-    "taʔm",
-    "tuf",
-    "tur",
-    "tuur",
+    "t'aaf",
+    "t'aʔm",
+    "t'uf",
+    "t'ur",
+    "t'uur",
     "ub",
-    "uucc",
+    "uucc'",
     "waal",
     "wod",
     "wokkar",
@@ -149,19 +139,20 @@
     "wuliil",
     "y",
     "yaar",
+    "yo",
     "ʔaar",
     "ʔaaʔl",
     "ʔaf",
     "ʔafuuʔl",
+    "ʔag",
     "ʔagar",
     "ʔagur",
     "ʔaguuʔm",
-    "ʔagú",
     "ʔalbaaʔl",
     "ʔallaal",
     "ʔamurʔ",
-    "ʔanjicc",
-    "ʔeebú",
+    "ʔanjicc'",
+    "ʔeeb",
     "ʔenkeʔn",
     "ʔereer",
     "ʔifood",
@@ -169,22 +160,21 @@
     "ʔil",
     "ʔinkiil",
     "ʔosaʔl",
-    "ʔubú",
+    "ʔub",
     "ʔud",
     "ʔudul",
     "ʔul",
-    "ʔurrú",
+    "ʔurr",
     "ʔusur"
   ],
   "morphClass": [
-    "Copula",
+    "Causative Form/Function",
+    "CausativeStems",
     "DervStemSuff",
-    "DiffSubjSuff",
+    "SubSuff",
     "SubjMarker",
     "SubjSuff",
-    "TenseAspectMarking",
-    "causativeAllomorph",
-    "causativeDouble"
+    "TenseAspectMarking"
   ],
   "number": [
     "Plural",
@@ -208,19 +198,20 @@
     "Verb"
   ],
   "proClass": [
-    "AbsPoss",
-    "IndepentClitic",
+    "AbsolutePossessive",
+    "AbsoluteePossessive",
+    "Clitic",
+    "Clltic",
+    "Indepdent",
     "ProEmph",
-    "PronounClitic",
-    "PronounIndependent",
     "Reciprocal",
     "Reflexive"
   ],
-  "stemFinalC": [
+  "stemClass": [
     "CC-final",
     "D-final",
     "F-final",
-    "GS-Res-Final",
+    "GS-Res-final",
     "L-final",
     "R-final"
   ],
@@ -229,6 +220,8 @@
     "Converb",
     "ConverbCoRef",
     "ConverbDifRef",
+    "ConverbDiffSubj",
+    "Copula",
     "FutureProximate",
     "Imperative",
     "Imperfective",
@@ -237,7 +230,16 @@
     "Progressive",
     "ProgressiveSub",
     "PurposiveSub",
+    "PurposiveSubordinate",
     "TensefutProx"
+  ],
+  "transitive": [
+    "Int",
+    "Trans"
+  ],
+  "transitivity": [
+    "Int",
+    "Trans"
   ]
 },
   "lexemes": {
@@ -249,47 +251,47 @@
   "baad": {
     "pos": "Verb",
     "lemma": "baad",
-    "gloss": "[x]"
+    "gloss": "crawl"
   },
   "boroor": {
     "pos": "Verb",
     "lemma": "boroor",
-    "gloss": "[x]"
+    "gloss": "quarrel"
   },
   "buur": {
     "pos": "Verb",
     "lemma": "buur",
-    "gloss": "[x]"
+    "gloss": "paint"
   },
   "dad": {
     "pos": "Verb",
     "lemma": "dad",
-    "gloss": "[x]"
+    "gloss": "plait"
   },
   "dagelaal": {
     "pos": "Verb",
     "lemma": "dagelaal",
-    "gloss": "[x]"
+    "gloss": "be suitable"
   },
   "dagud": {
     "pos": "Verb",
     "lemma": "dagud",
-    "gloss": "[x]"
+    "gloss": "run"
   },
   "debeeʔl": {
     "pos": "Verb",
     "lemma": "debeeʔl",
-    "gloss": "[x]"
+    "gloss": "belch"
   },
   "door": {
     "pos": "Verb",
     "lemma": "door",
-    "gloss": "[x]"
+    "gloss": "change"
   },
   "dul": {
     "pos": "Verb",
     "lemma": "dul",
-    "gloss": "[x]"
+    "gloss": "skin"
   },
   "eeb": {
     "pos": "Verb",
@@ -299,27 +301,27 @@
   "faar": {
     "pos": "Verb",
     "lemma": "faar",
-    "gloss": "[x]"
+    "gloss": "boil"
   },
   "fankal": {
     "pos": "Verb",
     "lemma": "fank’al",
-    "gloss": "[x]"
+    "gloss": "return"
   },
   "fiil": {
     "pos": "Verb",
     "lemma": "fiil",
-    "gloss": "[x]"
+    "gloss": "tear, split"
   },
   "folocc": {
     "pos": "Verb",
     "lemma": "folocc’",
-    "gloss": "[x]"
+    "gloss": "rest"
   },
   "ful": {
     "pos": "Verb",
     "lemma": "ful",
-    "gloss": "[x]"
+    "gloss": "leave (house) for a short time"
   },
   "gaf": {
     "pos": "Verb",
@@ -329,77 +331,77 @@
   "gaffar": {
     "pos": "Verb",
     "lemma": "gaffar",
-    "gloss": "[x]"
+    "gloss": "leave, let loosee"
   },
   "gal": {
     "pos": "Verb",
     "lemma": "gal",
-    "gloss": "[x]"
+    "gloss": "spend the night"
   },
   "geeraar": {
     "pos": "Verb",
     "lemma": "geeraar",
-    "gloss": "[x]"
+    "gloss": "praise oneself"
   },
   "giir": {
     "pos": "Verb",
     "lemma": "giir",
-    "gloss": "[x]"
+    "gloss": "set on fire"
   },
   "goof": {
     "pos": "Verb",
     "lemma": "goof",
-    "gloss": "[x]"
+    "gloss": "end, be finished"
   },
   "hagir": {
     "pos": "Verb",
     "lemma": "hagir",
-    "gloss": "[x]"
+    "gloss": "pretend, hold back"
   },
   "hambal": {
     "pos": "Verb",
     "lemma": "hambal",
-    "gloss": "[x]"
+    "gloss": "force, push"
   },
   "hangaar": {
     "pos": "Verb",
     "lemma": "hangaar",
-    "gloss": "[x]"
+    "gloss": "scratch"
   },
   "hankaf": {
     "pos": "Verb",
     "lemma": "hank’af",
-    "gloss": "[x]"
+    "gloss": "hold in one's arms"
   },
   "haʔl": {
     "pos": "Verb",
     "lemma": "haʔl",
-    "gloss": "[x]"
+    "gloss": "help, support"
   },
   "heer": {
     "pos": "Verb",
     "lemma": "heer",
-    "gloss": "[x]"
+    "gloss": "convince to agree (to marriage)"
   },
   "heʔm": {
     "pos": "Verb",
     "lemma": "heʔm",
-    "gloss": "[x]"
+    "gloss": "slander"
   },
   "hiir": {
     "pos": "Verb",
     "lemma": "hiir",
-    "gloss": "[x]"
+    "gloss": "loosen, untie"
   },
   "hir": {
     "pos": "Verb",
-    "lemma": "hirʔ-",
-    "gloss": "buy"
+    "lemma": "hir",
+    "gloss": "sell"
   },
   "hirʔ": {
     "pos": "Verb",
     "lemma": "hirʔ",
-    "gloss": "[x]"
+    "gloss": "buy"
   },
   "hocc": {
     "pos": "Verb",
@@ -410,37 +412,37 @@
   "jammar": {
     "pos": "Verb",
     "lemma": "jammar",
-    "gloss": "[x]"
+    "gloss": "begin"
   },
   "kaar": {
     "pos": "Verb",
     "lemma": "k’aar",
-    "gloss": "[x]"
+    "gloss": "rob"
   },
   "kacc": {
     "pos": "Verb",
     "lemma": "k’acc’",
-    "gloss": "[x]"
+    "gloss": "pick at (food), pierce"
   },
   "kad": {
     "pos": "Verb",
     "lemma": "kad",
-    "gloss": "[x]"
+    "gloss": "kick, step"
   },
   "kar": {
     "pos": "Verb",
     "lemma": "kar",
-    "gloss": "[x]"
+    "gloss": "sting"
   },
   "karaar": {
     "pos": "Verb",
     "lemma": "k’araar",
-    "gloss": "[x]"
+    "gloss": "be bitter"
   },
   "ke": {
     "pos": "Verb",
     "lemma": "keʔ-",
-    "gloss": "Stand"
+    "gloss": "get up"
   },
   "kor": {
     "pos": "Verb",
@@ -450,37 +452,37 @@
   "korj": {
     "pos": "Verb",
     "lemma": "korj-",
-    "gloss": "jump"
+    "gloss": "jump, dance"
   },
   "korʔ": {
     "pos": "Verb",
-    "lemma": "k’orʔ",
-    "gloss": "[x]"
+    "lemma": "k’oʔr",
+    "gloss": "wear"
   },
   "kuf": {
     "pos": "Verb",
     "lemma": "k’uf",
-    "gloss": "[x]"
+    "gloss": "become moist"
   },
   "kul": {
     "pos": "Verb",
     "lemma": "kul",
-    "gloss": "[x]"
+    "gloss": "tell"
   },
   "laal": {
     "pos": "Verb",
     "lemma": "laal",
-    "gloss": "[x]"
+    "gloss": "ripen"
   },
   "liiʔl": {
     "pos": "Verb",
     "lemma": "liiʔl",
-    "gloss": "[x]"
+    "gloss": "be smooth, shine"
   },
   "malal": {
     "pos": "Verb",
     "lemma": "malal",
-    "gloss": "[x]"
+    "gloss": "differ, divide"
   },
   "mar": {
     "pos": "Verb",
@@ -490,47 +492,47 @@
   "marar": {
     "pos": "Verb",
     "lemma": "marar",
-    "gloss": "[x]"
+    "gloss": "trigger sympathy"
   },
   "mecc": {
     "pos": "Verb",
-    "lemma": "mecc’",
-    "gloss": "[x]"
+    "lemma": "meecc’",
+    "gloss": "wash"
   },
   "med": {
     "pos": "Verb",
     "lemma": "med",
-    "gloss": "[x]"
+    "gloss": "cut with a sickle"
   },
   "meed": {
     "pos": "Verb",
     "lemma": "meed",
-    "gloss": "[x]"
+    "gloss": "shave"
   },
   "meer": {
     "pos": "Verb",
     "lemma": "meer",
-    "gloss": "[x]"
+    "gloss": "twist"
   },
   "miir": {
     "pos": "Verb",
     "lemma": "miir",
-    "gloss": "[x]"
+    "gloss": "hurt"
   },
   "mooccoocc": {
     "pos": "Verb",
     "lemma": "moocc’oocc’",
-    "gloss": "[x]"
+    "gloss": "hear"
   },
   "mool": {
     "pos": "Verb",
     "lemma": "mool",
-    "gloss": "[x]"
+    "gloss": "get dry"
   },
   "mur": {
     "pos": "Verb",
     "lemma": "mur",
-    "gloss": "[x]"
+    "gloss": "cut, decide"
   },
   "orroo": {
     "pos": "Verb",
@@ -540,27 +542,27 @@
   "saggaar": {
     "pos": "Verb",
     "lemma": "saggaar",
-    "gloss": "[x]"
+    "gloss": "trot"
   },
   "shol": {
     "pos": "Verb",
     "lemma": "shol",
-    "gloss": "[x]"
+    "gloss": "roast"
   },
   "shuul": {
     "pos": "Verb",
     "lemma": "shuul",
-    "gloss": "[x]"
+    "gloss": "finish"
   },
   "shuur": {
     "pos": "Verb",
     "lemma": "shuur",
-    "gloss": "[x]"
+    "gloss": "bicker"
   },
   "soor": {
     "pos": "Verb",
     "lemma": "soor",
-    "gloss": "[x]"
+    "gloss": "prepare, train"
   },
   "taaf": {
     "pos": "Verb",
@@ -570,22 +572,22 @@
   "taʔm": {
     "pos": "Verb",
     "lemma": "t’aʔm",
-    "gloss": "[x]"
+    "gloss": "ask"
   },
   "tuf": {
     "pos": "Verb",
     "lemma": "t’uf",
-    "gloss": "[x]"
+    "gloss": "close"
   },
   "tur": {
     "pos": "Verb",
     "lemma": "t’ur",
-    "gloss": "[x]"
+    "gloss": "become dirty"
   },
   "tuur": {
     "pos": "Verb",
     "lemma": "t’uur",
-    "gloss": "[x]"
+    "gloss": "milk"
   },
   "ub": {
     "pos": "Verb",
@@ -595,37 +597,37 @@
   "uucc": {
     "pos": "Verb",
     "lemma": "[y]",
-    "gloss": "[x]"
+    "gloss": "beg"
   },
   "waal": {
     "pos": "Verb",
     "lemma": "waal",
-    "gloss": "[x]"
+    "gloss": "go to"
   },
   "wod": {
     "pos": "Verb",
     "lemma": "wod",
-    "gloss": "[x]"
+    "gloss": "sing, shout"
   },
   "wokkar": {
     "pos": "Verb",
     "lemma": "wokk’ar",
-    "gloss": "[x]"
+    "gloss": "beat"
   },
   "wor": {
     "pos": "Verb",
     "lemma": "wor",
-    "gloss": "[x]"
+    "gloss": "pour"
   },
   "worʔ": {
     "pos": "Verb",
-    "lemma": "worʔ",
-    "gloss": "[x]"
+    "lemma": "woʔr",
+    "gloss": "wear"
   },
   "wuliil": {
     "pos": "Verb",
     "lemma": "wuliil",
-    "gloss": "[x]"
+    "gloss": "smoke"
   },
   "y": {
     "pos": "Verb",
@@ -635,250 +637,372 @@
   "yaar": {
     "pos": "Verb",
     "lemma": "yaar",
-    "gloss": "[x]"
+    "gloss": "shout"
   },
   "ʔaar": {
     "pos": "Verb",
     "lemma": "ʔaar",
-    "gloss": "[x]"
+    "gloss": "take target"
   },
   "ʔaaʔl": {
     "pos": "Verb",
     "lemma": "ʔaaʔl",
-    "gloss": "[x]"
+    "gloss": "take"
   },
   "ʔaf": {
     "pos": "Verb",
     "lemma": "ʔaf",
-    "gloss": "[x]"
+    "gloss": "hold, seize"
   },
   "ʔafuuʔl": {
     "pos": "Verb",
     "lemma": "ʔafuuʔl",
-    "gloss": "[x]"
+    "gloss": "sirt down"
   },
   "ʔagar": {
     "pos": "Verb",
     "lemma": "ʔagar",
-    "gloss": "[x]"
+    "gloss": "wait"
   },
   "ʔagur": {
     "pos": "Verb",
     "lemma": "ʔagur",
-    "gloss": "[x]"
+    "gloss": "avoid,  neglect"
   },
   "ʔaguuʔm": {
     "pos": "Verb",
     "lemma": "ʔaguuʔm",
-    "gloss": "[x]"
+    "gloss": "swallow"
   },
   "ʔagú": {
     "pos": "Verb",
     "lemma": "ʔagú",
-    "gloss": "[x]"
+    "gloss": "drink"
   },
   "ʔalbaaʔl": {
     "pos": "Verb",
     "lemma": "ʔalbaaʔl",
-    "gloss": "[x]"
+    "gloss": "widen"
   },
   "ʔallaal": {
     "pos": "Verb",
     "lemma": "ʔallaal",
-    "gloss": "[x]"
+    "gloss": "keep"
   },
   "ʔamurʔ": {
     "pos": "Verb",
     "lemma": "ʔamurʔ",
-    "gloss": "[x]"
+    "gloss": "be angry"
   },
   "ʔanjicc": {
     "pos": "Verb",
     "lemma": "ʔanjicc’",
-    "gloss": "[x]"
+    "gloss": "smell"
   },
-  "ʔeebú": {
+  "ʔeeb": {
     "pos": "Verb",
-    "lemma": "ʔeebú",
-    "gloss": "[x]"
+    "lemma": "ʔeeb",
+    "gloss": "bring"
   },
   "ʔenkeʔn": {
     "pos": "Verb",
     "lemma": "ʔenkeʔn",
-    "gloss": "[x]"
+    "gloss": "know"
   },
   "ʔereer": {
     "pos": "Verb",
     "lemma": "ʔereer",
-    "gloss": "[x]"
+    "gloss": "mix"
   },
   "ʔifood": {
     "pos": "Verb",
     "lemma": "ʔifood",
-    "gloss": "[x]"
+    "gloss": "cover pots with grass"
   },
   "ʔijaar": {
     "pos": "Verb",
     "lemma": "ʔijaar",
-    "gloss": "[x]"
+    "gloss": "build"
   },
   "ʔil": {
     "pos": "Verb",
     "lemma": "ʔil",
-    "gloss": "[x]"
+    "gloss": "give birth"
   },
   "ʔinkiil": {
     "pos": "Verb",
     "lemma": "ʔinkiil",
-    "gloss": "[x]"
+    "gloss": "fetch (water)"
   },
   "ʔosaʔl": {
     "pos": "Verb",
     "lemma": "ʔosaʔl",
-    "gloss": "[x]"
+    "gloss": "laugh"
   },
   "ʔubú": {
     "pos": "Verb",
     "lemma": "ʔubú",
-    "gloss": "[x]"
+    "gloss": "fall"
   },
   "ʔud": {
     "pos": "Verb",
     "lemma": "ʔud",
-    "gloss": "[x]"
+    "gloss": "destroy"
   },
   "ʔudul": {
     "pos": "Verb",
     "lemma": "ʔudul",
-    "gloss": "[x]"
+    "gloss": "pound (coffee)"
   },
   "ʔul": {
     "pos": "Verb",
     "lemma": "ʔul",
-    "gloss": "[x]"
+    "gloss": "touch"
   },
   "ʔurrú": {
     "pos": "Verb",
-    "lemma": "ʔurrú",
-    "gloss": "[x]"
+    "lemma": "ʔuurr",
+    "gloss": "stand up"
   },
   "ʔusur": {
     "pos": "Verb",
     "lemma": "ʔusur",
-    "gloss": "[x]"
+    "gloss": "tie properly"
   },
   "ʔuucc": {
     "pos": "Verb",
-    "lemma": "ʔuucc;",
-    "gloss": "[x]"
+    "lemma": "ʔuucc';",
+    "gloss": "begs"
   }
 },
-  "pdgmPropOrder": ["pos", "morphClass", "proClass", "lexeme", "tam", "polarity"],
+  "pdgmPropOrder": ["pos", "morphClass", "proClass", "case", "lexeme", "tam", "polarity", "stemClass", "genderHead"],
   "termclusters": [
   {
-    "label": "alb-PronounAbsPoss",
-    "note": "SBt29",
+    "label": "alb-PronounAbsolutePossessiveHeadMasc",
+    "note": "SBt29p187",
     "common": {
       "pos": "Pronoun",
-      "proClass": "AbsPoss"
+      "proClass": "AbsolutePossessive",
+      "genderHead": "HeadMasc"
     },
     "terms": [
-      ["case" ,"genderHead" ,"number" ,"person" ,"gender" ,"token"],
-      ["Possessive" ,"HeadFem" ,"Singular" ,"Person1" ,"Common" ,"ʔíit(a)"],
-      ["Possessive" ,"HeadFem" ,"Singular" ,"Person2" ,"Common" ,"kíit(a)"],
-      ["Possessive" ,"HeadFem" ,"Singular" ,"Person3" ,"Masc" ,"ʔisíit(a)"],
-      ["Possessive" ,"HeadFem" ,"Singular" ,"Person3" ,"Fem" ,"ʔeséet(a)"],
-      ["Possessive" ,"HeadFem" ,"Plural" ,"Person1" ,"Common" ,"níit(a)"],
-      ["Possessive" ,"HeadFem" ,"Plural" ,"Person2" ,"Common" ,"kiʔnéet(a)"],
-      ["Possessive" ,"HeadFem" ,"Plural" ,"Person3" ,"Common" ,"ʔissát(a)"],
-      ["Possessive" ,"HeadMasc" ,"Singular" ,"Person1" ,"Common" ,"ʔíih(a)"],
-      ["Possessive" ,"HeadMasc" ,"Singular" ,"Person2" ,"Common" ,"kíih(a)"],
-      ["Possessive" ,"HeadMasc" ,"Singular" ,"Person3" ,"Masc" ,"ʔisíih(a)"],
-      ["Possessive" ,"HeadMasc" ,"Singular" ,"Person3" ,"Fem" ,"ʔeséeh(a)"],
-      ["Possessive" ,"HeadMasc" ,"Plural" ,"Person1" ,"Common" ,"níih(a)"],
-      ["Possessive" ,"HeadMasc" ,"Plural" ,"Person2" ,"Common" ,"kiʔnéeh(a)"],
-      ["Possessive" ,"HeadMasc" ,"Plural" ,"Person3" ,"Common" ,"ʔissáh(a)"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔíih(a)"],
+      ["Singular" ,"Person2" ,"Common" ,"kíih(a)"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔisíih(a)"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔeséeh(a)"],
+      ["Plural" ,"Person1" ,"Common" ,"níih(a)"],
+      ["Plural" ,"Person2" ,"Common" ,"kiʔnéeh(a)"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔissáh(a)"]
     ]
   },
   {
-    "label": "alb-PronounIndepentClitic",
-    "note": "SBt27",
+    "label": "alb-PronounAbsoluteePossessiveHeadFem",
+    "note": "SBt29p187",
     "common": {
       "pos": "Pronoun",
-      "proClass": "IndepentClitic"
+      "proClass": "AbsoluteePossessive",
+      "genderHead": "HeadFem"
     },
     "terms": [
-      ["case" ,"proClass" ,"number" ,"person" ,"gender" ,"token"],
-      ["Ablative" ,"PronounIndependent" ,"Singular" ,"Person1" ,"Common" ,"ʔíicc(i)"],
-      ["Ablative" ,"PronounIndependent" ,"Singular" ,"Person2" ,"Common" ,"kíicc(i)"],
-      ["Ablative" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Masc" ,"ʔisíicc(i)"],
-      ["Ablative" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Fem" ,"ʔiséecc(i)"],
-      ["Ablative" ,"PronounIndependent" ,"Plural" ,"Person1" ,"Common" ,"níicc(i)"],
-      ["Ablative" ,"PronounIndependent" ,"Plural" ,"Person2" ,"Common" ,"kiʔnéecc(i)"],
-      ["Ablative" ,"PronounIndependent" ,"Plural" ,"Person3" ,"Common" ,"ʔissáacc(i)"],
-      ["Absolutive" ,"PronounClitic" ,"Singular" ,"Person1" ,"Common" ,"-(ʔ)e"],
-      ["Absolutive" ,"PronounClitic" ,"Singular" ,"Person2" ,"Common" ,"-he / -ke"],
-      ["Absolutive" ,"PronounClitic" ,"Singular" ,"Person3" ,"Masc" ,"-si"],
-      ["Absolutive" ,"PronounClitic" ,"Singular" ,"Person3" ,"Fem" ,"-se"],
-      ["Absolutive" ,"PronounClitic" ,"Plural" ,"Person1" ,"Common" ,"-(n)ne"],
-      ["Absolutive" ,"PronounClitic" ,"Plural" ,"Person2" ,"Common" ,"-hiʔne / -kiʔne"],
-      ["Absolutive" ,"PronounClitic" ,"Plural" ,"Person3" ,"Common" ,"-(s)sa"],
-      ["Absolutive" ,"PronounIndependent" ,"Singular" ,"Person1" ,"Common" ,"ʔisá"],
-      ["Absolutive" ,"PronounIndependent" ,"Singular" ,"Person2" ,"Common" ,"kesá"],
-      ["Absolutive" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Masc" ,"ʔisú"],
-      ["Absolutive" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Fem" ,"ʔisét(a)"],
-      ["Absolutive" ,"PronounIndependent" ,"Plural" ,"Person1" ,"Common" ,"nesá"],
-      ["Absolutive" ,"PronounIndependent" ,"Plural" ,"Person2" ,"Common" ,"kiʔnét(a)"],
-      ["Absolutive" ,"PronounIndependent" ,"Plural" ,"Person3" ,"Common" ,"ʔissát(a)"],
-      ["Dative" ,"PronounClitic" ,"Singular" ,"Person1" ,"Common" ,"-(ʔ)e"],
-      ["Dative" ,"PronounClitic" ,"Singular" ,"Person2" ,"Common" ,"-he / -ke"],
-      ["Dative" ,"PronounClitic" ,"Singular" ,"Person3" ,"Masc" ,"-si"],
-      ["Dative" ,"PronounClitic" ,"Singular" ,"Person3" ,"Fem" ,"-se"],
-      ["Dative" ,"PronounClitic" ,"Plural" ,"Person1" ,"Common" ,"-(n)ne"],
-      ["Dative" ,"PronounClitic" ,"Plural" ,"Person2" ,"Common" ,"-hiʔne / -kiʔne"],
-      ["Dative" ,"PronounClitic" ,"Plural" ,"Person3" ,"Common" ,"-(s)sa"],
-      ["Dative" ,"PronounIndependent" ,"Singular" ,"Person1" ,"Common" ,"ʔesáa / ʔisáa"],
-      ["Dative" ,"PronounIndependent" ,"Singular" ,"Person2" ,"Common" ,"kesáa"],
-      ["Dative" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Masc" ,"ʔisíih(a) / ʔisíi"],
-      ["Dative" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Fem" ,"ʔisée"],
-      ["Dative" ,"PronounIndependent" ,"Plural" ,"Person1" ,"Common" ,"nesáa"],
-      ["Dative" ,"PronounIndependent" ,"Plural" ,"Person2" ,"Common" ,"kiʔnée"],
-      ["Dative" ,"PronounIndependent" ,"Plural" ,"Person3" ,"Common" ,"ʔissáa"],
-      ["Genitive" ,"PronounClitic" ,"Singular" ,"Person1" ,"Common" ,"-(ʔ)e"],
-      ["Genitive" ,"PronounClitic" ,"Singular" ,"Person2" ,"Common" ,"-ki"],
-      ["Genitive" ,"PronounClitic" ,"Singular" ,"Person3" ,"Masc" ,"-si"],
-      ["Genitive" ,"PronounClitic" ,"Singular" ,"Person3" ,"Fem" ,"-se"],
-      ["Genitive" ,"PronounClitic" ,"Plural" ,"Person1" ,"Common" ,"-(n)ne"],
-      ["Genitive" ,"PronounClitic" ,"Plural" ,"Person2" ,"Common" ,"-kiʔne"],
-      ["Genitive" ,"PronounClitic" ,"Plural" ,"Person3" ,"Common" ,"-(s)sa"],
-      ["Genitive" ,"PronounIndependent" ,"Singular" ,"Person1" ,"Common" ,"ʔii"],
-      ["Genitive" ,"PronounIndependent" ,"Singular" ,"Person2" ,"Common" ,"kii"],
-      ["Genitive" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Masc" ,"ʔisi"],
-      ["Genitive" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Fem" ,"ʔise"],
-      ["Genitive" ,"PronounIndependent" ,"Plural" ,"Person1" ,"Common" ,"nii"],
-      ["Genitive" ,"PronounIndependent" ,"Plural" ,"Person2" ,"Common" ,"kiʔne"],
-      ["Genitive" ,"PronounIndependent" ,"Plural" ,"Person3" ,"Common" ,"ʔissa"],
-      ["Instrumental" ,"PronounIndependent" ,"Singular" ,"Person1" ,"Common" ,"ʔíin(i)"],
-      ["Instrumental" ,"PronounIndependent" ,"Singular" ,"Person2" ,"Common" ,"kíin(i)"],
-      ["Instrumental" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Masc" ,"ʔisíin(i)"],
-      ["Instrumental" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Fem" ,"ʔiséen(i)"],
-      ["Instrumental" ,"PronounIndependent" ,"Plural" ,"Person1" ,"Common" ,"níin(i)"],
-      ["Instrumental" ,"PronounIndependent" ,"Plural" ,"Person2" ,"Common" ,"kiʔnéen(i)"],
-      ["Instrumental" ,"PronounIndependent" ,"Plural" ,"Person3" ,"Common" ,"ʔissáan(i)"],
-      ["Nominative" ,"PronounIndependent" ,"Singular" ,"Person1" ,"Common" ,"ʔán(i)"],
-      ["Nominative" ,"PronounIndependent" ,"Singular" ,"Person2" ,"Common" ,"ʔát(i)"],
-      ["Nominative" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Masc" ,"ʔís(i)"],
-      ["Nominative" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Fem" ,"ʔís(e)"],
-      ["Nominative" ,"PronounIndependent" ,"Plural" ,"Person1" ,"Common" ,"náʔ(u)"],
-      ["Nominative" ,"PronounIndependent" ,"Plural" ,"Person2" ,"Common" ,"ʔáʔn(u)"],
-      ["Nominative" ,"PronounIndependent" ,"Plural" ,"Person3" ,"Common" ,"ʔíss(a)"],
-      ["Similative" ,"PronounIndependent" ,"Singular" ,"Person1" ,"Common" ,"ʔíg(a)"],
-      ["Similative" ,"PronounIndependent" ,"Singular" ,"Person2" ,"Common" ,"kíg(a)"],
-      ["Similative" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Masc" ,"ʔisíg(a)"],
-      ["Similative" ,"PronounIndependent" ,"Singular" ,"Person3" ,"Fem" ,"ʔiség(a)"],
-      ["Similative" ,"PronounIndependent" ,"Plural" ,"Person1" ,"Common" ,"níg(a)"],
-      ["Similative" ,"PronounIndependent" ,"Plural" ,"Person2" ,"Common" ,"kiʔnég(a)"],
-      ["Similative" ,"PronounIndependent" ,"Plural" ,"Person3" ,"Common" ,"ʔisság(a)"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔíit(a)"],
+      ["Singular" ,"Person2" ,"Common" ,"kíit(a)"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔisíit(a)"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔeséet(a)"],
+      ["Plural" ,"Person1" ,"Common" ,"níit(a)"],
+      ["Plural" ,"Person2" ,"Common" ,"kiʔnéet(a)"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔissát(a)"]
+    ]
+  },
+  {
+    "label": "alb-PronounCliticDative",
+    "note": "SBt27p174",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Clitic",
+      "case": "Dative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-(ʔ)e"],
+      ["Singular" ,"Person2" ,"Common" ,"-he / -ke"],
+      ["Singular" ,"Person3" ,"Masc" ,"-si"],
+      ["Singular" ,"Person3" ,"Fem" ,"-se"],
+      ["Plural" ,"Person1" ,"Common" ,"-(n)ne"],
+      ["Plural" ,"Person2" ,"Common" ,"-hiʔne / -kiʔne"],
+      ["Plural" ,"Person3" ,"Common" ,"-(s)sa"]
+    ]
+  },
+  {
+    "label": "alb-PronounCliticGenitive",
+    "note": "SBt27p174",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Clitic",
+      "case": "Genitive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-(ʔ)e"],
+      ["Singular" ,"Person2" ,"Common" ,"-ki"],
+      ["Singular" ,"Person3" ,"Masc" ,"-si"],
+      ["Singular" ,"Person3" ,"Fem" ,"-se"],
+      ["Plural" ,"Person1" ,"Common" ,"-(n)ne"],
+      ["Plural" ,"Person2" ,"Common" ,"-kiʔne"],
+      ["Plural" ,"Person3" ,"Common" ,"-(s)sa"]
+    ]
+  },
+  {
+    "label": "alb-PronounCllticAbsolutive",
+    "note": "SBt27p174",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Clltic",
+      "case": "Absolutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-(ʔ)e"],
+      ["Singular" ,"Person2" ,"Common" ,"-he / -ke"],
+      ["Singular" ,"Person3" ,"Masc" ,"-si"],
+      ["Singular" ,"Person3" ,"Fem" ,"-se"],
+      ["Plural" ,"Person1" ,"Common" ,"-(n)ne"],
+      ["Plural" ,"Person2" ,"Common" ,"-hiʔne / -kiʔne"],
+      ["Plural" ,"Person3" ,"Common" ,"-(s)sa"]
+    ]
+  },
+  {
+    "label": "alb-PronounIndepdentAblative",
+    "note": "SBt27p174",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Indepdent",
+      "case": "Ablative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔíicc(i)"],
+      ["Singular" ,"Person2" ,"Common" ,"kíicc(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔisíicc(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔiséecc(i)"],
+      ["Plural" ,"Person1" ,"Common" ,"níicc(i)"],
+      ["Plural" ,"Person2" ,"Common" ,"kiʔnéecc(i)"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔissáacc(i)"]
+    ]
+  },
+  {
+    "label": "alb-PronounIndepdentAbsolutive",
+    "note": "SBt27p174",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Indepdent",
+      "case": "Absolutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔisá"],
+      ["Singular" ,"Person2" ,"Common" ,"kesá"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔisú"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔisét(a)"],
+      ["Plural" ,"Person1" ,"Common" ,"nesá"],
+      ["Plural" ,"Person2" ,"Common" ,"kiʔnét(a)"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔissát(a)"]
+    ]
+  },
+  {
+    "label": "alb-PronounIndepdentDative",
+    "note": "SBt27p174",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Indepdent",
+      "case": "Dative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔesáa / ʔisáa"],
+      ["Singular" ,"Person2" ,"Common" ,"kesáa"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔisíih(a) / ʔisíi"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔisée"],
+      ["Plural" ,"Person1" ,"Common" ,"nesáa"],
+      ["Plural" ,"Person2" ,"Common" ,"kiʔnée"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔissáa"]
+    ]
+  },
+  {
+    "label": "alb-PronounIndepdentGenitive",
+    "note": "SBt27p174",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Indepdent",
+      "case": "Genitive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔii"],
+      ["Singular" ,"Person2" ,"Common" ,"kii"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔisi"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔise"],
+      ["Plural" ,"Person1" ,"Common" ,"nii"],
+      ["Plural" ,"Person2" ,"Common" ,"kiʔne"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔissa"]
+    ]
+  },
+  {
+    "label": "alb-PronounIndepdentInstrumental",
+    "note": "SBt27p174",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Indepdent",
+      "case": "Instrumental"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔíin(i)"],
+      ["Singular" ,"Person2" ,"Common" ,"kíin(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔisíin(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔiséen(i)"],
+      ["Plural" ,"Person1" ,"Common" ,"níin(i)"],
+      ["Plural" ,"Person2" ,"Common" ,"kiʔnéen(i)"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔissáan(i)"]
+    ]
+  },
+  {
+    "label": "alb-PronounIndepdentNominative",
+    "note": "SBt27p174",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Indepdent",
+      "case": "Nominative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔán(i)"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔát(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔís(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔís(e)"],
+      ["Plural" ,"Person1" ,"Common" ,"náʔ(u)"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔáʔn(u)"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔíss(a)"]
+    ]
+  },
+  {
+    "label": "alb-PronounIndepdentSimilative",
+    "note": "SBt27p174",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Indepdent",
+      "case": "Similative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔíg(a)"],
+      ["Singular" ,"Person2" ,"Common" ,"kíg(a)"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔisíg(a)"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔiség(a)"],
+      ["Plural" ,"Person1" ,"Common" ,"níg(a)"],
+      ["Plural" ,"Person2" ,"Common" ,"kiʔnég(a)"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔisság(a)"]
     ]
   },
   {
@@ -900,94 +1024,206 @@
     ]
   },
   {
-    "label": "alb-PronounReciprocal",
-    "note": "SBt35-39",
+    "label": "alb-PronounReciprocalAblative",
+    "note": "SBt38p198",
     "common": {
       "pos": "Pronoun",
-      "proClass": "Reciprocal"
+      "proClass": "Reciprocal",
+      "case": "Ablative"
     },
     "terms": [
-      ["case" ,"number" ,"person" ,"token"],
-      ["Ablative" ,"Plural" ,"Person1" ,"gagahiiccínn(e)"],
-      ["Ablative" ,"Plural" ,"Person2" ,"gagahiiccikíʔn(e)"],
-      ["Ablative" ,"Plural" ,"Person3" ,"gagahiiccíss(a)"],
-      ["Absolutive" ,"Plural" ,"Person1" ,"gagagúnn(e)"],
-      ["Absolutive" ,"Plural" ,"Person2" ,"gagagukíʔn(e)"],
-      ["Absolutive" ,"Plural" ,"Person3" ,"gagagúss(a)"],
-      ["Dative" ,"Plural" ,"Person1" ,"gagayánn(e)"],
-      ["Dative" ,"Plural" ,"Person2" ,"gagayakíʔn(e)"],
-      ["Dative" ,"Plural" ,"Person3" ,"gagayiháss(a)"],
-      ["Similative" ,"Plural" ,"Person1" ,"gagayinnínng(a)"],
-      ["Similative" ,"Plural" ,"Person2" ,"gagayikíʔng(a)"],
-      ["Similative" ,"Plural" ,"Person3" ,"gagayisság(a)"]
+      ["number" ,"person" ,"token"],
+      ["Plural" ,"Person1" ,"gagahiiccínn(e)"],
+      ["Plural" ,"Person2" ,"gagahiiccikíʔn(e)"],
+      ["Plural" ,"Person3" ,"gagahiiccíss(a)"]
+    ]
+  },
+  {
+    "label": "alb-PronounReciprocalAbsolutive",
+    "note": "SBt35p198",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Reciprocal",
+      "case": "Absolutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"token"],
+      ["Plural" ,"Person1" ,"gagagúnn(e)"],
+      ["Plural" ,"Person2" ,"gagagukíʔn(e)"],
+      ["Plural" ,"Person3" ,"gagagúss(a)"]
+    ]
+  },
+  {
+    "label": "alb-PronounReciprocalDative",
+    "note": "SBt36p198",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Reciprocal",
+      "case": "Dative"
+    },
+    "terms": [
+      ["number" ,"person" ,"token"],
+      ["Plural" ,"Person1" ,"gagayánn(e)"],
+      ["Plural" ,"Person2" ,"gagayakíʔn(e)"],
+      ["Plural" ,"Person3" ,"gagayiháss(a)"]
+    ]
+  },
+  {
+    "label": "alb-PronounReciprocalInstrumental",
+    "note": "SBt37p198",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Reciprocal",
+      "case": "Instrumental"
+    },
+    "terms": [
+      ["number" ,"person" ,"token"],
+      ["Plural" ,"Person1" ,"gagayiinkánn(e)"],
+      ["Plural" ,"Person2" ,"gagayiinkakíʔn(e)"],
+      ["Plural" ,"Person3" ,"gagayiinkáss(a)"]
+    ]
+  },
+  {
+    "label": "alb-PronounReciprocalSimilative",
+    "note": "SBt39p198",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Reciprocal",
+      "case": "Similative"
+    },
+    "terms": [
+      ["number" ,"person" ,"token"],
+      ["Plural" ,"Person1" ,"gagayinnínng(a)"],
+      ["Plural" ,"Person2" ,"gagayikíʔng(a)"],
+      ["Plural" ,"Person3" ,"gagayisság(a)"]
     ]
   },
   {
     "label": "alb-PronounReflexive",
-    "note": "SBt30-34&40",
+    "note": "SBt33p194",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reflexive"
     },
     "terms": [
-      ["case" ,"number" ,"person" ,"gender" ,"token"],
-      ["Ablative" ,"Singular" ,"Person1" ,"Masc" ,"gagíicc(e)"],
-      ["Ablative" ,"Singular" ,"Person1" ,"Fem" ,"gagéecc(e)"],
-      ["Ablative" ,"Singular" ,"Person2" ,"Masc" ,"gagiiccík(i)"],
-      ["Ablative" ,"Singular" ,"Person2" ,"Fem" ,"gageeccík(i)"],
-      ["Ablative" ,"Singular" ,"Person3" ,"Masc" ,"gag(ga)yiiccís(i)"],
-      ["Ablative" ,"Singular" ,"Person3" ,"Fem" ,"gag(ga)yeeccís(e)"],
-      ["Ablative" ,"Plural" ,"Person1" ,"Common" ,"gagiiccínn(e)"],
-      ["Ablative" ,"Plural" ,"Person2" ,"Common" ,"gagiiccikíʔn(e)"],
-      ["Ablative" ,"Plural" ,"Person3" ,"Common" ,"gagiiccíss(a)"],
-      ["AbsolutiveEmphatic" ,"Singular" ,"Person1" ,"Masc" ,"gagúnkuʔ(e)"],
-      ["AbsolutiveEmphatic" ,"Singular" ,"Person1" ,"Fem" ,"gagíntiʔ(e)"],
-      ["AbsolutiveEmphatic" ,"Singular" ,"Person2" ,"Masc" ,"gagúnkuk(i)"],
-      ["AbsolutiveEmphatic" ,"Singular" ,"Person2" ,"Fem" ,"gagíntik(i)"],
-      ["AbsolutiveEmphatic" ,"Singular" ,"Person3" ,"Masc" ,"gagúnkus(i)"],
-      ["AbsolutiveEmphatic" ,"Singular" ,"Person3" ,"Fem" ,"gagíntis(e)"],
-      ["AbsolutiveEmphatic" ,"Plural" ,"Person1" ,"Common" ,"gagunkúnn(e)"],
-      ["AbsolutiveEmphatic" ,"Plural" ,"Person2" ,"Common" ,"gagunkukíʔn(e)"],
-      ["AbsolutiveEmphatic" ,"Plural" ,"Person3" ,"Common" ,"gagunkúss(a)"],
-      ["AbsolutiveNominative" ,"Singular" ,"Person1" ,"Masc" ,"gagúʔ(e)"],
-      ["AbsolutiveNominative" ,"Singular" ,"Person1" ,"Fem" ,"gagíʔ(e)"],
-      ["AbsolutiveNominative" ,"Singular" ,"Person2" ,"Masc" ,"gagúk(i)"],
-      ["AbsolutiveNominative" ,"Singular" ,"Person2" ,"Fem" ,"gagík(i)"],
-      ["AbsolutiveNominative" ,"Singular" ,"Person3" ,"Masc" ,"gagús(i)"],
-      ["AbsolutiveNominative" ,"Singular" ,"Person3" ,"Fem" ,"gagís(e)"],
-      ["AbsolutiveNominative" ,"Plural" ,"Person1" ,"Common" ,"gagúnn(e)"],
-      ["AbsolutiveNominative" ,"Plural" ,"Person2" ,"Common" ,"gagukíʔn(e)"],
-      ["AbsolutiveNominative" ,"Plural" ,"Person3" ,"Common" ,"gagúss(a)"],
-      ["Dative" ,"Singular" ,"Person1" ,"Masc" ,"gagíiyaʔ(e)"],
-      ["Dative" ,"Singular" ,"Person1" ,"Fem" ,"gagéetaʔ(e)"],
-      ["Dative" ,"Singular" ,"Person2" ,"Masc" ,"gagíiyak(i)"],
-      ["Dative" ,"Singular" ,"Person2" ,"Fem" ,"gagéetak(i)"],
-      ["Dative" ,"Singular" ,"Person3" ,"Masc" ,"gagíiyas(i)"],
-      ["Dative" ,"Singular" ,"Person3" ,"Fem" ,"gagéetas(e)"],
-      ["Dative" ,"Plural" ,"Person1" ,"Common" ,"gagíiyann(e)"],
-      ["Dative" ,"Plural" ,"Person2" ,"Common" ,"gagíiyakiʔn(e)"],
-      ["Dative" ,"Plural" ,"Person3" ,"Common" ,"gagíiyass(a)"],
-      ["Genitive" ,"Singular" ,"Person1" ,"Masc" ,"gagiʔe"],
-      ["Genitive" ,"Singular" ,"Person1" ,"Fem" ,"gageʔe"],
-      ["Genitive" ,"Singular" ,"Person2" ,"Masc" ,"gagiki"],
-      ["Genitive" ,"Singular" ,"Person2" ,"Fem" ,"gageki"],
-      ["Genitive" ,"Singular" ,"Person3" ,"Masc" ,"gagisi"],
-      ["Genitive" ,"Singular" ,"Person3" ,"Fem" ,"gagese"],
-      ["Genitive" ,"Plural" ,"Person1" ,"Common" ,"gaginne"],
-      ["Genitive" ,"Plural" ,"Person2" ,"Common" ,"gagikiʔne"],
-      ["Genitive" ,"Plural" ,"Person3" ,"Common" ,"gagaʔissa ~ gagissa"],
-      ["Instrumental" ,"Singular" ,"Person1" ,"Common" ,"gagíinkaʔ(e)"],
-      ["Instrumental" ,"Singular" ,"Person2" ,"Common" ,"gagíinkak(i)"],
-      ["Instrumental" ,"Singular" ,"Person3" ,"Masc" ,"gagíinkas(i)"],
-      ["Instrumental" ,"Singular" ,"Person3" ,"Fem" ,"gagéentas(e)"],
-      ["Instrumental" ,"Plural" ,"Person1" ,"Common" ,"gagíinkann(e)"],
-      ["Instrumental" ,"Plural" ,"Person2" ,"Common" ,"gagíinkiʔn(e)"],
-      ["Instrumental" ,"Plural" ,"Person3" ,"Common" ,"gagíinkass(a)"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Masc" ,"gagíicc(e)"],
+      ["Singular" ,"Person1" ,"Fem" ,"gagéecc(e)"],
+      ["Singular" ,"Person2" ,"Masc" ,"gagiiccík(i)"],
+      ["Singular" ,"Person2" ,"Fem" ,"gageeccík(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"gag(ga)yiiccís(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"gag(ga)yeeccís(e)"],
+      ["Plural" ,"Person1" ,"Common" ,"gagiiccínn(e)"],
+      ["Plural" ,"Person2" ,"Common" ,"gagiiccikíʔn(e)"],
+      ["Plural" ,"Person3" ,"Common" ,"gagiiccíss(a)"]
+    ]
+  },
+  {
+    "label": "alb-PronounReflexiveAbsolutive",
+    "note": "SBt30p189",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Reflexive",
+      "case": "Absolutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Masc" ,"gagúʔ(e)"],
+      ["Singular" ,"Person1" ,"Fem" ,"gagíʔ(e)"],
+      ["Singular" ,"Person2" ,"Masc" ,"gagúk(i)"],
+      ["Singular" ,"Person2" ,"Fem" ,"gagík(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"gagús(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"gagís(e)"],
+      ["Plural" ,"Person1" ,"Common" ,"gagúnn(e)"],
+      ["Plural" ,"Person2" ,"Common" ,"gagukíʔn(e)"],
+      ["Plural" ,"Person3" ,"Common" ,"gagúss(a)"]
+    ]
+  },
+  {
+    "label": "alb-PronounReflexiveAbsolutiveEmphatic",
+    "note": "SBt40p1999",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Reflexive",
+      "case": "AbsolutiveEmphatic"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Masc" ,"gagúnkuʔ(e)"],
+      ["Singular" ,"Person1" ,"Fem" ,"gagíntiʔ(e)"],
+      ["Singular" ,"Person2" ,"Masc" ,"gagúnkuk(i)"],
+      ["Singular" ,"Person2" ,"Fem" ,"gagíntik(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"gagúnkus(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"gagíntis(e)"],
+      ["Plural" ,"Person1" ,"Common" ,"gagunkúnn(e)"],
+      ["Plural" ,"Person2" ,"Common" ,"gagunkukíʔn(e)"],
+      ["Plural" ,"Person3" ,"Common" ,"gagunkúss(a)"]
+    ]
+  },
+  {
+    "label": "alb-PronounReflexiveDative",
+    "note": "SBt31p192",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Reflexive",
+      "case": "Dative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Masc" ,"gagíiyaʔ(e)"],
+      ["Singular" ,"Person1" ,"Fem" ,"gagéetaʔ(e)"],
+      ["Singular" ,"Person2" ,"Masc" ,"gagíiyak(i)"],
+      ["Singular" ,"Person2" ,"Fem" ,"gagéetak(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"gagíiyas(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"gagéetas(e)"],
+      ["Plural" ,"Person1" ,"Common" ,"gagíiyann(e)"],
+      ["Plural" ,"Person2" ,"Common" ,"gagíiyakiʔn(e)"],
+      ["Plural" ,"Person3" ,"Common" ,"gagíiyass(a)"]
+    ]
+  },
+  {
+    "label": "alb-PronounReflexiveGenitive",
+    "note": "SBt34p195",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Reflexive",
+      "case": "Genitive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Masc" ,"gagiʔe"],
+      ["Singular" ,"Person1" ,"Fem" ,"gageʔe"],
+      ["Singular" ,"Person2" ,"Masc" ,"gagiki"],
+      ["Singular" ,"Person2" ,"Fem" ,"gageki"],
+      ["Singular" ,"Person3" ,"Masc" ,"gagisi"],
+      ["Singular" ,"Person3" ,"Fem" ,"gagese"],
+      ["Plural" ,"Person1" ,"Common" ,"gaginne"],
+      ["Plural" ,"Person2" ,"Common" ,"gagikiʔne"],
+      ["Plural" ,"Person3" ,"Common" ,"gagaʔissa ~ gagissa"]
+    ]
+  },
+  {
+    "label": "alb-PronounReflexiveInstrumental",
+    "note": "SBt32p193",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Reflexive",
+      "case": "Instrumental"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"gagíinkaʔ(e)"],
+      ["Singular" ,"Person2" ,"Common" ,"gagíinkak(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"gagíinkas(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"gagéentas(e)"],
+      ["Plural" ,"Person1" ,"Common" ,"gagíinkann(e)"],
+      ["Plural" ,"Person2" ,"Common" ,"gagíinkiʔn(e)"],
+      ["Plural" ,"Person3" ,"Common" ,"gagíinkass(a)"]
     ]
   },
   {
     "label": "alb-Verb-ameet-Converb",
-    "note": "SBp.244",
+    "note": "SBp244",
     "common": {
       "lexeme": "ameet",
       "pos": "Verb",
@@ -1007,7 +1243,7 @@
   },
   {
     "label": "alb-Verb-gaf-Converb",
-    "note": "SBp.244",
+    "note": "SBp244",
     "common": {
       "lexeme": "gaf",
       "pos": "Verb",
@@ -1026,8 +1262,28 @@
     ]
   },
   {
+    "label": "alb-Verb-hir-ConverbDiffSubj",
+    "note": "SBt42p",
+    "common": {
+      "lexeme": "hir",
+      "pos": "Verb",
+      "tam": "ConverbDiffSubj"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"hirʔ-i-yáan(i)"],
+      ["Singular" ,"Person2" ,"Common" ,"hirʔ-i-táan(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"hirʔ-i-yáan(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"hirʔ-i-táan(i)"],
+      ["PoliteImpersonal" ,"Person3" ,"Common" ,"hirʔ-eenáan(i)"],
+      ["Plural" ,"Person1" ,"Common" ,"hirʔ-i-náan(i)"],
+      ["Plural" ,"Person2" ,"Common" ,"hirʔ-i-téenaan(i)"],
+      ["Plural" ,"Person3" ,"Common" ,"hirʔ-i-táan(i)"]
+    ]
+  },
+  {
     "label": "alb-Verb-ke-Converb",
-    "note": "SBp.244",
+    "note": "SBp244",
     "common": {
       "lexeme": "ke",
       "pos": "Verb",
@@ -1047,7 +1303,7 @@
   },
   {
     "label": "alb-Verb-korj-AnteriorPerfectAffirmative",
-    "note": "SBp.204",
+    "note": "SBp204",
     "common": {
       "lexeme": "korj",
       "polarity": "Affirmative",
@@ -1068,7 +1324,7 @@
   },
   {
     "label": "alb-Verb-korj-FutureProximateAffirmative",
-    "note": "SBp.238",
+    "note": "SBp238",
     "common": {
       "lexeme": "korj",
       "polarity": "Affirmative",
@@ -1089,7 +1345,7 @@
   },
   {
     "label": "alb-Verb-korj-ImperfectiveAffirmative",
-    "note": "SBp.216",
+    "note": "SBp216",
     "common": {
       "lexeme": "korj",
       "polarity": "Affirmative",
@@ -1110,7 +1366,7 @@
   },
   {
     "label": "alb-Verb-korj-ImperfectiveNegative",
-    "note": "SBp.216",
+    "note": "SBp216",
     "common": {
       "lexeme": "korj",
       "polarity": "Negative",
@@ -1131,7 +1387,7 @@
   },
   {
     "label": "alb-Verb-korj-PerfectiveAffirmative",
-    "note": "SBp.204",
+    "note": "SBp204",
     "common": {
       "lexeme": "korj",
       "polarity": "Affirmative",
@@ -1152,7 +1408,7 @@
   },
   {
     "label": "alb-Verb-korj-PerfectiveNegative",
-    "note": "SBp.204",
+    "note": "SBp204",
     "common": {
       "lexeme": "korj",
       "polarity": "Negative",
@@ -1173,7 +1429,7 @@
   },
   {
     "label": "alb-Verb-korj-ProgressiveAffirmative",
-    "note": "SBp.221",
+    "note": "SBp221",
     "common": {
       "lexeme": "korj",
       "polarity": "Affirmative",
@@ -1194,7 +1450,7 @@
   },
   {
     "label": "alb-Verb-korj-ProgressiveNegative",
-    "note": "SBp.221",
+    "note": "SBp221",
     "common": {
       "lexeme": "korj",
       "polarity": "Negative",
@@ -1215,7 +1471,7 @@
   },
   {
     "label": "alb-Verb-korj-TensefutProxAffirmative",
-    "note": "SBp.238",
+    "note": "SBp238",
     "common": {
       "lexeme": "korj",
       "polarity": "Affirmative",
@@ -1236,7 +1492,7 @@
   },
   {
     "label": "alb-Verb-mar-Converb",
-    "note": "SBp.244",
+    "note": "SBp244",
     "common": {
       "lexeme": "mar",
       "pos": "Verb",
@@ -1256,7 +1512,7 @@
   },
   {
     "label": "alb-Verb-orroo-ImperativeAffirmative",
-    "note": "SBp.224",
+    "note": "SBp224",
     "common": {
       "lexeme": "orroo",
       "polarity": "Affirmative",
@@ -1277,7 +1533,7 @@
   },
   {
     "label": "alb-Verb-orroo-ImperativeNegative",
-    "note": "SBp.224",
+    "note": "SBp224",
     "common": {
       "lexeme": "orroo",
       "polarity": "Negative",
@@ -1298,7 +1554,7 @@
   },
   {
     "label": "alb-Verb-orroo-PosteriorSub",
-    "note": "SBp.266",
+    "note": "SBp266",
     "common": {
       "lexeme": "orroo",
       "pos": "Verb",
@@ -1317,7 +1573,7 @@
   },
   {
     "label": "alb-Verb-ub-AnteriorPerfectAffirmative",
-    "note": "SBp.206",
+    "note": "SBp206",
     "common": {
       "lexeme": "ub",
       "polarity": "Affirmative",
@@ -1338,7 +1594,7 @@
   },
   {
     "label": "alb-Verb-ub-PerfectiveAffirmative",
-    "note": "SBp.206",
+    "note": "SBp206",
     "common": {
       "lexeme": "ub",
       "polarity": "Affirmative",
@@ -1359,7 +1615,7 @@
   },
   {
     "label": "alb-Verb-ub-PerfectiveNegative",
-    "note": "SBp.206",
+    "note": "SBp206",
     "common": {
       "lexeme": "ub",
       "polarity": "Negative",
@@ -1380,7 +1636,7 @@
   },
   {
     "label": "alb-Verb-y-AnteriorPerfectAffirmative",
-    "note": "SBp.210",
+    "note": "SBp210",
     "common": {
       "lexeme": "y",
       "polarity": "Affirmative",
@@ -1401,7 +1657,7 @@
   },
   {
     "label": "alb-Verb-y-PerfectiveAffirmative",
-    "note": "SBp.210",
+    "note": "SBp210",
     "common": {
       "lexeme": "y",
       "polarity": "Affirmative",
@@ -1422,7 +1678,7 @@
   },
   {
     "label": "alb-Verb-y-PerfectiveNegative",
-    "note": "SBp.210",
+    "note": "SBp210",
     "common": {
       "lexeme": "y",
       "polarity": "Negative",
@@ -1442,56 +1698,13 @@
     ]
   },
   {
-    "label": "alb-Verb-ʔeebú-",
-    "note": "SBt47 :: Form vs. Function of the causative of causative",
+    "label": "alb-Verb-yo-CopulaAffirmative",
+    "note": "SBp202",
     "common": {
-      "lexeme": "ʔeebú",
-      "pos": "Verb"
-    },
-    "terms": [
-      ["derivedStem" ,"token"],
-      ["CausativeDouble2" ,"ʔeebsiisiisú"],
-      ["CausativeSimple2" ,"ʔeebsiisú"]
-    ]
-  },
-  {
-    "label": "alb-Verb-ʔeebú-",
-    "note": "SBt47 :: Form vs. Function of the causative of causative",
-    "common": {
-      "lexeme": "ʔeebú",
-      "pos": "Verb"
-    },
-    "terms": [
-      ["derivedStem" ,"token"],
-      ["CausativeDouble2" ,"ʔeebsiisiisú"],
-      ["CausativeSimple2" ,"ʔeebsiisú"]
-    ]
-  },
-  {
-    "label": "alb-VerbPurposiveSub",
-    "note": "SBt44",
-    "common": {
+      "lexeme": "yo",
+      "polarity": "Affirmative",
       "pos": "Verb",
-      "tam": "PurposiveSub"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"-ót(a)"],
-      ["Singular" ,"Person2" ,"Common" ,"-tót(a)"],
-      ["Singular" ,"Person3" ,"Masc" ,"-ót(a)"],
-      ["Singular" ,"Person3" ,"Fem" ,"-tót(a)"],
-      ["Polarity" ,"Person3" ,"Common" ,"-oonót(a)"],
-      ["Plural" ,"Person1" ,"Common" ,"-nót(a)"],
-      ["Plural" ,"Person2" ,"Common" ,"-toonót(a)"],
-      ["Plural" ,"Person3" ,"Common" ,"-tót(a)"]
-    ]
-  },
-  {
-    "label": "alb-Verbmorph-Copula-",
-    "note": "SBp.202",
-    "common": {
-      "pos": "Verb",
-      "morphClass": "Copula"
+      "tam": "Copula"
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
@@ -1506,8 +1719,267 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-DervStemSuff-",
-    "note": "SBt54",
+    "label": "alb-Verb:morph-Causative Form/Function:", 
+    "note": "sbt47p293 :: Form vs. Function of the causative of causative. Simple causatives ['Causative'] can have -(i)s- ['Causative1'] or -(i)siis- ['Causative2']. Correspondingly,  double causatives ('CausativeD') will have -(i)isiis- ('CausativeD1') or -(i)siisiis ('Cas=usativeD2'.[noteSelf: Use pandas to transform table as in SBp293]",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "Causative Form/Function"
+    },
+    "terms": [
+      ["lexeme" ,"causForm" ,"token"],
+      ["ʔeeb" ,"CausS2" ,"ʔeebsiis-"],
+      ["ʔeeb" ,"CausD2" ,"ʔeebsiisiis-"],
+      ["ʔub" ,"CausS2" ,"ʔubsiis-"],
+      ["ʔub" ,"CausD2" ,"ʔubsiisiis-"],
+      ["ʔag" ,"CausS1" ,"ʔagis-"],
+      ["ʔag" ,"CausD1" ,"ʔagsiis-"],
+      ["ʔurr" ,"CausS1" ,"ʔurris-"],
+      ["ʔurr" ,"CausD1" ,"ʔurrsiis-"]
+    ]
+  },
+  {
+    "label": "alb-Verb:morph-CausativeStems:CC-final",
+    "note": "SBt53p304 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonaInt",
+    "common": {
+      "pos": "Verb",
+      "stemClass": "CC-final",
+      "morphClass": "CausativeStems"
+    },
+    "terms": [
+      ["lexeme" ,"transitivity" ,"causForm" ,"token"],
+      ["folocc'" ,"Int" ,"CausS2" ,"folocc’isiis-"],
+      ["hocc'" ,"Trans" ,"CausS2" ,"hocc’isiis-"],
+      ["kacc'" ,"Trans" ,"CausS2" ,"k’aacc’isiis-"],
+      ["mecc'" ,"Trans" ,"CausS2" ,"mecc’isiis-"],
+      ["mooccoocc'" ,"Trans" ,"CausS2" ,"moocc’oocc’isiis-"],
+      ["uucc'" ,"Trans" ,"CausS2" ,"ʔucc’isiis-"],
+      ["ʔanjicc'" ,"Trans" ,"CausS2" ,"ʔanjicc’isiis-"]
+    ]
+  },
+  {
+    "label": "alb-Verb:morph-CausativeStems:D-final",
+    "note": "SBt48p299 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant.",
+    "common": {
+      "pos": "Verb",
+      "stemClass": "D-final",
+      "morphClass": "CausativeStems"
+    },
+    "terms": [
+      ["lexeme" ,"transitive" ,"causForm" ,"token"],
+      ["baad" ,"Int" ,"CausS2" ,"baadsiis"],
+      ["dad" ,"Trans" ,"CausS2" ,"dadsiis-"],
+      ["dagud" ,"Trans" ,"CausS2" ,"degudsiis-"],
+      ["kad" ,"Trans" ,"CausS2" ,"kadsiis-"],
+      ["med" ,"Trans" ,"CausS2" ,"medsiis-"],
+      ["meed" ,"Trans" ,"CausS2" ,"meedsiis-"],
+      ["wod" ,"Int" ,"CausS2" ,"wodsiis-"],
+      ["ʔifood" ,"Trans" ,"CausS2" ,"ʔifoodsiis-"],
+      ["ʔud" ,"Trans" ,"CausS2" ,"ʔudsiis-"],
+      ["baad" ,"Int" ,"CausD1" ,"baadsiisiis"],
+      ["dad" ,"Trans" ,"CausD1" ,"dadsiisiis-"],
+      ["dagud" ,"Trans" ,"CausD1" ,"degudsiisiis-"],
+      ["kad" ,"Trans" ,"CausD1" ,"kadsiisiis-"],
+      ["med" ,"Trans" ,"CausD1" ,"medsiisiis-"],
+      ["meed" ,"Trans" ,"CausD1" ,"meedsiisiis-"],
+      ["wod" ,"Int" ,"CausD1" ,"wodsiisiis-"],
+      ["ʔifood" ,"Trans" ,"CausD1" ,"ʔifoodsiisiis-"],
+      ["ʔud" ,"Trans" ,"CausD1" ,"ʔudsiisiis-"]
+    ]
+  },
+  {
+    "label": "alb-Verb:morph-CausativeStems:F-final",
+    "note": "SBt50p301 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
+    "common": {
+      "pos": "Verb",
+      "stemClass": "F-final",
+      "morphClass": "CausativeStems"
+    },
+    "terms": [
+      ["lexeme" ,"transitivity" ,"causForm" ,"token"],
+      ["gaf" ,"Trans" ,"CausS2" ,"gafsiis-"],
+      ["goof" ,"Int" ,"CausS2" ,"goofsiis-"],
+      ["hankaf" ,"Trans" ,"CausS2" ,"hankafsiis- / hank’apsiis-"],
+      ["kuf" ,"Trans" ,"CausS2" ,"k’ufsiis-"],
+      ["t'aaf" ,"Trans" ,"CausS2" ,"t’aafsiis-"],
+      ["t'uf" ,"Trans" ,"CausS2" ,"t’upsiis-"],
+      ["ʔaf" ,"Trans" ,"CausS2" ,"ʔapsiis-"],
+      ["t'aaf" ,"Trans" ,"CausS2" ,"t'afsiis-"],
+      ["t'aaf" ,"Trans" ,"CausD2" ,"t’aafsiisiis-"]
+    ]
+  },
+  {
+    "label": "alb-Verb:morph-CausativeStems:GS-Res-final",
+    "note": "SBt52p303 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
+    "common": {
+      "pos": "Verb",
+      "stemClass": "GS-Res-final",
+      "morphClass": "CausativeStems"
+    },
+    "terms": [
+      ["lexeme" ,"transitivity" ,"causForm" ,"token"],
+      ["debeeʔl" ,"Int" ,"CausS1" ,"debeeʔlis- / debeessh"],
+      ["liiʔl" ,"Int" ,"CausS1" ,"liiʔlis-"],
+      ["ʔafuuʔl" ,"Int" ,"CausS1" ,"ʔafuuʔlis- / ʔafuussh"],
+      ["ʔalbaaʔl" ,"Int" ,"CausS1" ,"ʔalbaaʔlis- / ʔalbaassh"],
+      ["ʔamurʔ" ,"Int" ,"CausS1" ,"ʔamurs-"],
+      ["ʔenkeʔn" ,"Int" ,"CausS1" ,"ʔenkeʔnis-"],
+      ["liiʔl" ,"Int" ,"CausD1" ,"liiʔlisiis-"],
+      ["ʔafuuʔl" ,"Int" ,"CausD1" ,"ʔafuulsiis-"],
+      ["ʔalbaaʔl" ,"Int" ,"CausD1" ,"ʔalbaaʔlisiis- / ʔalbaalsiis-"],
+      ["ʔamurʔ" ,"Int" ,"CausD1" ,"ʔamursiis- / ʔamurʔisiis-"],
+      ["ʔenkeʔn" ,"Int" ,"CausD1" ,"ʔenkeʔnisiis-"],
+      ["ʔaaʔl" ,"Int" ,"CausS1" ,"ʔaansh"],
+      ["ʔaaʔl" ,"Int" ,"CausS2" ,"ʔaaʔlisiis-"],
+      ["ʔaaʔl" ,"Int" ,"CausD2" ,"ʔaanshisiis-"],
+      ["haʔl" ,"Trans" ,"CausS2" ,"haʔlisiis-"],
+      ["heʔm" ,"Trans" ,"CausS2" ,"heʔmisiis-"],
+      ["hirʔ" ,"Trans" ,"CausS2" ,"hirʔisiis-"],
+      ["k'orʔ" ,"Trans" ,"CausS2" ,"k’orʔisiis-"],
+      ["t'aʔm" ,"Trans" ,"CausS2" ,"t’aʔmisiis-"],
+      ["worʔ" ,"Trans" ,"CausS2" ,"worʔisiis-"],
+      ["ʔaguuʔm" ,"Trans" ,"CausS2" ,"ʔaguuʔmisiis-"],
+      ["ʔosaʔl" ,"Int" ,"CausS2" ,"ʔosaʔlisiis- / ʔosalsiis-"]
+    ]
+  },
+  {
+    "label": "alb-Verb:morph-CausativeStems:L-final",
+    "note": "SBt51p302 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
+    "common": {
+      "pos": "Verb",
+      "stemClass": "L-final",
+      "morphClass": "CausativeStems"
+    },
+    "terms": [
+      ["lexeme" ,"transitivity" ,"causForm" ,"token"],
+      ["dagelaal" ,"Int" ,"CausS1" ,"dagelaassh-"],
+      ["mool" ,"Int" ,"CausS1" ,"moossh-"],
+      ["wuliil" ,"Int" ,"CausS1" ,"wuliisshu"],
+      ["laal" ,"Int" ,"CausS1" ,"laassh-"],
+      ["gal" ,"Int" ,"CausS1" ,"gassh-"],
+      ["fank'al" ,"Int" ,"CausS1" ,"fank'assh-"],
+      ["ful" ,"Trans" ,"CausS1" ,"fusssh-"],
+      ["waal" ,"Trans" ,"CausS1" ,"waassh-"],
+      ["dagelaal" ,"Int" ,"CausD1" ,"dagelaalsiis-"],
+      ["mool" ,"Int" ,"CausD1" ,"moolsiis-"],
+      ["wuliil" ,"Int" ,"CausD1" ,"wuliilsiis-"],
+      ["laal" ,"Int" ,"CausD1" ,"laalsiis-"],
+      ["gal" ,"Int" ,"CausD1" ,"galsiis-"],
+      ["fank'al" ,"Int" ,"CausD1" ,"fank'asshisiis-"],
+      ["ful" ,"Trans" ,"CausD1" ,"fulsiis-"],
+      ["waal" ,"Trans" ,"CausD1" ,"waalsiis-"],
+      ["dul" ,"Trans" ,"CausS2" ,"dulsiis-"],
+      ["fiil" ,"Trans" ,"CausS2" ,"fiilsiis-"],
+      ["hambal" ,"Trans" ,"CausS2" ,"hambalsiis-"],
+      ["kul" ,"Trans" ,"CausS2" ,"kulsiis-"],
+      ["malal" ,"Trans" ,"CausS2" ,"malalsiis-"],
+      ["shol" ,"Trans" ,"CausS2" ,"sholsiis-"],
+      ["shuul" ,"Trans" ,"CausS2" ,"shuulsiis-"],
+      ["ʔallaal" ,"Trans" ,"CausS2" ,"ʔallaalsiis-"],
+      ["ʔil" ,"Trans" ,"CausS2" ,"ʔilsiis-"],
+      ["ʔul" ,"Trans" ,"CausS2" ,"ʔulsiis-"],
+      ["ʔinkiil" ,"Trans" ,"CausS2" ,"ʔinkiilsiis-"],
+      ["ʔudul" ,"Trans" ,"CausS2" ,"ʔudulsiis-"],
+      ["dul" ,"Trans" ,"CausD2" ,"dulsiisiis-"],
+      ["fiil" ,"Trans" ,"CausD2" ,"fiilsiisiis-"],
+      ["hambal" ,"Trans" ,"CausD2" ,"hambalsiisiis-"],
+      ["kul" ,"Trans" ,"CausD2" ,"kulsiisiis-"],
+      ["malal" ,"Trans" ,"CausD2" ,"malalsiisiis-"],
+      ["shol" ,"Trans" ,"CausD2" ,"sholsiisiis-"],
+      ["shuul" ,"Trans" ,"CausD2" ,"shuulsiisiis-"],
+      ["ʔallaal" ,"Trans" ,"CausD2" ,"ʔallaalsiisiis-"],
+      ["ʔil" ,"Trans" ,"CausD2" ,"ʔilsiisiis-"],
+      ["ʔul" ,"Trans" ,"CausD2" ,"ʔulsiisiis-"],
+      ["ʔinkiil" ,"Trans" ,"CausD2" ,"ʔinkiilsiisiis-"],
+      ["ʔudul" ,"Trans" ,"CausD2" ,"ʔudulsiisiis-"]
+    ]
+  },
+  {
+    "label": "alb-Verb:morph-CausativeStems:R-final",
+    "note": "SBt49p300 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
+    "common": {
+      "pos": "Verb",
+      "stemClass": "R-final",
+      "morphClass": "CausativeStems"
+    },
+    "terms": [
+      ["lexeme" ,"transitive" ,"causForm" ,"token"],
+      ["faar" ,"Int" ,"CausS1" ,"faars-"],
+      ["geeraar" ,"Int" ,"CausS1" ,"geeraars-"],
+      ["k'araar" ,"Int" ,"CausS1" ,"k’araars-"],
+      ["saggaar" ,"Int" ,"CausS1" ,"saggaars-"],
+      ["shuur" ,"Int" ,"CausS1" ,"shuurs-"],
+      ["soor" ,"Trans" ,"CausS1" ,"soors-"],
+      ["t'ur" ,"Int" ,"CausS1" ,"t’urs-"],
+      ["faar" ,"Int" ,"CausD1" ,"faarsiis-"],
+      ["geeraar" ,"Int" ,"Caus1" ,"geerarrsiis-"],
+      ["k'araar" ,"Int" ,"CausD1" ,"k’araarsiis-"],
+      ["saggaar" ,"Int" ,"CausD1" ,"saggaarsiis-"],
+      ["shuur" ,"Int" ,"CausD1" ,"shuursiis-"],
+      ["soor" ,"Trans" ,"CausD1" ,"soorsiis-"],
+      ["t'ur" ,"Int" ,"CausD1" ,"t’ursiis-"],
+      ["boroor" ,"Trans" ,"CausS2" ,"boroorsiis-"],
+      ["buur" ,"Trans" ,"CausS2" ,"buursiis-"],
+      ["door" ,"Trans" ,"CausS2" ,"doorsiis-"],
+      ["gaffar" ,"Trans" ,"CausS2" ,"gafarsiis-"],
+      ["giir" ,"Trans" ,"CausS2" ,"girsiis-"],
+      ["hagir" ,"Trans" ,"CausS2" ,"hagirsiis-"],
+      ["hangaar" ,"Trans" ,"CausS2" ,"hangaarsiis-"],
+      ["heer" ,"Trans" ,"CausS2" ,"heersiis-"],
+      ["hiir" ,"Trans" ,"CausS2" ,"hiirsiis-"],
+      ["hir" ,"Trans" ,"CausS2" ,"hirsiis-"],
+      ["jammar" ,"Trans" ,"CausS2" ,"jammarsiis-"],
+      ["kaar" ,"Trans" ,"CausS2" ,"k’aarsiis-"],
+      ["kar" ,"Trans" ,"CausS2" ,"karsiis-"],
+      ["kor" ,"Trans" ,"CausS2" ,"k’orsiis-"],
+      ["mar" ,"Trans" ,"CausS2" ,"marsiis-"],
+      ["marar" ,"Int" ,"CausS2" ,"marar-siis-"],
+      ["meer" ,"Trans" ,"CausS2" ,"meersiis-"],
+      ["miir" ,"Trans" ,"CausS2" ,"miirsiis-"],
+      ["mur" ,"Trans" ,"CausS2" ,"mursiis-"],
+      ["t'uur" ,"Trans" ,"CausS2" ,"t’uursiis-"],
+      ["wokkar" ,"Trans" ,"CausS2" ,"wokk’arsiis-"],
+      ["wor" ,"Trans" ,"CausS2" ,"worsiis-"],
+      ["yaar" ,"Int" ,"CausS2" ,"yaarsiis-"],
+      ["ʔaar" ,"Trans" ,"CausS2" ,"ʔaarsiis-"],
+      ["ʔagar" ,"Trans" ,"CausS2" ,"ʔagarsiis-"],
+      ["ʔagur" ,"Trans" ,"CausS2" ,"ʔagursiis-"],
+      ["ʔereer" ,"Trans" ,"CausS2" ,"ʔereersiis-"],
+      ["ʔijaar" ,"Trans" ,"CausS2" ,"ʔijaarsiis-"],
+      ["ʔusur" ,"Trans" ,"CausS2" ,"ʔusursiis-"],
+      ["boroor" ,"Trans" ,"CausD2" ,"boroorsiisiis-"],
+      ["buur" ,"Trans" ,"CausD2" ,"buursiisiis-"],
+      ["door" ,"Trans" ,"CausD2" ,"doorsiisiis-"],
+      ["gaffar" ,"Trans" ,"CausD2" ,"gafarsiisiis-"],
+      ["giir" ,"Trans" ,"CausD2" ,"girsiisiis-"],
+      ["hagir" ,"Trans" ,"CausD2" ,"hagirsiisiis-"],
+      ["hangaar" ,"Trans" ,"CausD2" ,"hangaarsiisiis-"],
+      ["heer" ,"Trans" ,"CausD2" ,"heersiisiis-"],
+      ["hiir" ,"Trans" ,"CausD2" ,"hiirsiisiis-"],
+      ["hir" ,"Trans" ,"CausD2" ,"hirsiisiis-"],
+      ["jammar" ,"Trans" ,"CausD2" ,"jammarsiisiis-"],
+      ["kaar" ,"Trans" ,"CausD2" ,"k’aarsiisiis-"],
+      ["kar" ,"Trans" ,"CausD2" ,"karsiisiis-"],
+      ["kor" ,"Trans" ,"CausD2" ,"k’orsiisiis-"],
+      ["mar" ,"Trans" ,"CausD2" ,"marsiisiis-"],
+      ["marar" ,"Int" ,"CausD2" ,"mararsiisiis-"],
+      ["meer" ,"Trans" ,"CausD2" ,"meersiisiis-"],
+      ["miir" ,"Trans" ,"CausD2" ,"miirsiisiis-"],
+      ["mur" ,"Trans" ,"CausD2" ,"mursiisiis’"],
+      ["t'uur" ,"Trans" ,"CausD2" ,"t’uursiisiis-"],
+      ["wokkar" ,"Trans" ,"CausD2" ,"wokk’arsiisiis-"],
+      ["wor" ,"Trans" ,"CausD2" ,"worsiisiis-"],
+      ["yaar" ,"Int" ,"CausD2" ,"yaarsiisiis-"],
+      ["ʔaar" ,"Trans" ,"CausD2" ,"ʔaarsiisiis-"],
+      ["ʔagar" ,"Trans" ,"CausD2" ,"ʔagarsiisiis-"],
+      ["ʔagur" ,"Trans" ,"CausD2" ,"ʔagursiisiis-"],
+      ["ʔereer" ,"Trans" ,"CausD2" ,"ʔereersiisiis-"],
+      ["ʔijaar" ,"Trans" ,"CausD2" ,"ʔijaarsiisiis-"],
+      ["ʔusur" ,"Trans" ,"CausD2" ,"ʔusursiisiis-"]
+    ]
+  },
+  {
+    "label": "alb-Verb:morph-DervStemSuff:",
+    "note": "SBt54p331",
     "common": {
       "pos": "Verb",
       "morphClass": "DervStemSuff"
@@ -1522,7 +1994,7 @@
       ["Detransitivize" ,"-taʔ"],
       ["Inchoative" ,"-aahh"],
       ["Iterative" ,"-ans"],
-      ["Middel" ,"-akk’-(-aʔʔ-)/-?"],
+      ["Middel" ,"-akk’-(-aʔʔ-)/-ʔ"],
       ["Passive" ,"-am"],
       ["Passive-caus" ,"-am-is"],
       ["Pluractional" ,"(reduplication)"],
@@ -1537,28 +2009,28 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-DiffSubjSuff--hir-Converb",
-    "note": "SBt42",
+    "label": "alb-Verb:morph-SubSuff:PosteriorSub",
+    "note": "SBt45",
     "common": {
-      "lexeme": "hir",
       "pos": "Verb",
-      "tam": "Converb",
-      "morphClass": "DiffSubjSuff"
+      "tam": "PosteriorSub",
+      "morphClass": "SubSuff"
     },
     "terms": [
       ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"hirʔ-i-yáan(i)"],
-      ["Singular" ,"Person2" ,"Common" ,"hirʔ-i-táan(i)"],
-      ["Singular" ,"Person3" ,"Masc" ,"hirʔ-i-yáan(i)"],
-      ["Singular" ,"Person3" ,"Fem" ,"hirʔ-i-táan(i)"],
-      ["Plural" ,"Person1" ,"Common" ,"hirʔ-i-náan(i)"],
-      ["Plural" ,"Person2" ,"Common" ,"hirʔ-i-téenaan(i)"],
-      ["Plural" ,"Person3" ,"Common" ,"hirʔ-eenáan(i)"]
+      ["Singular" ,"Person1" ,"Common" ,"-uʔnáan(i)"],
+      ["Singular" ,"Person2" ,"Common" ,"-tuʔnáan(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"-uʔnáan(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"-tuʔnáan(i)"],
+      ["Polarity" ,"Person3" ,"Common" ,"-ooʔnáan(i)"],
+      ["Plural" ,"Person1" ,"Common" ,"-nuʔnáan(i)"],
+      ["Plural" ,"Person2" ,"Common" ,"-toonuʔnáan(i)"],
+      ["Plural" ,"Person3" ,"Common" ,"-tuʔnáan(i)"]
     ]
   },
   {
-    "label": "alb-Verbmorph-SubjMarker-",
-    "note": "SBp.201",
+    "label": "alb-Verb:morph-SubjMarker:",
+    "note": "SBp201",
     "common": {
       "pos": "Verb",
       "morphClass": "SubjMarker"
@@ -1575,68 +2047,8 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-SubjMarker-Converb",
-    "note": "SBt41",
-    "common": {
-      "pos": "Verb",
-      "tam": "Converb",
-      "morphClass": "SubjMarker"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"-y(i)"],
-      ["Singular" ,"Person2" ,"Common" ,"-t(i)"],
-      ["Singular" ,"Person3" ,"Masc" ,"-y(i)"],
-      ["Singular" ,"Person3" ,"Fem" ,"-t(i)"],
-      ["Polite" ,"Person3" ,"Common" ,"-éen(i)"],
-      ["Plural" ,"Person1" ,"Common" ,"-n(i)"],
-      ["Plural" ,"Person2" ,"Common" ,"-téen(i)"],
-      ["Plural" ,"Person3" ,"Common" ,"-t(i)"]
-    ]
-  },
-  {
-    "label": "alb-Verbmorph-SubjMarker-PosteriorSub",
-    "note": "SBt45",
-    "common": {
-      "pos": "Verb",
-      "tam": "PosteriorSub",
-      "morphClass": "SubjMarker"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"-uʔnáan(i)"],
-      ["Singular" ,"Person2" ,"Common" ,"-tuʔnáan(i)"],
-      ["Singular" ,"Person3" ,"Masc" ,"-uʔnáan(i)"],
-      ["Singular" ,"Person3" ,"Fem" ,"-tuʔnáan(i)"],
-      ["Polarity" ,"Person3" ,"Common" ,"-ooʔnáan(i)"],
-      ["Plural" ,"Person1" ,"Common" ,"-nuʔnáan(i)"],
-      ["Plural" ,"Person2" ,"Common" ,"-toonuʔnáan(i)"],
-      ["Plural" ,"Person3" ,"Common" ,"-tuʔnáan(i)"]
-    ]
-  },
-  {
-    "label": "alb-Verbmorph-SubjMarker-ProgressiveSub",
-    "note": "SBt43",
-    "common": {
-      "pos": "Verb",
-      "tam": "ProgressiveSub",
-      "morphClass": "SubjMarker"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"-án(i)"],
-      ["Singular" ,"Person2" ,"Common" ,"-tán(i)"],
-      ["Singular" ,"Person3" ,"Masc" ,"-án(i)"],
-      ["Singular" ,"Person3" ,"Fem" ,"-tán(i)"],
-      ["Polarity" ,"Person3" ,"Common" ,"-éenan(i)"],
-      ["Plural" ,"Person1" ,"Common" ,"-nán(i)"],
-      ["Plural" ,"Person2" ,"Common" ,"-téenan(i)"],
-      ["Plural" ,"Person3" ,"Common" ,"-tán(i)"]
-    ]
-  },
-  {
-    "label": "alb-Verbmorph-SubjSuff-AnteriorPerfectAffirmative",
-    "note": "SBp.210",
+    "label": "alb-Verb:morph-SubjSuff:AnteriorPerfectAffirmative",
+    "note": "SBp210",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -1656,8 +2068,28 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-SubjSuff-FutureProximateAffirmative",
-    "note": "SBp.238",
+    "label": "alb-Verb:morph-SubjSuff:Converb",
+    "note": "SBt41p244",
+    "common": {
+      "pos": "Verb",
+      "tam": "Converb",
+      "morphClass": "SubjSuff"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-y(i)"],
+      ["Singular" ,"Person2" ,"Common" ,"-t(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"-y(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"-t(i)"],
+      ["Polite" ,"Person3" ,"Common" ,"-éen(i)"],
+      ["Plural" ,"Person1" ,"Common" ,"-n(i)"],
+      ["Plural" ,"Person2" ,"Common" ,"-téen(i)"],
+      ["Plural" ,"Person3" ,"Common" ,"-t(i)"]
+    ]
+  },
+  {
+    "label": "alb-Verb:morph-SubjSuff:FutureProximateAffirmative",
+    "note": "SBp238",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -1677,8 +2109,8 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-SubjSuff-FutureProximateNegative",
-    "note": "SBp.238",
+    "label": "alb-Verb:morph-SubjSuff:FutureProximateNegative",
+    "note": "SBp238",
     "common": {
       "polarity": "Negative",
       "pos": "Verb",
@@ -1698,8 +2130,8 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-SubjSuff-ImperativeAffirmative",
-    "note": "SBp.224",
+    "label": "alb-Verb:morph-SubjSuff:ImperativeAffirmative",
+    "note": "SBp224",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -1719,8 +2151,8 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-SubjSuff-ImperativeNegative",
-    "note": "SBp.224",
+    "label": "alb-Verb:morph-SubjSuff:ImperativeNegative",
+    "note": "SBp224",
     "common": {
       "polarity": "Negative",
       "pos": "Verb",
@@ -1740,8 +2172,8 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-SubjSuff-ImperfectiveAffirmative",
-    "note": "SBp.216",
+    "label": "alb-Verb:morph-SubjSuff:ImperfectiveAffirmative",
+    "note": "SBp216",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -1761,7 +2193,7 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-SubjSuff-ImperfectiveNegative",
+    "label": "alb-Verb:morph-SubjSuff:ImperfectiveNegative",
     "note": "SBp216",
     "common": {
       "polarity": "Negative",
@@ -1782,8 +2214,8 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-SubjSuff-PerfectiveAffirmative",
-    "note": "SBp.210",
+    "label": "alb-Verb:morph-SubjSuff:PerfectiveAffirmative",
+    "note": "SBp210",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -1803,8 +2235,8 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-SubjSuff-PerfectiveNegative",
-    "note": "SBp.210",
+    "label": "alb-Verb:morph-SubjSuff:PerfectiveNegative",
+    "note": "SBp210",
     "common": {
       "polarity": "Negative",
       "pos": "Verb",
@@ -1824,8 +2256,8 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-SubjSuff-ProgressiveAffirmative",
-    "note": "SBp.221",
+    "label": "alb-Verb:morph-SubjSuff:ProgressiveAffirmative",
+    "note": "SBp221",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -1845,8 +2277,8 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-SubjSuff-ProgressiveNegative",
-    "note": "SBp.221",
+    "label": "alb-Verb:morph-SubjSuff:ProgressiveNegative",
+    "note": "SBp221",
     "common": {
       "polarity": "Negative",
       "pos": "Verb",
@@ -1866,7 +2298,47 @@
     ]
   },
   {
-    "label": "alb-Verbmorph-TenseAspectMarking-",
+    "label": "alb-Verb:morph-SubjSuff:ProgressiveSub",
+    "note": "SBt43",
+    "common": {
+      "pos": "Verb",
+      "tam": "ProgressiveSub",
+      "morphClass": "SubjSuff"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-án(i)"],
+      ["Singular" ,"Person2" ,"Common" ,"-tán(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"-án(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"-tán(i)"],
+      ["Polarity" ,"Person3" ,"Common" ,"-éenan(i)"],
+      ["Plural" ,"Person1" ,"Common" ,"-nán(i)"],
+      ["Plural" ,"Person2" ,"Common" ,"-téenan(i)"],
+      ["Plural" ,"Person3" ,"Common" ,"-tán(i)"]
+    ]
+  },
+  {
+    "label": "alb-Verb:morph-SubjSuff:PurposiveSubordinate",
+    "note": "SBt44p264",
+    "common": {
+      "pos": "Verb",
+      "tam": "PurposiveSubordinate",
+      "morphClass": "SubjSuff"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-ót(a)"],
+      ["Singular" ,"Person2" ,"Common" ,"-tót(a)"],
+      ["Singular" ,"Person3" ,"Masc" ,"-ót(a)"],
+      ["Singular" ,"Person3" ,"Fem" ,"-tót(a)"],
+      ["Polarity" ,"Person3" ,"Common" ,"-oonót(a)"],
+      ["Plural" ,"Person1" ,"Common" ,"-nót(a)"],
+      ["Plural" ,"Person2" ,"Common" ,"-toonót(a)"],
+      ["Plural" ,"Person3" ,"Common" ,"-tót(a)"]
+    ]
+  },
+  {
+    "label": "alb-Verb:morph-TenseAspectMarking:",
     "note": "SBt46",
     "common": {
       "pos": "Verb",
@@ -1884,201 +2356,6 @@
       ["Subordinate" ,"PosteriorSub"],
       ["Subordinate" ,"ProgressiveSub"],
       ["Subordinate" ,"PurposiveSub"]
-    ]
-  },
-  {
-    "label": "alb-Verbmorph-causativeAllomorph-",
-    "note": "SBt48-53 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
-    "common": {
-      "pos": "Verb",
-      "morphClass": "causativeAllomorph"
-    },
-    "terms": [
-      ["causativeAllomorph" ,"lexeme" ,"stemFinalC" ,"token"],
-      ["Causative1" ,"debeeʔl" ,"GS-Res-Final" ,"debeeʔlis- / debeessh"],
-      ["Causative1" ,"faar" ,"R-final" ,"faars"],
-      ["Causative1" ,"geeraar" ,"R-final" ,"geeraars"],
-      ["Causative1" ,"karaar" ,"R-final" ,"k’araars"],
-      ["Causative1" ,"liiʔl" ,"GS-Res-Final" ,"liiʔlis"],
-      ["Causative1" ,"saggaar" ,"R-final" ,"saggaars"],
-      ["Causative1" ,"shuur" ,"R-final" ,"shuurs"],
-      ["Causative1" ,"soor" ,"R-final" ,"soors"],
-      ["Causative1" ,"tur" ,"R-final" ,"t’urs"],
-      ["Causative1" ,"ʔaaʔl" ,"GS-Res-Final" ,"ʔaansh"],
-      ["Causative1" ,"ʔafuuʔl" ,"GS-Res-Final" ,"ʔafuuʔlis- / ʔafuussh"],
-      ["Causative1" ,"ʔalbaaʔl" ,"GS-Res-Final" ,"ʔalbaaʔlis- / ʔalbaassh"],
-      ["Causative1" ,"ʔamurʔ" ,"GS-Res-Final" ,"ʔamurs"],
-      ["Causative1" ,"ʔenkeʔn" ,"GS-Res-Final" ,"ʔenkeʔnis"],
-      ["Causative1-assim" ,"dagelaal" ,"L-final" ,"dagelaassh"],
-      ["Causative1-assim" ,"fankal" ,"L-final" ,"fank’assh"],
-      ["Causative1-assim" ,"ful" ,"L-final" ,"fussh"],
-      ["Causative1-assim" ,"gal" ,"L-final" ,"gassh"],
-      ["Causative1-assim" ,"laal" ,"L-final" ,"laassh"],
-      ["Causative1-assim" ,"mool" ,"L-final" ,"moossh"],
-      ["Causative1-assim" ,"waal" ,"L-final" ,"waassh"],
-      ["Causative1-assim" ,"wuliil" ,"L-final" ,"wuliissh"],
-      ["Causative2" ,"baad" ,"D-final" ,"baadsiis"],
-      ["Causative2" ,"boroor" ,"R-final" ,"boroorsiis"],
-      ["Causative2" ,"buur" ,"R-final" ,"buursiis"],
-      ["Causative2" ,"dad" ,"D-final" ,"dadsiis"],
-      ["Causative2" ,"dagud" ,"D-final" ,"degudsiis"],
-      ["Causative2" ,"door" ,"R-final" ,"doorsiis"],
-      ["Causative2" ,"dul" ,"L-final" ,"dulsiis"],
-      ["Causative2" ,"fiil" ,"L-final" ,"fiilsiis"],
-      ["Causative2" ,"folocc" ,"CC-final" ,"folocc’isiis"],
-      ["Causative2" ,"gaf" ,"F-final" ,"gafsiis"],
-      ["Causative2" ,"gaffar" ,"R-final" ,"gafarsiis"],
-      ["Causative2" ,"giir" ,"R-final" ,"girsiis"],
-      ["Causative2" ,"goof" ,"F-final" ,"goofsiis"],
-      ["Causative2" ,"hagir" ,"R-final" ,"hagirsiis"],
-      ["Causative2" ,"hambal" ,"L-final" ,"hambalsiis"],
-      ["Causative2" ,"hangaar" ,"R-final" ,"hangaarsiis"],
-      ["Causative2" ,"hankaf" ,"F-final" ,"hankafsiis- / hank’apsiis"],
-      ["Causative2" ,"haʔl" ,"GS-Res-Final" ,"haʔlisiis"],
-      ["Causative2" ,"heer" ,"R-final" ,"heersiis"],
-      ["Causative2" ,"heʔm" ,"GS-Res-Final" ,"heʔmisiis"],
-      ["Causative2" ,"hiir" ,"R-final" ,"hiirsiis"],
-      ["Causative2" ,"hir" ,"R-final" ,"hirsiis"],
-      ["Causative2" ,"hirʔ" ,"GS-Res-Final" ,"hirʔisiis"],
-      ["Causative2" ,"hocc" ,"CC-final" ,"hocc’isiis"],
-      ["Causative2" ,"jammar" ,"R-final" ,"jammarsiis"],
-      ["Causative2" ,"kaar" ,"R-final" ,"k’aarsiis"],
-      ["Causative2" ,"kacc" ,"CC-final" ,"k’aacc’isiis"],
-      ["Causative2" ,"kad" ,"D-final" ,"kadsiis"],
-      ["Causative2" ,"kar" ,"R-final" ,"karsiis"],
-      ["Causative2" ,"kor" ,"R-final" ,"k’orsiis"],
-      ["Causative2" ,"korʔ" ,"GS-Res-Final" ,"k’orʔisiis"],
-      ["Causative2" ,"kuf" ,"F-final" ,"k’ufsiis"],
-      ["Causative2" ,"kul" ,"L-final" ,"kulsiis"],
-      ["Causative2" ,"malal" ,"L-final" ,"malalsiis"],
-      ["Causative2" ,"mar" ,"R-final" ,"marsiis"],
-      ["Causative2" ,"marar" ,"R-final" ,"marar-siis"],
-      ["Causative2" ,"mecc" ,"CC-final" ,"mecc’isiis"],
-      ["Causative2" ,"med" ,"D-final" ,"medsiis"],
-      ["Causative2" ,"meed" ,"D-final" ,"meedsiis"],
-      ["Causative2" ,"meer" ,"R-final" ,"meersiis"],
-      ["Causative2" ,"miir" ,"R-final" ,"miirsiis"],
-      ["Causative2" ,"mooccoocc" ,"CC-final" ,"moocc’oocc’isiis"],
-      ["Causative2" ,"mur" ,"R-final" ,"mursiis’"],
-      ["Causative2" ,"shol" ,"L-final" ,"sholdiid"],
-      ["Causative2" ,"shuul" ,"L-final" ,"shuulsiis"],
-      ["Causative2" ,"taaf" ,"F-final" ,"t’aafsiis"],
-      ["Causative2" ,"taʔm" ,"GS-Res-Final" ,"t’aʔmisiis"],
-      ["Causative2" ,"tuf" ,"F-final" ,"t’upsiis"],
-      ["Causative2" ,"tuur" ,"R-final" ,"t’uursiis"],
-      ["Causative2" ,"uucc" ,"CC-final" ,"ʔucc’isiis"],
-      ["Causative2" ,"wod" ,"D-final" ,"wodsiis"],
-      ["Causative2" ,"wokkar" ,"R-final" ,"wokk’arsiis"],
-      ["Causative2" ,"wor" ,"R-final" ,"worsiis"],
-      ["Causative2" ,"worʔ" ,"GS-Res-Final" ,"worʔisiis"],
-      ["Causative2" ,"yaar" ,"R-final" ,"yaarsiis"],
-      ["Causative2" ,"ʔaar" ,"R-final" ,"ʔaarsiis"],
-      ["Causative2" ,"ʔaf" ,"F-final" ,"ʔapsiis"],
-      ["Causative2" ,"ʔagar" ,"R-final" ,"ʔagarsiis"],
-      ["Causative2" ,"ʔagur" ,"R-final" ,"ʔagursiis"],
-      ["Causative2" ,"ʔaguuʔm" ,"GS-Res-Final" ,"ʔaguuʔmisiis"],
-      ["Causative2" ,"ʔallaal" ,"L-final" ,"ʔallaalsiis"],
-      ["Causative2" ,"ʔanjicc" ,"CC-final" ,"ʔanjicc’isiis"],
-      ["Causative2" ,"ʔereer" ,"R-final" ,"ʔereersiis"],
-      ["Causative2" ,"ʔifood" ,"D-final" ,"ʔifoodsiis"],
-      ["Causative2" ,"ʔijaar" ,"R-final" ,"ʔijaarsiis"],
-      ["Causative2" ,"ʔil" ,"L-final" ,"ʔilsiis"],
-      ["Causative2" ,"ʔinkiil" ,"L-final" ,"ʔinkiilsiis"],
-      ["Causative2" ,"ʔosaʔl" ,"GS-Res-Final" ,"ʔosaʔlisiis- / ʔosalsiis"],
-      ["Causative2" ,"ʔud" ,"D-final" ,"ʔudsiis"],
-      ["Causative2" ,"ʔudul" ,"L-final" ,"ʔudulsiis"],
-      ["Causative2" ,"ʔul" ,"L-final" ,"ʔulsiis"],
-      ["Causative2" ,"ʔusur" ,"R-final" ,"ʔusursiis"],
-      ["Causative2-assim" ,"ʔaaʔl" ,"GS-Res-Final" ,"ʔaaʔlisiis"],
-      ["CausativeD1" ,"dagelaal" ,"L-final" ,"dagelaalsiis"],
-      ["CausativeD1" ,"faar" ,"R-final" ,"faarsiis"],
-      ["CausativeD1" ,"ful" ,"L-final" ,"fulsiis"],
-      ["CausativeD1" ,"gal" ,"L-final" ,"galsiis"],
-      ["CausativeD1" ,"geeraar" ,"R-final" ,"geerarrsiis"],
-      ["CausativeD1" ,"karaar" ,"R-final" ,"k’araarsiis"],
-      ["CausativeD1" ,"laal" ,"L-final" ,"laalsiis"],
-      ["CausativeD1" ,"liiʔl" ,"GS-Res-Final" ,"liiʔlisiis"],
-      ["CausativeD1" ,"mool" ,"L-final" ,"moolsiis"],
-      ["CausativeD1" ,"saggaar" ,"R-final" ,"saggaarsiis"],
-      ["CausativeD1" ,"shuur" ,"R-final" ,"shuursiis"],
-      ["CausativeD1" ,"soor" ,"R-final" ,"soorsiis"],
-      ["CausativeD1" ,"tur" ,"R-final" ,"t’ursiis"],
-      ["CausativeD1" ,"waal" ,"L-final" ,"waalsiis"],
-      ["CausativeD1" ,"wuliil" ,"L-final" ,"wuliilsiis"],
-      ["CausativeD1" ,"ʔafuuʔl" ,"GS-Res-Final" ,"ʔafuulsiis"],
-      ["CausativeD1" ,"ʔalbaaʔl" ,"GS-Res-Final" ,"ʔalbaaʔlisiis- / ʔalbaalsiis"],
-      ["CausativeD1" ,"ʔamurʔ" ,"GS-Res-Final" ,"ʔamursiis- / ʔamurʔisiis"],
-      ["CausativeD1" ,"ʔenkeʔn" ,"GS-Res-Final" ,"ʔenkeʔnisiis"],
-      ["CausativeD1-assim" ,"fankal" ,"L-final" ,"fank’asshisiis"],
-      ["CausativeD2" ,"baad" ,"D-final" ,"baadsiisiis"],
-      ["CausativeD2" ,"boroor" ,"R-final" ,"boroorsiisiis"],
-      ["CausativeD2" ,"buur" ,"R-final" ,"buursiisiis"],
-      ["CausativeD2" ,"dad" ,"D-final" ,"dadsiisiis"],
-      ["CausativeD2" ,"dagud" ,"D-final" ,"degudsiisiis"],
-      ["CausativeD2" ,"door" ,"R-final" ,"doorsiisiis"],
-      ["CausativeD2" ,"dul" ,"L-final" ,"dulsiisiis"],
-      ["CausativeD2" ,"fiil" ,"L-final" ,"fiilsiisiis"],
-      ["CausativeD2" ,"gaffar" ,"R-final" ,"gafarsiisiis"],
-      ["CausativeD2" ,"giir" ,"R-final" ,"girsiisiis"],
-      ["CausativeD2" ,"hagir" ,"R-final" ,"hagirsiisiis"],
-      ["CausativeD2" ,"hambal" ,"L-final" ,"hambalsiisiis"],
-      ["CausativeD2" ,"hangaar" ,"R-final" ,"hangaarsiisiis"],
-      ["CausativeD2" ,"heer" ,"R-final" ,"heersiisiis"],
-      ["CausativeD2" ,"hiir" ,"R-final" ,"hiirsiisiis"],
-      ["CausativeD2" ,"hir" ,"R-final" ,"hirsiisiis"],
-      ["CausativeD2" ,"jammar" ,"R-final" ,"jammarsiisiis"],
-      ["CausativeD2" ,"kaar" ,"R-final" ,"k’aarsiisiis"],
-      ["CausativeD2" ,"kad" ,"D-final" ,"kadsiisiis"],
-      ["CausativeD2" ,"kar" ,"R-final" ,"karsiisiis"],
-      ["CausativeD2" ,"kor" ,"R-final" ,"k’orsiisiis"],
-      ["CausativeD2" ,"kul" ,"L-final" ,"kulsiisiis"],
-      ["CausativeD2" ,"malal" ,"L-final" ,"malalsiisiis"],
-      ["CausativeD2" ,"mar" ,"R-final" ,"marsiisiis"],
-      ["CausativeD2" ,"marar" ,"R-final" ,"mararsiisiis"],
-      ["CausativeD2" ,"med" ,"D-final" ,"medsiisiis"],
-      ["CausativeD2" ,"meed" ,"D-final" ,"meedsiisiis"],
-      ["CausativeD2" ,"meer" ,"R-final" ,"meersiisiis"],
-      ["CausativeD2" ,"miir" ,"R-final" ,"miirsiisiis"],
-      ["CausativeD2" ,"mur" ,"R-final" ,"mursiisiis’"],
-      ["CausativeD2" ,"shol" ,"L-final" ,"sholsiisiis"],
-      ["CausativeD2" ,"shuul" ,"L-final" ,"shuulsiisiis"],
-      ["CausativeD2" ,"taaf" ,"F-final" ,"t’aafsiisiis"],
-      ["CausativeD2" ,"tuur" ,"R-final" ,"t’uursiisiis"],
-      ["CausativeD2" ,"wod" ,"D-final" ,"wodsiisiis"],
-      ["CausativeD2" ,"wor" ,"R-final" ,"worsiisiis"],
-      ["CausativeD2" ,"yaar" ,"R-final" ,"yaarsiisiis"],
-      ["CausativeD2" ,"ʔaar" ,"R-final" ,"ʔaarsiisiis"],
-      ["CausativeD2" ,"ʔagur" ,"R-final" ,"ʔagursiisiis"],
-      ["CausativeD2" ,"ʔallaal" ,"L-final" ,"ʔallaalsiisiis"],
-      ["CausativeD2" ,"ʔereer" ,"R-final" ,"ʔereersiisiis"],
-      ["CausativeD2" ,"ʔifood" ,"D-final" ,"ifoodsiisiis"],
-      ["CausativeD2" ,"ʔijaar" ,"R-final" ,"ʔijaarsiisiis"],
-      ["CausativeD2" ,"ʔil" ,"L-final" ,"ʔilsiisiis"],
-      ["CausativeD2" ,"ʔinkiil" ,"L-final" ,"ʔinkiilsiisiis"],
-      ["CausativeD2" ,"ʔud" ,"D-final" ,"udsiisiis"],
-      ["CausativeD2" ,"ʔudul" ,"L-final" ,"ʔudulsiisiis"],
-      ["CausativeD2" ,"ʔul" ,"L-final" ,"ʔulsiisiis"],
-      ["CausativeD2" ,"ʔusur" ,"R-final" ,"ʔusursiisiis"],
-      ["CausativeD2-assim" ,"ʔaaʔl" ,"GS-Res-Final" ,"ʔaanshisiis"]
-    ]
-  },
-  {
-    "label": "alb-Verbmorph-causativeDouble-",
-    "note": "SBt47 :: Form vs. Function of the causative of causative",
-    "common": {
-      "pos": "Verb",
-      "morphClass": "causativeDouble"
-    },
-    "terms": [
-      ["lexeme" ,"derivedStem" ,"token"],
-      ["ʔagú" ,"CausativeDouble1" ,"ʔagsiisú"],
-      ["ʔagú" ,"CausativeSimplel1" ,"ʔagisú"],
-      ["ʔubú" ,"CausativeDouble2" ,"ʔubsiisiisú"],
-      ["ʔubú" ,"CausativeSimplel2" ,"ʔubsiisú"],
-      ["ʔurrú" ,"CausativeDouble1" ,"ʔurrisiisú"],
-      ["ʔurrú" ,"CausativeSimplel1" ,"ʔurrisú"],
-      ["ʔeebú" ,"CausativeDouble2" ,"ʔeebsiisiisú"],
-      ["ʔeebú" ,"CausativeSimple2" ,"ʔeebsiisú"]
     ]
   }
 ]}
