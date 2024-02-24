@@ -1719,7 +1719,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-Causative Form/Function:", 
+    "label": "alb-morphVerb-Causative Form/Function",
     "note": "sbt47p293 :: Form vs. Function of the causative of causative. Simple causatives ['Causative'] can have -(i)s- ['Causative1'] or -(i)siis- ['Causative2']. Correspondingly,  double causatives ('CausativeD') will have -(i)isiis- ('CausativeD1') or -(i)siisiis ('Cas=usativeD2'.[noteSelf: Use pandas to transform table as in SBp293]",
     "common": {
       "pos": "Verb",
@@ -1738,7 +1738,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-CausativeStems:CC-final",
+    "label": "alb-morphVerb-CausativeStemsCC-final",
     "note": "SBt53p304 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonaInt",
     "common": {
       "pos": "Verb",
@@ -1757,7 +1757,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-CausativeStems:D-final",
+    "label": "alb-morphVerb-CausativeStemsD-final",
     "note": "SBt48p299 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant.",
     "common": {
       "pos": "Verb",
@@ -1787,7 +1787,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-CausativeStems:F-final",
+    "label": "alb-morphVerb-CausativeStemsF-final",
     "note": "SBt50p301 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
     "common": {
       "pos": "Verb",
@@ -1808,7 +1808,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-CausativeStems:GS-Res-final",
+    "label": "alb-morphVerb-CausativeStemsGS-Res-final",
     "note": "SBt52p303 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
     "common": {
       "pos": "Verb",
@@ -1842,7 +1842,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-CausativeStems:L-final",
+    "label": "alb-morphVerb-CausativeStemsL-final",
     "note": "SBt51p302 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
     "common": {
       "pos": "Verb",
@@ -1894,7 +1894,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-CausativeStems:R-final",
+    "label": "alb-morphVerb-CausativeStemsR-final",
     "note": "SBt49p300 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
     "common": {
       "pos": "Verb",
@@ -1978,7 +1978,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-DervStemSuff:",
+    "label": "alb-morphVerb-DervStemSuff",
     "note": "SBt54p331",
     "common": {
       "pos": "Verb",
@@ -2009,7 +2009,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubSuff:PosteriorSub",
+    "label": "alb-morphVerb-SubSuffPosteriorSub",
     "note": "SBt45",
     "common": {
       "pos": "Verb",
@@ -2029,7 +2029,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjMarker:",
+    "label": "alb-morphVerb-SubjMarker",
     "note": "SBp201",
     "common": {
       "pos": "Verb",
@@ -2047,7 +2047,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:AnteriorPerfectAffirmative",
+    "label": "alb-morphVerb-SubjSuffAnteriorPerfectAffirmative",
     "note": "SBp210",
     "common": {
       "polarity": "Affirmative",
@@ -2068,7 +2068,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:Converb",
+    "label": "alb-morphVerb-SubjSuffConverb",
     "note": "SBt41p244",
     "common": {
       "pos": "Verb",
@@ -2088,7 +2088,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:FutureProximateAffirmative",
+    "label": "alb-morphVerb-SubjSuffFutureProximateAffirmative",
     "note": "SBp238",
     "common": {
       "polarity": "Affirmative",
@@ -2109,7 +2109,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:FutureProximateNegative",
+    "label": "alb-morphVerb-SubjSuffFutureProximateNegative",
     "note": "SBp238",
     "common": {
       "polarity": "Negative",
@@ -2130,7 +2130,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:ImperativeAffirmative",
+    "label": "alb-morphVerb-SubjSuffImperativeAffirmative",
     "note": "SBp224",
     "common": {
       "polarity": "Affirmative",
@@ -2151,7 +2151,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:ImperativeNegative",
+    "label": "alb-morphVerb-SubjSuffImperativeNegative",
     "note": "SBp224",
     "common": {
       "polarity": "Negative",
@@ -2172,7 +2172,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:ImperfectiveAffirmative",
+    "label": "alb-morphVerb-SubjSuffImperfectiveAffirmative",
     "note": "SBp216",
     "common": {
       "polarity": "Affirmative",
@@ -2193,7 +2193,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:ImperfectiveNegative",
+    "label": "alb-morphVerb-SubjSuffImperfectiveNegative",
     "note": "SBp216",
     "common": {
       "polarity": "Negative",
@@ -2214,7 +2214,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:PerfectiveAffirmative",
+    "label": "alb-morphVerb-SubjSuffPerfectiveAffirmative",
     "note": "SBp210",
     "common": {
       "polarity": "Affirmative",
@@ -2235,7 +2235,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:PerfectiveNegative",
+    "label": "alb-morphVerb-SubjSuffPerfectiveNegative",
     "note": "SBp210",
     "common": {
       "polarity": "Negative",
@@ -2256,7 +2256,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:ProgressiveAffirmative",
+    "label": "alb-morphVerb-SubjSuffProgressiveAffirmative",
     "note": "SBp221",
     "common": {
       "polarity": "Affirmative",
@@ -2277,7 +2277,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:ProgressiveNegative",
+    "label": "alb-morphVerb-SubjSuffProgressiveNegative",
     "note": "SBp221",
     "common": {
       "polarity": "Negative",
@@ -2298,7 +2298,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:ProgressiveSub",
+    "label": "alb-morphVerb-SubjSuffProgressiveSub",
     "note": "SBt43",
     "common": {
       "pos": "Verb",
@@ -2318,7 +2318,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-SubjSuff:PurposiveSubordinate",
+    "label": "alb-morphVerb-SubjSuffPurposiveSubordinate",
     "note": "SBt44p264",
     "common": {
       "pos": "Verb",
@@ -2338,7 +2338,7 @@
     ]
   },
   {
-    "label": "alb-Verb:morph-TenseAspectMarking:",
+    "label": "alb-morphVerb-TenseAspectMarking",
     "note": "SBt46",
     "common": {
       "pos": "Verb",
