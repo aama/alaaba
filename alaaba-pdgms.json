@@ -1719,11 +1719,11 @@
     ]
   },
   {
-    "label": "alb-morphVerb-Causative Form/Function",
+    "label": "alb-morphVerb-CausativeFormFunction",
     "note": "sbt47p293 :: Form vs. Function of the causative of causative. Simple causatives ['Causative'] can have -(i)s- ['Causative1'] or -(i)siis- ['Causative2']. Correspondingly,  double causatives ('CausativeD') will have -(i)isiis- ('CausativeD1') or -(i)siisiis ('Cas=usativeD2'.[noteSelf: Use pandas to transform table as in SBp293]",
     "common": {
       "pos": "Verb",
-      "morphClass": "Causative Form/Function"
+      "morphClass": "CausativeFormFunction"
     },
     "terms": [
       ["lexeme" ,"causForm" ,"token"],
