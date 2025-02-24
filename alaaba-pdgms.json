@@ -2,9 +2,21 @@
   "lang": "alaaba",
   "subfamily": "cushitic east highland",
   "lgpref": "alb",
-  "datasource": "Schneider-Blum, Gertrud. 2007. A grammar of Alaaba: A cushitic east highland Language of Ethiopia. Cushitic Language Studies 25. Köln: Rüdiger Köppe Verlag ['SB', 'p' for 'page', 't' for 'table']",
+  "datasource": "Schneider-Blum, Gertrud. 2007. A grammar of Alaaba: A cushitic east highland Language of Ethiopia. Cushitic Language Studies 25. Köln: Rüdiger Köppe Verlag ['GS2007', 'p' for 'page', 't' for 'table']",
   "datasourceNotes": "",
-  "geodemoURL": "http://www.ethnologue.com/language/alw",
+  "transcription": { 
+    "Consonants": {
+      "general": "cf. transcription table",
+      "note": [
+        "'' = ''",
+        "'' = '' "
+        ]},
+    "Vowels": {
+      "inventory": "i e a o u; ii ee aa oo uu"},
+    "Prosody": {
+      "Type": "'Alaaba is not a tone language but it does employ pitch accent as a grammatical means' [GS2007p.22",
+      "Marking": "'v́(v)' high; 'v(v)' unaccented"}},  
+    "geodemoURL": "http://www.ethnologue.com/language/alw",
   "geodemoTXT": "Varieties and subdialects of Alaaba are spoken in the 'Oromia region: Rift Valley southwest of Lake Shala, separated by Belate river from Kambatta [ktb] language area'.",
   "schemata": {
   "case": [
@@ -61,6 +73,7 @@
     "HeadMasc"
   ],
   "lexeme": [
+    "ag",
     "ameet",
     "baad",
     "boroor",
@@ -71,10 +84,11 @@
     "debeeʔl",
     "door",
     "dul",
+    "eeb",
     "faar",
-    "fank'al",
+    "fankal",
     "fiil",
-    "folocc'",
+    "folocc",
     "ful",
     "gaf",
     "gaffar",
@@ -92,17 +106,17 @@
     "hiir",
     "hir",
     "hirʔ",
-    "hocc'",
+    "hocc",
     "jammar",
-    "k'araar",
-    "k'orʔ",
     "kaar",
-    "kacc'",
+    "kacc",
     "kad",
     "kar",
+    "karaar",
     "ke",
     "kor",
     "korj",
+    "korʔ",
     "kuf",
     "kul",
     "laal",
@@ -110,27 +124,26 @@
     "malal",
     "mar",
     "marar",
-    "mecc'",
+    "mecc",
     "med",
     "meed",
     "meer",
     "miir",
-    "mooccoocc'",
+    "mooccoocc",
     "mool",
     "mur",
-    "orroo",
     "saggaar",
     "shol",
     "shuul",
     "shuur",
     "soor",
-    "t'aaf",
-    "t'aʔm",
-    "t'uf",
-    "t'ur",
-    "t'uur",
+    "taaf",
+    "taʔm",
+    "tuf",
+    "tur",
+    "tuur",
     "ub",
-    "uucc'",
+    "uurr",
     "waal",
     "wod",
     "wokkar",
@@ -144,31 +157,28 @@
     "ʔaaʔl",
     "ʔaf",
     "ʔafuuʔl",
-    "ʔag",
     "ʔagar",
     "ʔagur",
     "ʔaguuʔm",
     "ʔalbaaʔl",
     "ʔallaal",
     "ʔamurʔ",
-    "ʔanjicc'",
-    "ʔeeb",
+    "ʔanjicc",
     "ʔenkeʔn",
     "ʔereer",
     "ʔifood",
     "ʔijaar",
     "ʔil",
     "ʔinkiil",
+    "ʔorroo",
     "ʔosaʔl",
-    "ʔub",
     "ʔud",
     "ʔudul",
     "ʔul",
-    "ʔurr",
-    "ʔusur"
+    "ʔusur",
+    "ʔuucc"
   ],
   "morphClass": [
-    "Causative Form/Function",
     "CausativeStems",
     "DervStemSuff",
     "SubSuff",
@@ -213,6 +223,7 @@
     "F-final",
     "GS-Res-final",
     "L-final",
+    "Neutral",
     "R-final"
   ],
   "tam": [
@@ -233,20 +244,16 @@
     "PurposiveSubordinate",
     "TensefutProx"
   ],
-  "transitive": [
-    "Int",
-    "Trans"
-  ],
   "transitivity": [
     "Int",
     "Trans"
   ]
 },
   "lexemes": {
-  "ameet": {
+  "ag": {
     "pos": "Verb",
-    "lemma": "ʔameet-",
-    "gloss": "come"
+    "lemma": "ʔagú",
+    "gloss": "drink"
   },
   "baad": {
     "pos": "Verb",
@@ -295,7 +302,7 @@
   },
   "eeb": {
     "pos": "Verb",
-    "lemma": "ʔeeb-",
+    "lemma": "ʔeeb",
     "gloss": "bring"
   },
   "faar": {
@@ -534,11 +541,6 @@
     "lemma": "mur",
     "gloss": "cut, decide"
   },
-  "orroo": {
-    "pos": "Verb",
-    "lemma": "ʔorrooʔ-",
-    "gloss": "go"
-  },
   "saggaar": {
     "pos": "Verb",
     "lemma": "saggaar",
@@ -591,13 +593,13 @@
   },
   "ub": {
     "pos": "Verb",
-    "lemma": "ʔub-",
+    "lemma": "ʔubú",
     "gloss": "fall"
   },
-  "uucc": {
+  "uurr": {
     "pos": "Verb",
-    "lemma": "[y]",
-    "gloss": "beg"
+    "lemma": "ʔuurr",
+    "gloss": "stand up"
   },
   "waal": {
     "pos": "Verb",
@@ -639,6 +641,11 @@
     "lemma": "yaar",
     "gloss": "shout"
   },
+  "yo": {
+    "pos": "Verb",
+    "lemma": "yo",
+    "gloss": "COPULA"
+  },
   "ʔaar": {
     "pos": "Verb",
     "lemma": "ʔaar",
@@ -674,11 +681,6 @@
     "lemma": "ʔaguuʔm",
     "gloss": "swallow"
   },
-  "ʔagú": {
-    "pos": "Verb",
-    "lemma": "ʔagú",
-    "gloss": "drink"
-  },
   "ʔalbaaʔl": {
     "pos": "Verb",
     "lemma": "ʔalbaaʔl",
@@ -689,6 +691,11 @@
     "lemma": "ʔallaal",
     "gloss": "keep"
   },
+  "ʔameet": {
+    "pos": "Verb",
+    "lemma": "ʔameetú",
+    "gloss": "come"
+  },
   "ʔamurʔ": {
     "pos": "Verb",
     "lemma": "ʔamurʔ",
@@ -698,11 +705,6 @@
     "pos": "Verb",
     "lemma": "ʔanjicc’",
     "gloss": "smell"
-  },
-  "ʔeeb": {
-    "pos": "Verb",
-    "lemma": "ʔeeb",
-    "gloss": "bring"
   },
   "ʔenkeʔn": {
     "pos": "Verb",
@@ -734,15 +736,15 @@
     "lemma": "ʔinkiil",
     "gloss": "fetch (water)"
   },
+  "ʔorroo": {
+    "pos": "Verb",
+    "lemma": "ʔorrooʔ-",
+    "gloss": "go"
+  },
   "ʔosaʔl": {
     "pos": "Verb",
     "lemma": "ʔosaʔl",
     "gloss": "laugh"
-  },
-  "ʔubú": {
-    "pos": "Verb",
-    "lemma": "ʔubú",
-    "gloss": "fall"
   },
   "ʔud": {
     "pos": "Verb",
@@ -759,11 +761,6 @@
     "lemma": "ʔul",
     "gloss": "touch"
   },
-  "ʔurrú": {
-    "pos": "Verb",
-    "lemma": "ʔuurr",
-    "gloss": "stand up"
-  },
   "ʔusur": {
     "pos": "Verb",
     "lemma": "ʔusur",
@@ -779,7 +776,7 @@
   "termclusters": [
   {
     "label": "alb-PronounAbsolutePossessiveHeadMasc",
-    "note": "SBt29p187",
+    "note": "GS2007t29p187",
     "common": {
       "pos": "Pronoun",
       "proClass": "AbsolutePossessive",
@@ -798,7 +795,7 @@
   },
   {
     "label": "alb-PronounAbsoluteePossessiveHeadFem",
-    "note": "SBt29p187",
+    "note": "GS2007t29p187",
     "common": {
       "pos": "Pronoun",
       "proClass": "AbsoluteePossessive",
@@ -817,7 +814,7 @@
   },
   {
     "label": "alb-PronounCliticDative",
-    "note": "SBt27p174",
+    "note": "GS2007t27p174",
     "common": {
       "pos": "Pronoun",
       "proClass": "Clitic",
@@ -836,7 +833,7 @@
   },
   {
     "label": "alb-PronounCliticGenitive",
-    "note": "SBt27p174",
+    "note": "GS2007t27p174",
     "common": {
       "pos": "Pronoun",
       "proClass": "Clitic",
@@ -855,7 +852,7 @@
   },
   {
     "label": "alb-PronounCllticAbsolutive",
-    "note": "SBt27p174",
+    "note": "GS2007t27p174",
     "common": {
       "pos": "Pronoun",
       "proClass": "Clltic",
@@ -874,7 +871,7 @@
   },
   {
     "label": "alb-PronounIndepdentAblative",
-    "note": "SBt27p174",
+    "note": "GS2007t27p174",
     "common": {
       "pos": "Pronoun",
       "proClass": "Indepdent",
@@ -893,7 +890,7 @@
   },
   {
     "label": "alb-PronounIndepdentAbsolutive",
-    "note": "SBt27p174",
+    "note": "GS2007t27p174",
     "common": {
       "pos": "Pronoun",
       "proClass": "Indepdent",
@@ -912,7 +909,7 @@
   },
   {
     "label": "alb-PronounIndepdentDative",
-    "note": "SBt27p174",
+    "note": "GS2007t27p174",
     "common": {
       "pos": "Pronoun",
       "proClass": "Indepdent",
@@ -931,7 +928,7 @@
   },
   {
     "label": "alb-PronounIndepdentGenitive",
-    "note": "SBt27p174",
+    "note": "GS2007t27p174",
     "common": {
       "pos": "Pronoun",
       "proClass": "Indepdent",
@@ -950,7 +947,7 @@
   },
   {
     "label": "alb-PronounIndepdentInstrumental",
-    "note": "SBt27p174",
+    "note": "GS2007t27p174",
     "common": {
       "pos": "Pronoun",
       "proClass": "Indepdent",
@@ -969,7 +966,7 @@
   },
   {
     "label": "alb-PronounIndepdentNominative",
-    "note": "SBt27p174",
+    "note": "GS2007t27p174",
     "common": {
       "pos": "Pronoun",
       "proClass": "Indepdent",
@@ -988,7 +985,7 @@
   },
   {
     "label": "alb-PronounIndepdentSimilative",
-    "note": "SBt27p174",
+    "note": "GS2007t27p174",
     "common": {
       "pos": "Pronoun",
       "proClass": "Indepdent",
@@ -1007,7 +1004,7 @@
   },
   {
     "label": "alb-PronounProEmph",
-    "note": "SBt28",
+    "note": "GS2007t28",
     "common": {
       "pos": "Pronoun",
       "proClass": "ProEmph"
@@ -1025,7 +1022,7 @@
   },
   {
     "label": "alb-PronounReciprocalAblative",
-    "note": "SBt38p198",
+    "note": "GS2007t38p198",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reciprocal",
@@ -1040,7 +1037,7 @@
   },
   {
     "label": "alb-PronounReciprocalAbsolutive",
-    "note": "SBt35p198",
+    "note": "GS2007t35p198",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reciprocal",
@@ -1055,7 +1052,7 @@
   },
   {
     "label": "alb-PronounReciprocalDative",
-    "note": "SBt36p198",
+    "note": "GS2007t36p198",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reciprocal",
@@ -1070,7 +1067,7 @@
   },
   {
     "label": "alb-PronounReciprocalInstrumental",
-    "note": "SBt37p198",
+    "note": "GS2007t37p198",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reciprocal",
@@ -1085,7 +1082,7 @@
   },
   {
     "label": "alb-PronounReciprocalSimilative",
-    "note": "SBt39p198",
+    "note": "GS2007t39p198",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reciprocal",
@@ -1100,7 +1097,7 @@
   },
   {
     "label": "alb-PronounReflexive",
-    "note": "SBt33p194",
+    "note": "GS2007t33p194",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reflexive"
@@ -1120,7 +1117,7 @@
   },
   {
     "label": "alb-PronounReflexiveAbsolutive",
-    "note": "SBt30p189",
+    "note": "GS2007t30p189",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reflexive",
@@ -1141,7 +1138,7 @@
   },
   {
     "label": "alb-PronounReflexiveAbsolutiveEmphatic",
-    "note": "SBt40p1999",
+    "note": "GS2007t40p1999",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reflexive",
@@ -1162,7 +1159,7 @@
   },
   {
     "label": "alb-PronounReflexiveDative",
-    "note": "SBt31p192",
+    "note": "GS2007t31p192",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reflexive",
@@ -1183,7 +1180,7 @@
   },
   {
     "label": "alb-PronounReflexiveGenitive",
-    "note": "SBt34p195",
+    "note": "GS2007t34p195",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reflexive",
@@ -1204,7 +1201,7 @@
   },
   {
     "label": "alb-PronounReflexiveInstrumental",
-    "note": "SBt32p193",
+    "note": "GS2007t32p193",
     "common": {
       "pos": "Pronoun",
       "proClass": "Reflexive",
@@ -1223,9 +1220,9 @@
   },
   {
     "label": "alb-Verb-ameet-Converb",
-    "note": "SBp244",
+    "note": "GS2007p244",
     "common": {
-      "lexeme": "ameet",
+      "lexeme": "ʔameet",
       "pos": "Verb",
       "tam": "Converb"
     },
@@ -1243,7 +1240,7 @@
   },
   {
     "label": "alb-Verb-gaf-Converb",
-    "note": "SBp244",
+    "note": "GS2007p244",
     "common": {
       "lexeme": "gaf",
       "pos": "Verb",
@@ -1263,7 +1260,7 @@
   },
   {
     "label": "alb-Verb-hir-ConverbDiffSubj",
-    "note": "SBt42p",
+    "note": "GS2007t42p",
     "common": {
       "lexeme": "hir",
       "pos": "Verb",
@@ -1283,7 +1280,7 @@
   },
   {
     "label": "alb-Verb-ke-Converb",
-    "note": "SBp244",
+    "note": "GS2007p244",
     "common": {
       "lexeme": "ke",
       "pos": "Verb",
@@ -1303,7 +1300,7 @@
   },
   {
     "label": "alb-Verb-korj-AnteriorPerfectAffirmative",
-    "note": "SBp204",
+    "note": "GS2007p204",
     "common": {
       "lexeme": "korj",
       "polarity": "Affirmative",
@@ -1324,7 +1321,7 @@
   },
   {
     "label": "alb-Verb-korj-FutureProximateAffirmative",
-    "note": "SBp238",
+    "note": "GS2007p238",
     "common": {
       "lexeme": "korj",
       "polarity": "Affirmative",
@@ -1345,7 +1342,7 @@
   },
   {
     "label": "alb-Verb-korj-ImperfectiveAffirmative",
-    "note": "SBp216",
+    "note": "GS2007p216",
     "common": {
       "lexeme": "korj",
       "polarity": "Affirmative",
@@ -1366,7 +1363,7 @@
   },
   {
     "label": "alb-Verb-korj-ImperfectiveNegative",
-    "note": "SBp216",
+    "note": "GS2007p216",
     "common": {
       "lexeme": "korj",
       "polarity": "Negative",
@@ -1387,7 +1384,7 @@
   },
   {
     "label": "alb-Verb-korj-PerfectiveAffirmative",
-    "note": "SBp204",
+    "note": "GS2007p204",
     "common": {
       "lexeme": "korj",
       "polarity": "Affirmative",
@@ -1408,7 +1405,7 @@
   },
   {
     "label": "alb-Verb-korj-PerfectiveNegative",
-    "note": "SBp204",
+    "note": "GS2007p204",
     "common": {
       "lexeme": "korj",
       "polarity": "Negative",
@@ -1429,7 +1426,7 @@
   },
   {
     "label": "alb-Verb-korj-ProgressiveAffirmative",
-    "note": "SBp221",
+    "note": "GS2007p221",
     "common": {
       "lexeme": "korj",
       "polarity": "Affirmative",
@@ -1450,7 +1447,7 @@
   },
   {
     "label": "alb-Verb-korj-ProgressiveNegative",
-    "note": "SBp221",
+    "note": "GS2007p221",
     "common": {
       "lexeme": "korj",
       "polarity": "Negative",
@@ -1471,7 +1468,7 @@
   },
   {
     "label": "alb-Verb-korj-TensefutProxAffirmative",
-    "note": "SBp238",
+    "note": "GS2007p238",
     "common": {
       "lexeme": "korj",
       "polarity": "Affirmative",
@@ -1492,7 +1489,7 @@
   },
   {
     "label": "alb-Verb-mar-Converb",
-    "note": "SBp244",
+    "note": "GS2007p244",
     "common": {
       "lexeme": "mar",
       "pos": "Verb",
@@ -1511,69 +1508,8 @@
     ]
   },
   {
-    "label": "alb-Verb-orroo-ImperativeAffirmative",
-    "note": "SBp224",
-    "common": {
-      "lexeme": "orroo",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"ʔorrooʔó!"],
-      ["Singular" ,"Person2" ,"Common" ,"ʔorróoʔ(i)!"],
-      ["Singular" ,"Person3" ,"Masc" ,"ʔorrooʔún(i)!"],
-      ["Singular" ,"Person3" ,"Fem" ,"ʔorroottún(i)!"],
-      ["PoliteImpersonal" ,"Person3" ,"Common" ,"ʔorrooʔóon(i)!"],
-      ["Plural" ,"Person1" ,"Common" ,"ʔorrooʔnó!"],
-      ["Plural" ,"Person2" ,"Common" ,"ʔorroʔyé!"],
-      ["Plural" ,"Person3" ,"Common" ,"ʔorrootún(i)!"]
-    ]
-  },
-  {
-    "label": "alb-Verb-orroo-ImperativeNegative",
-    "note": "SBp224",
-    "common": {
-      "lexeme": "orroo",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Imperative"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"ʔorrooʔunká!"],
-      ["Singular" ,"Person2" ,"Common" ,"ʔorroottóot(i)!"],
-      ["Singular" ,"Person3" ,"Masc" ,"ʔorrooʔunká!"],
-      ["Singular" ,"Person3" ,"Fem" ,"ʔorroottunká!"],
-      ["PoliteImpersonal" ,"Person3" ,"Common" ,"ʔorrooʔoonunká!"],
-      ["Plural" ,"Person1" ,"Common" ,"ʔorrooʔnunká!"],
-      ["Plural" ,"Person2" ,"Common" ,"ʔorroottónocc(e)!"],
-      ["Plural" ,"Person3" ,"Common" ,"ʔorroottunká!"]
-    ]
-  },
-  {
-    "label": "alb-Verb-orroo-PosteriorSub",
-    "note": "SBp266",
-    "common": {
-      "lexeme": "orroo",
-      "pos": "Verb",
-      "tam": "PosteriorSub"
-    },
-    "terms": [
-      ["number" ,"person" ,"gender" ,"token"],
-      ["Singular" ,"Person1" ,"Common" ,"ʔorrooʔ-uʔnáan(i)"],
-      ["Singular" ,"Person2" ,"Common" ,"ʔorrooʔ-tuʔnáan(i)"],
-      ["Singular" ,"Person3" ,"Masc" ,"ʔorrooʔ-uʔnáan(i)"],
-      ["Singular" ,"Person3" ,"Fem" ,"ʔorrooʔ-tuʔnáan(i)"],
-      ["Plural" ,"Person1" ,"Common" ,"ʔorrooʔ-nuʔnáan(i)"],
-      ["Plural" ,"Person2" ,"Common" ,"ʔorrooʔ-toonuʔnáan(i)"],
-      ["Plural" ,"Person3" ,"Common" ,"ʔorrooʔ-ooʔnáan(i)"]
-    ]
-  },
-  {
     "label": "alb-Verb-ub-AnteriorPerfectAffirmative",
-    "note": "SBp206",
+    "note": "GS2007p206",
     "common": {
       "lexeme": "ub",
       "polarity": "Affirmative",
@@ -1594,7 +1530,7 @@
   },
   {
     "label": "alb-Verb-ub-PerfectiveAffirmative",
-    "note": "SBp206",
+    "note": "GS2007p206",
     "common": {
       "lexeme": "ub",
       "polarity": "Affirmative",
@@ -1615,7 +1551,7 @@
   },
   {
     "label": "alb-Verb-ub-PerfectiveNegative",
-    "note": "SBp206",
+    "note": "GS2007p206",
     "common": {
       "lexeme": "ub",
       "polarity": "Negative",
@@ -1636,7 +1572,7 @@
   },
   {
     "label": "alb-Verb-y-AnteriorPerfectAffirmative",
-    "note": "SBp210",
+    "note": "GS2007p210",
     "common": {
       "lexeme": "y",
       "polarity": "Affirmative",
@@ -1657,7 +1593,7 @@
   },
   {
     "label": "alb-Verb-y-PerfectiveAffirmative",
-    "note": "SBp210",
+    "note": "GS2007p210",
     "common": {
       "lexeme": "y",
       "polarity": "Affirmative",
@@ -1678,7 +1614,7 @@
   },
   {
     "label": "alb-Verb-y-PerfectiveNegative",
-    "note": "SBp210",
+    "note": "GS2007p210",
     "common": {
       "lexeme": "y",
       "polarity": "Negative",
@@ -1699,7 +1635,7 @@
   },
   {
     "label": "alb-Verb-yo-CopulaAffirmative",
-    "note": "SBp202",
+    "note": "GS2007p202",
     "common": {
       "lexeme": "yo",
       "polarity": "Affirmative",
@@ -1719,27 +1655,69 @@
     ]
   },
   {
-    "label": "alb-morphVerb-CausativeFormFunction",
-    "note": "sbt47p293 :: Form vs. Function of the causative of causative. Simple causatives ['Causative'] can have -(i)s- ['Causative1'] or -(i)siis- ['Causative2']. Correspondingly,  double causatives ('CausativeD') will have -(i)isiis- ('CausativeD1') or -(i)siisiis ('Cas=usativeD2'.[noteSelf: Use pandas to transform table as in SBp293]",
+    "label": "alb-Verb-ʔorroo-ImperativeAffirmative",
+    "note": "GS2007p224",
     "common": {
+      "lexeme": "ʔorroo",
+      "polarity": "Affirmative",
       "pos": "Verb",
-      "morphClass": "CausativeFormFunction"
+      "tam": "Imperative"
     },
     "terms": [
-      ["lexeme" ,"causForm" ,"token"],
-      ["ʔeeb" ,"CausS2" ,"ʔeebsiis-"],
-      ["ʔeeb" ,"CausD2" ,"ʔeebsiisiis-"],
-      ["ʔub" ,"CausS2" ,"ʔubsiis-"],
-      ["ʔub" ,"CausD2" ,"ʔubsiisiis-"],
-      ["ʔag" ,"CausS1" ,"ʔagis-"],
-      ["ʔag" ,"CausD1" ,"ʔagsiis-"],
-      ["ʔurr" ,"CausS1" ,"ʔurris-"],
-      ["ʔurr" ,"CausD1" ,"ʔurrsiis-"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔorrooʔó!"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔorróoʔ(i)!"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔorrooʔún(i)!"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔorroottún(i)!"],
+      ["PoliteImpersonal" ,"Person3" ,"Common" ,"ʔorrooʔóon(i)!"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔorrooʔnó!"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔorroʔyé!"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔorrootún(i)!"]
+    ]
+  },
+  {
+    "label": "alb-Verb-ʔorroo-ImperativeNegative",
+    "note": "GS2007p224",
+    "common": {
+      "lexeme": "ʔorroo",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔorrooʔunká!"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔorroottóot(i)!"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔorrooʔunká!"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔorroottunká!"],
+      ["PoliteImpersonal" ,"Person3" ,"Common" ,"ʔorrooʔoonunká!"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔorrooʔnunká!"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔorroottónocc(e)!"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔorroottunká!"]
+    ]
+  },
+  {
+    "label": "alb-Verb-ʔorroo-PosteriorSub",
+    "note": "GS2007p266",
+    "common": {
+      "lexeme": "ʔorroo",
+      "pos": "Verb",
+      "tam": "PosteriorSub"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔorrooʔ-uʔnáan(i)"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔorrooʔ-tuʔnáan(i)"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔorrooʔ-uʔnáan(i)"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔorrooʔ-tuʔnáan(i)"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔorrooʔ-nuʔnáan(i)"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔorrooʔ-toonuʔnáan(i)"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔorrooʔ-ooʔnáan(i)"]
     ]
   },
   {
     "label": "alb-morphVerb-CausativeStemsCC-final",
-    "note": "SBt53p304 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonaInt",
+    "note": "GS2007t53p304 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonaInt",
     "common": {
       "pos": "Verb",
       "stemClass": "CC-final",
@@ -1747,25 +1725,25 @@
     },
     "terms": [
       ["lexeme" ,"transitivity" ,"causForm" ,"token"],
-      ["folocc'" ,"Int" ,"CausS2" ,"folocc’isiis-"],
-      ["hocc'" ,"Trans" ,"CausS2" ,"hocc’isiis-"],
-      ["kacc'" ,"Trans" ,"CausS2" ,"k’aacc’isiis-"],
-      ["mecc'" ,"Trans" ,"CausS2" ,"mecc’isiis-"],
-      ["mooccoocc'" ,"Trans" ,"CausS2" ,"moocc’oocc’isiis-"],
-      ["uucc'" ,"Trans" ,"CausS2" ,"ʔucc’isiis-"],
-      ["ʔanjicc'" ,"Trans" ,"CausS2" ,"ʔanjicc’isiis-"]
+      ["folocc" ,"Int" ,"CausS2" ,"folocc’isiis-"],
+      ["hocc" ,"Trans" ,"CausS2" ,"hocc’isiis-"],
+      ["kacc" ,"Trans" ,"CausS2" ,"k’aacc’isiis-"],
+      ["mecc" ,"Trans" ,"CausS2" ,"mecc’isiis-"],
+      ["mooccoocc" ,"Trans" ,"CausS2" ,"moocc’oocc’isiis-"],
+      ["ʔuucc" ,"Trans" ,"CausS2" ,"ʔucc’isiis-"],
+      ["ʔanjicc" ,"Trans" ,"CausS2" ,"ʔanjicc’isiis-"]
     ]
   },
   {
     "label": "alb-morphVerb-CausativeStemsD-final",
-    "note": "SBt48p299 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant.",
+    "note": "GS2007t48p299 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant.",
     "common": {
       "pos": "Verb",
       "stemClass": "D-final",
       "morphClass": "CausativeStems"
     },
     "terms": [
-      ["lexeme" ,"transitive" ,"causForm" ,"token"],
+      ["lexeme" ,"transitivity" ,"causForm" ,"token"],
       ["baad" ,"Int" ,"CausS2" ,"baadsiis"],
       ["dad" ,"Trans" ,"CausS2" ,"dadsiis-"],
       ["dagud" ,"Trans" ,"CausS2" ,"degudsiis-"],
@@ -1788,7 +1766,7 @@
   },
   {
     "label": "alb-morphVerb-CausativeStemsF-final",
-    "note": "SBt50p301 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
+    "note": "GS2007t50p301 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
     "common": {
       "pos": "Verb",
       "stemClass": "F-final",
@@ -1800,16 +1778,16 @@
       ["goof" ,"Int" ,"CausS2" ,"goofsiis-"],
       ["hankaf" ,"Trans" ,"CausS2" ,"hankafsiis- / hank’apsiis-"],
       ["kuf" ,"Trans" ,"CausS2" ,"k’ufsiis-"],
-      ["t'aaf" ,"Trans" ,"CausS2" ,"t’aafsiis-"],
-      ["t'uf" ,"Trans" ,"CausS2" ,"t’upsiis-"],
+      ["taaf" ,"Trans" ,"CausS2" ,"t’aafsiis-"],
+      ["tuf" ,"Trans" ,"CausS2" ,"t’upsiis-"],
       ["ʔaf" ,"Trans" ,"CausS2" ,"ʔapsiis-"],
-      ["t'aaf" ,"Trans" ,"CausS2" ,"t'afsiis-"],
-      ["t'aaf" ,"Trans" ,"CausD2" ,"t’aafsiisiis-"]
+      ["taaf" ,"Trans" ,"CausS2" ,"t'afsiis-"],
+      ["taaf" ,"Trans" ,"CausD2" ,"t’aafsiisiis-"]
     ]
   },
   {
     "label": "alb-morphVerb-CausativeStemsGS-Res-final",
-    "note": "SBt52p303 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
+    "note": "GS2007t52p303 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
     "common": {
       "pos": "Verb",
       "stemClass": "GS-Res-final",
@@ -1834,8 +1812,8 @@
       ["haʔl" ,"Trans" ,"CausS2" ,"haʔlisiis-"],
       ["heʔm" ,"Trans" ,"CausS2" ,"heʔmisiis-"],
       ["hirʔ" ,"Trans" ,"CausS2" ,"hirʔisiis-"],
-      ["k'orʔ" ,"Trans" ,"CausS2" ,"k’orʔisiis-"],
-      ["t'aʔm" ,"Trans" ,"CausS2" ,"t’aʔmisiis-"],
+      ["korʔ" ,"Trans" ,"CausS2" ,"k’orʔisiis-"],
+      ["taʔm" ,"Trans" ,"CausS2" ,"t’aʔmisiis-"],
       ["worʔ" ,"Trans" ,"CausS2" ,"worʔisiis-"],
       ["ʔaguuʔm" ,"Trans" ,"CausS2" ,"ʔaguuʔmisiis-"],
       ["ʔosaʔl" ,"Int" ,"CausS2" ,"ʔosaʔlisiis- / ʔosalsiis-"]
@@ -1843,7 +1821,7 @@
   },
   {
     "label": "alb-morphVerb-CausativeStemsL-final",
-    "note": "SBt51p302 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
+    "note": "GS2007t51p302 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
     "common": {
       "pos": "Verb",
       "stemClass": "L-final",
@@ -1856,7 +1834,7 @@
       ["wuliil" ,"Int" ,"CausS1" ,"wuliisshu"],
       ["laal" ,"Int" ,"CausS1" ,"laassh-"],
       ["gal" ,"Int" ,"CausS1" ,"gassh-"],
-      ["fank'al" ,"Int" ,"CausS1" ,"fank'assh-"],
+      ["fankal" ,"Int" ,"CausS1" ,"fank'assh-"],
       ["ful" ,"Trans" ,"CausS1" ,"fusssh-"],
       ["waal" ,"Trans" ,"CausS1" ,"waassh-"],
       ["dagelaal" ,"Int" ,"CausD1" ,"dagelaalsiis-"],
@@ -1864,7 +1842,7 @@
       ["wuliil" ,"Int" ,"CausD1" ,"wuliilsiis-"],
       ["laal" ,"Int" ,"CausD1" ,"laalsiis-"],
       ["gal" ,"Int" ,"CausD1" ,"galsiis-"],
-      ["fank'al" ,"Int" ,"CausD1" ,"fank'asshisiis-"],
+      ["fankal" ,"Int" ,"CausD1" ,"fank'asshisiis-"],
       ["ful" ,"Trans" ,"CausD1" ,"fulsiis-"],
       ["waal" ,"Trans" ,"CausD1" ,"waalsiis-"],
       ["dul" ,"Trans" ,"CausS2" ,"dulsiis-"],
@@ -1894,29 +1872,49 @@
     ]
   },
   {
+    "label": "alb-morphVerb-CausativeStemsNeutral",
+    "note": "sbt47p293 :: Form vs. Function of the causative of causative. Simple causatives ['Causative'] can have -(i)s- ['Causative1'] or -(i)siis- ['Causative2']. Correspondingly,  double causatives ('CausativeD') will have -(i)isiis- ('CausativeD1') or -(i)siisiis ('Cas=usativeD2'.[noteSelf: Use pandas to transform table as in SBp293]",
+    "common": {
+      "pos": "Verb",
+      "stemClass": "Neutral",
+      "morphClass": "CausativeStems"
+    },
+    "terms": [
+      ["lexeme" ,"transitivity" ,"causForm" ,"token"],
+      ["eeb" ,"Trans" ,"CausS2" ,"ʔeebsiis-"],
+      ["eeb" ,"Trans" ,"CausD2" ,"ʔeebsiisiis-"],
+      ["ub" ,"Int" ,"CausS2" ,"ʔubsiis-"],
+      ["ub" ,"Int" ,"CausD2" ,"ʔubsiisiis-"],
+      ["ag" ,"Trans" ,"CausS1" ,"ʔagis-"],
+      ["ag" ,"Trans" ,"CausD1" ,"ʔagsiis-"],
+      ["uurr" ,"Int" ,"CausS1" ,"ʔurris-"],
+      ["uurr" ,"Int" ,"CausD1" ,"ʔurrsiis-"]
+    ]
+  },
+  {
     "label": "alb-morphVerb-CausativeStemsR-final",
-    "note": "SBt49p300 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
+    "note": "GS2007t49p300 :: There is both a simple and a double causative (caus,causD),each with two 'overlapping allomorphs' ,as follows:caus1 –s-,causD1  –siis-,caus2 –siis-,causD2 –siisiis-. The paradigm gives the occurrence of these allomorphs in correlation with the stem-final consonant..",
     "common": {
       "pos": "Verb",
       "stemClass": "R-final",
       "morphClass": "CausativeStems"
     },
     "terms": [
-      ["lexeme" ,"transitive" ,"causForm" ,"token"],
+      ["lexeme" ,"transitivity" ,"causForm" ,"token"],
       ["faar" ,"Int" ,"CausS1" ,"faars-"],
       ["geeraar" ,"Int" ,"CausS1" ,"geeraars-"],
-      ["k'araar" ,"Int" ,"CausS1" ,"k’araars-"],
+      ["karaar" ,"Int" ,"CausS1" ,"k’araars-"],
       ["saggaar" ,"Int" ,"CausS1" ,"saggaars-"],
       ["shuur" ,"Int" ,"CausS1" ,"shuurs-"],
       ["soor" ,"Trans" ,"CausS1" ,"soors-"],
-      ["t'ur" ,"Int" ,"CausS1" ,"t’urs-"],
+      ["tur" ,"Int" ,"CausS1" ,"t’urs-"],
       ["faar" ,"Int" ,"CausD1" ,"faarsiis-"],
       ["geeraar" ,"Int" ,"Caus1" ,"geerarrsiis-"],
-      ["k'araar" ,"Int" ,"CausD1" ,"k’araarsiis-"],
+      ["karaar" ,"Int" ,"CausD1" ,"k’araarsiis-"],
       ["saggaar" ,"Int" ,"CausD1" ,"saggaarsiis-"],
       ["shuur" ,"Int" ,"CausD1" ,"shuursiis-"],
       ["soor" ,"Trans" ,"CausD1" ,"soorsiis-"],
-      ["t'ur" ,"Int" ,"CausD1" ,"t’ursiis-"],
+      ["tur" ,"Int" ,"CausD1" ,"t’ursiis-"],
       ["boroor" ,"Trans" ,"CausS2" ,"boroorsiis-"],
       ["buur" ,"Trans" ,"CausS2" ,"buursiis-"],
       ["door" ,"Trans" ,"CausS2" ,"doorsiis-"],
@@ -1936,7 +1934,7 @@
       ["meer" ,"Trans" ,"CausS2" ,"meersiis-"],
       ["miir" ,"Trans" ,"CausS2" ,"miirsiis-"],
       ["mur" ,"Trans" ,"CausS2" ,"mursiis-"],
-      ["t'uur" ,"Trans" ,"CausS2" ,"t’uursiis-"],
+      ["tuur" ,"Trans" ,"CausS2" ,"t’uursiis-"],
       ["wokkar" ,"Trans" ,"CausS2" ,"wokk’arsiis-"],
       ["wor" ,"Trans" ,"CausS2" ,"worsiis-"],
       ["yaar" ,"Int" ,"CausS2" ,"yaarsiis-"],
@@ -1965,7 +1963,7 @@
       ["meer" ,"Trans" ,"CausD2" ,"meersiisiis-"],
       ["miir" ,"Trans" ,"CausD2" ,"miirsiisiis-"],
       ["mur" ,"Trans" ,"CausD2" ,"mursiisiis’"],
-      ["t'uur" ,"Trans" ,"CausD2" ,"t’uursiisiis-"],
+      ["tuur" ,"Trans" ,"CausD2" ,"t’uursiisiis-"],
       ["wokkar" ,"Trans" ,"CausD2" ,"wokk’arsiisiis-"],
       ["wor" ,"Trans" ,"CausD2" ,"worsiisiis-"],
       ["yaar" ,"Int" ,"CausD2" ,"yaarsiisiis-"],
@@ -1979,7 +1977,7 @@
   },
   {
     "label": "alb-morphVerb-DervStemSuff",
-    "note": "SBt54p331",
+    "note": "GS2007t54p331",
     "common": {
       "pos": "Verb",
       "morphClass": "DervStemSuff"
@@ -2010,7 +2008,7 @@
   },
   {
     "label": "alb-morphVerb-SubSuffPosteriorSub",
-    "note": "SBt45",
+    "note": "GS2007t45",
     "common": {
       "pos": "Verb",
       "tam": "PosteriorSub",
@@ -2030,7 +2028,7 @@
   },
   {
     "label": "alb-morphVerb-SubjMarker",
-    "note": "SBp201",
+    "note": "GS2007p201",
     "common": {
       "pos": "Verb",
       "morphClass": "SubjMarker"
@@ -2048,7 +2046,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffAnteriorPerfectAffirmative",
-    "note": "SBp210",
+    "note": "GS2007p210",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -2069,7 +2067,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffConverb",
-    "note": "SBt41p244",
+    "note": "GS2007t41p244",
     "common": {
       "pos": "Verb",
       "tam": "Converb",
@@ -2089,7 +2087,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffFutureProximateAffirmative",
-    "note": "SBp238",
+    "note": "GS2007p238",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -2110,7 +2108,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffFutureProximateNegative",
-    "note": "SBp238",
+    "note": "GS2007p238",
     "common": {
       "polarity": "Negative",
       "pos": "Verb",
@@ -2131,7 +2129,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffImperativeAffirmative",
-    "note": "SBp224",
+    "note": "GS2007p224",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -2152,7 +2150,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffImperativeNegative",
-    "note": "SBp224",
+    "note": "GS2007p224",
     "common": {
       "polarity": "Negative",
       "pos": "Verb",
@@ -2173,7 +2171,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffImperfectiveAffirmative",
-    "note": "SBp216",
+    "note": "GS2007p216",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -2194,7 +2192,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffImperfectiveNegative",
-    "note": "SBp216",
+    "note": "GS2007p216",
     "common": {
       "polarity": "Negative",
       "pos": "Verb",
@@ -2215,7 +2213,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffPerfectiveAffirmative",
-    "note": "SBp210",
+    "note": "GS2007p210",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -2236,7 +2234,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffPerfectiveNegative",
-    "note": "SBp210",
+    "note": "GS2007p210",
     "common": {
       "polarity": "Negative",
       "pos": "Verb",
@@ -2257,7 +2255,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffProgressiveAffirmative",
-    "note": "SBp221",
+    "note": "GS2007p221",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -2278,7 +2276,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffProgressiveNegative",
-    "note": "SBp221",
+    "note": "GS2007p221",
     "common": {
       "polarity": "Negative",
       "pos": "Verb",
@@ -2299,7 +2297,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffProgressiveSub",
-    "note": "SBt43",
+    "note": "GS2007t43",
     "common": {
       "pos": "Verb",
       "tam": "ProgressiveSub",
@@ -2319,7 +2317,7 @@
   },
   {
     "label": "alb-morphVerb-SubjSuffPurposiveSubordinate",
-    "note": "SBt44p264",
+    "note": "GS2007t44p264",
     "common": {
       "pos": "Verb",
       "tam": "PurposiveSubordinate",
@@ -2339,7 +2337,7 @@
   },
   {
     "label": "alb-morphVerb-TenseAspectMarking",
-    "note": "SBt46",
+    "note": "GS2007t46",
     "common": {
       "pos": "Verb",
       "morphClass": "TenseAspectMarking"
